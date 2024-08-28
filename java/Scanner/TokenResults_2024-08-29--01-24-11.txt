@@ -1,0 +1,51 @@
+Token Results:
+Token Address: ABVxZAXTwHw66thfXsR7WN9HJDqodsdmJhVToyvvpump
+Name: facebook dog
+Symbol: META
+Volume1: 140785
+Liquidity: 7477
+MarketCap: 23117
+PriceUSD: 0.0000231173171364
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: FzWfkXPJG4fBvoWa6Dj25t9FZKYmwQuzyY5E8p7upump
+Name: nano cat
+Symbol: nano
+Volume1: 17990
+Liquidity: 9624
+MarketCap: 39367
+PriceUSD: 0.0000393666608582
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 8NmZbjCM2on3GvdLwvh9w5PnEkQNGtbHUo5ZbkK5pump
+Name: Brother, may I have some oats?
+Symbol: OATS
+Volume1: 18309
+Liquidity: 12996
+MarketCap: 71825
+PriceUSD: 0.0000718253835698
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: G97EEfKQNUd9oJLYS7QdxqaMMucy8uzxNeF4CnYppump
+Name: CEEK
+Symbol: CEEK
+Volume1: 21307
+Liquidity: 11195
+MarketCap: 53318
+PriceUSD: 0.0000533182357167
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 9XeBPnVv9hcM7MnPhuQxuouKwen78vjA1dBCmCV952wq
+Name: Snoop Dogg
+Symbol: SNOOPDOGG
+Volume1: 18490
+Liquidity: 124366
+MarketCap: 145779
+PriceUSD: 0.0000235127899648
+Exchanges: Raydium
+NetworkId: 1399811149
+
