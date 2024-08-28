@@ -54,9 +54,9 @@ var apiSwap = function () { return __awaiter(void 0, void 0, void 0, function ()
                 amount = 1000;
                 slippage = 5 // in percent, for this example, 0.5 means 0.5%
                 ;
-                txVersion = 'V0' // or LEGACY
+                txVersion = 'LEGACY' // or LEGACY
                 ;
-                isV0Tx = txVersion === 'V0';
+                isV0Tx = txVersion === 'LEGACY';
                 _a = [inputMint === spl_token_1.NATIVE_MINT.toBase58(), outputMint === spl_token_1.NATIVE_MINT.toBase58()], isInputSol = _a[0], isOutputSol = _a[1];
                 return [4 /*yield*/, (0, A0_1.fetchTokenAccountData)()];
             case 1:

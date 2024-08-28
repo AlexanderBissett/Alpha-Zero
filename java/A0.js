@@ -51,10 +51,10 @@ var web3_js_1 = require("@solana/web3.js");
 var spl_token_1 = require("@solana/spl-token");
 var bs58_1 = require("bs58");
 exports.owner = web3_js_1.Keypair.fromSecretKey(bs58_1.decode('3TFKHezScu2eA1yYnv4LTGYtJLG9rbBwaB3Uc3p6X8e4KxXyQVAhnxoevHUFg8MhkunoG6dsnYKwWMjhUtXq6nDv'));
-exports.connection = new web3_js_1.Connection('https://api.devnet.solana.com'); //<YOUR_RPC_URL>
+exports.connection = new web3_js_1.Connection('https://api.mainnet-beta.solana.com'); //<YOUR_RPC_URL>
 // export const connection = new Connection(clusterApiUrl('devnet')) //<YOUR_RPC_URL>
 exports.txVersion = raydium_sdk_v2_1.TxVersion.V0; // or TxVersion.LEGACY
-var cluster = 'devnet'; // 'mainnet' | 'devnet'
+var cluster = 'mainnet'; // 'mainnet' | 'devnet'
 var raydium;
 var initSdk = function (params) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {

@@ -35,8 +35,8 @@ export const apiSwap = async () => {
   const outputMint = '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R' // RAY
   const amount = 1000
   const slippage = 5 // in percent, for this example, 0.5 means 0.5%
-  const txVersion: string = 'V0' // or LEGACY
-  const isV0Tx = txVersion === 'V0'
+  const txVersion: string = 'LEGACY' // or LEGACY
+  const isV0Tx = txVersion === 'LEGACY'
 
   const [isInputSol, isOutputSol] = [inputMint === NATIVE_MINT.toBase58(), outputMint === NATIVE_MINT.toBase58()]
 
