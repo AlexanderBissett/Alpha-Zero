@@ -6,8 +6,8 @@ import { exec } from "child_process";
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 1;
-  let minutes = 30;
+  let hours = 24;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -90,7 +90,7 @@ function fetchAndSaveTokenResults() {
       const formattedDate = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
       const filenameBase = `TokenResults_${formattedDate}`;
       const txtFilename = `${filenameBase}.txt`;
-      const jsFilename = `${filenameBase}.js`;
+      const jsFilename = `Current_list.mjs`;
 
       // Write the token addresses to a JavaScript file
       const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
