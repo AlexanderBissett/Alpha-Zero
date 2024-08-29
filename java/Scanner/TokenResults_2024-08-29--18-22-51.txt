@@ -1,0 +1,301 @@
+Token Results:
+Token Address: 6tmwJuNr7RjV3nE2ceeZ6H2ZaGrsRcEitqzzdWbpump
+Name: discord doggo
+Symbol: furry
+Volume1: 30471
+Liquidity: 20536
+MarketCap: 153507
+PriceUSD: 0.000164541266795
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: DhLzFJaLspP5crinSBReQjNGBi2pRv9LTE9RJz9epump
+Name: Pussy Ass Monkey
+Symbol: PAM
+Volume1: 14241
+Liquidity: 6629
+MarketCap: 15878
+PriceUSD: 0.000017793322604
+Exchanges: Raydium, Meteora, Raydium CLMM, Pump
+NetworkId: 1399811149
+
+Token Address: GPSta1hZNLJdTvCPu6KBG3BzxF8dLwiiJ3cEaPYPRqgw
+Name: DO NOT DISTURB
+Symbol: DND
+Volume1: 97699
+Liquidity: 15266
+MarketCap: 95979
+PriceUSD: 0.0000959787852012
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 2M9hfgQzfFzqSJE9EKwV2wBPSyafcGQxnWL9ySa5pump
+Name: BNB SOL
+Symbol: BNSOL
+Volume1: 293832
+Liquidity: 11737
+MarketCap: 54468
+PriceUSD: 0.0000544678722066
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: Ephc3NK5UdMTyNebGLiaAqtdT1Z9HFe5tgrpsNu7nWMd
+Name: reddit dog 
+Symbol: r/snoofi
+Volume1: 152819
+Liquidity: 152778
+MarketCap: 159672319
+PriceUSD: 0.0159672318869
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: EYpUaSfpdwrMS4ug2RnKmDk39yJ8S7ktLcjGJ8vApump
+Name: WATA HELM ON
+Symbol: WATA
+Volume1: 15624
+Liquidity: 7719
+MarketCap: 16862
+PriceUSD: 0.0000188886358312
+Exchanges: Raydium, Pump, Meteora, Raydium CLMM
+NetworkId: 1399811149
+
+Token Address: CXAECP6dDY25GXGspfKUpHrdqTk3RFqt2op314cyEgNG
+Name: tuff
+Symbol: tuff
+Volume1: 101002
+Liquidity: 8359
+MarketCap: 25289
+PriceUSD: 0.0000255455790546
+Exchanges: Raydium, Meteora, Pump
+NetworkId: 1399811149
+
+Token Address: 7ApNr4qNmGfLL69y5JA2nkyrsTFazhrssLHH5KWjpump
+Name: Jesus Pepe
+Symbol: JPepe
+Volume1: 19014
+Liquidity: 13427
+MarketCap: 75383
+PriceUSD: 0.0000753833830361
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 59nWZ5wbDyxFyQLf26jySmwSRNRK7DQUBYy5bsYsqYow
+Name: WORLD LIBERTY
+Symbol: WLFI
+Volume1: 38181
+Liquidity: 139678
+MarketCap: 191086
+PriceUSD: 0.0000244982493219
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: CkFjGvD73WCdTEk6P2khGBu7QG4UNyYjqeG7oAZnEF96
+Name: Gorilla Finance
+Symbol: GOFI
+Volume1: 29336
+Liquidity: 11675
+MarketCap: 30887
+PriceUSD: 0.000308874760967
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: GCpHRSMFo2i9hXN7n59Wvith2KZhSqFT4MDek1Cgpump
+Name: Culture
+Symbol: Cult
+Volume1: 21479
+Liquidity: 8449
+MarketCap: 25649
+PriceUSD: 0.0000256498651015
+Exchanges: Raydium, Meteora, Pump
+NetworkId: 1399811149
+
+Token Address: 7imC5cTpykqkBDqaJvN1DZDB3hiGVXRHMW1qKbfypump
+Name: PePe MouSe
+Symbol: PePeMouSe
+Volume1: 412247
+Liquidity: 17794
+MarketCap: 92765
+PriceUSD: 0.000092764984906
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 27iDPQCfQUbCZse28kyFjkjejxPr881Jbm17UArwpump
+Name: Durovs
+Symbol: $DUROVS
+Volume1: 29556
+Liquidity: 12756
+MarketCap: 67603
+PriceUSD: 0.0000676034122393
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 8mxzJd4ExNqGHokiMXZ2ogszAnyCrXf9VhttHf4upump
+Name: unfazed
+Symbol: unfazed
+Volume1: 36978
+Liquidity: 8267
+MarketCap: 27843
+PriceUSD: 0.0000278430756411
+Exchanges: Raydium, Pump, Meteora
+NetworkId: 1399811149
+
+Token Address: 9abuY91zSYh8RN86KuQbaFxMCssJrWx8NTV5oMLQpump
+Name: The Stonksons
+Symbol: Stonk
+Volume1: 54101
+Liquidity: 15015
+MarketCap: 93812
+PriceUSD: 0.0000938118639988
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: GewfEhHoi7eKzapERkdu8u91cFkMRq9RB9gnoWUvy9M8
+Name: Grass
+Symbol: GRASS
+Volume1: 316287
+Liquidity: 474306
+MarketCap: 1526116250
+PriceUSD: 0.152611624978
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: Pt6GNHSYEAZ72acBEq5JPY35DzU1i3A2u7o3iqopump
+Name: Neiro Muslim Family
+Symbol: NMF
+Volume1: 515766
+Liquidity: 149945
+MarketCap: 332452
+PriceUSD: 0.000332452030256
+Exchanges: Raydium, Meteora
+NetworkId: 1399811149
+
+Token Address: 7V9nw4Gw3xjuxad4UJqM1Ac9vHiWQ3apWpA5BF6ZiLXF
+Name: NVIDIA
+Symbol: NVIDIA
+Volume1: 20698
+Liquidity: 78642
+MarketCap: 106033
+PriceUSD: 0.0000558065836502
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 6fSAirUqyuEVfvhZt65iQLoEVkATtjG8TJndQDABQfFZ
+Name: 🔥 6ix9ine
+Symbol: 69
+Volume1: 29654
+Liquidity: 90624
+MarketCap: 670381
+PriceUSD: 0.0000965688027831
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: Anfi21ZzsDGroG4bTHK22aH3bMV1wREFEBmSYQTCcmJV
+Name: Fools Only Miss Opportunities
+Symbol: FOMO
+Volume1: 11914
+Liquidity: 9785
+MarketCap: 34912
+PriceUSD: 0.0000349124875379
+Exchanges: Raydium, Meteora, Pump
+NetworkId: 1399811149
+
+Token Address: 9sc3hXm3HrwdpNuPiAJ5BGJn5aRXPmC77Rpo5oqgtN6R
+Name: PLUTO
+Symbol: PLUTO
+Volume1: 717386
+Liquidity: 34902
+MarketCap: 375813
+PriceUSD: 0.000422309710756
+Exchanges: Raydium, Meteora, Pump
+NetworkId: 1399811149
+
+Token Address: DqogRLYGRbHPuabNNhjdqwbs8jGTqYRMqAKH2QNbpump
+Name: chat
+Symbol: chat
+Volume1: 332861
+Liquidity: 22680
+MarketCap: 196627
+PriceUSD: 0.000196627105764
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: GYRM78FvJwmuxGkw98DcnAvs5ptHAgoDDj9ra4gypump
+Name: Solana Bull
+Symbol: SBULL
+Volume1: 428322
+Liquidity: 28326
+MarketCap: 320875
+PriceUSD: 0.000320874777894
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: cj1sCbJq2woCtSqPyQfG3abn19uv83RyQ1es3a3pump
+Name: BNSOL
+Symbol: BNSOL
+Volume1: 22651
+Liquidity: 6135
+MarketCap: 14108
+PriceUSD: 0.000014109127328
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: D9rAAvgusYh8MQSX4dAtZf4igBkSJBzDLoduDMqjytGW
+Name: reddit dog
+Symbol: r/snoofi
+Volume1: 220624
+Liquidity: 217913
+MarketCap: 324056704
+PriceUSD: 0.324056704111
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: D5qr7QRGMUmmkt6yeJ6cCWDp6pwE4SCozk4uaR1MyqrM
+Name: Vixon
+Symbol: VIX
+Volume1: 15626
+Liquidity: 21722
+MarketCap: 185291
+PriceUSD: 0.000185305648597
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: CvinPapHJYifLBDJmoezEe1iw3po3qmtUtYn4KegBGNS
+Name: Donald Trump
+Symbol: Trump
+Volume1: 141843
+Liquidity: 141605
+MarketCap: 136900302
+PriceUSD: 0.0136900302306
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 1BCEkuL2Rz9whjYSWtRumSXfbWHfBFgLBLLnrS5pump
+Name: JUST SMOKE IT
+Symbol: SMOKE
+Volume1: 483958
+Liquidity: 109518
+MarketCap: 190150
+PriceUSD: 0.000190150459215
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: ETy3ceBTPyNWBMxp5XsCuaEcJbMf9jrEs47BTx5RxXSr
+Name: Raptor Sniper
+Symbol: RAPTOR
+Volume1: 702664
+Liquidity: 51542
+MarketCap: 1686482
+PriceUSD: 0.16864823614
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: mpoxP5wyoR3eRW8L9bZjGPFtCsmX8WcqU5BHxFW1xkn
+Name: Monkey Pox
+Symbol: POX
+Volume1: 52942
+Liquidity: 53266
+MarketCap: 4540961
+PriceUSD: 0.00454098466682
+Exchanges: Raydium, Meteora, Meteora Pools
+NetworkId: 1399811149
+

@@ -1,4 +1,4 @@
-import { tokenAddresses } from './Current_list.mjs';
+import { tokenAddresses } from './Current_list.mjs';  // New addresses from Scanner.js
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -14,12 +14,13 @@ if (fs.existsSync(addressesFilePath)) {
 }
 
 // Merge new token addresses with existing ones and remove duplicates
-const combinedAddresses = [...new Set([...existingAddresses, ...tokenAddresses])];
+const combinedAddresses = [...new Set(existingAddresses.concat(tokenAddresses))];
 
 // Save the updated list back to the file
 fs.writeFileSync(addressesFilePath, JSON.stringify(combinedAddresses, null, 2));
 
 console.log('Updated Token Addresses:', combinedAddresses);
+
 
 // Command to run
 const command = 'solana balance';

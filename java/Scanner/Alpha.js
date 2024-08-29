@@ -1,12 +1,13 @@
 import axios from "axios";
 import fs from "fs";
+import { exec } from "child_process";
 
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
-  let days    = 1;
-  let hours   = 1;
-  let minutes = 30;
+  let days = 1;
+  let hours = 24;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -16,6 +17,7 @@ function fetchAndSaveTokenResults() {
 
   // Define a hashmap (Map in JavaScript) to store the results
   const tokenResults = new Map();
+  const tokenAddresses = [];
 
   axios
     .post(
@@ -50,10 +52,11 @@ function fetchAndSaveTokenResults() {
       }
     }
   }`
-      },{
+      },
+      {
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+          Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
         }
       }
     )
@@ -72,19 +75,27 @@ function fetchAndSaveTokenResults() {
           symbol: token.token.symbol,
           networkId: token.token.networkId,
         });
+        tokenAddresses.push(token.token.address); // Collect token addresses
       });
 
       // Get the current date and time for the filename in the desired format
       const now = new Date();
       const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, '0');
-      const day = String(now.getDate()).padStart(2, '0');
-      const hours = String(now.getHours()).padStart(2, '0');
-      const minutes = String(now.getMinutes()).padStart(2, '0');
-      const seconds = String(now.getSeconds()).padStart(2, '0');
+      const month = String(now.getMonth() + 1).padStart(2, "0");
+      const day = String(now.getDate()).padStart(2, "0");
+      const hours = String(now.getHours()).padStart(2, "0");
+      const minutes = String(now.getMinutes()).padStart(2, "0");
+      const seconds = String(now.getSeconds()).padStart(2, "0");
 
       const formattedDate = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
-      const filename = `TokenResults_${formattedDate}.txt`;
+      const filenameBase = `TokenResults_${formattedDate}`;
+      const txtFilename = `${filenameBase}.txt`;
+      const jsFilename = `Current_list.mjs`;
+
+      // Write the token addresses to a JavaScript file
+      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
+      fs.writeFileSync(jsFilename, tokenAddressesContent);
+      console.log(`Token addresses written to ${jsFilename}`);
 
       // Format the output for the text file
       let output = "Token Results:\n";
@@ -96,15 +107,15 @@ function fetchAndSaveTokenResults() {
         output += `Liquidity: ${value.liquidity}\n`;
         output += `MarketCap: ${value.marketCap}\n`;
         output += `PriceUSD: ${value.priceUSD}\n`;
-        output += `Exchanges: ${value.exchanges.join(', ')}\n`;
+        output += `Exchanges: ${value.exchanges.join(", ")}\n`;
         output += `NetworkId: ${value.networkId}\n`;
         output += `\n`;
       });
 
       // Write the output to a text file
-      fs.writeFileSync(filename, output);
+      fs.writeFileSync(txtFilename, output);
 
-      console.log(`Results written to ${filename}`);
+      console.log(`Results written to ${txtFilename}`);
     })
     .catch((error) => {
       console.error(error);
