@@ -11,7 +11,7 @@ const execPromise = promisify(exec);
 const command = 'solana balance';
 
 // Define the reserve amount (e.g., 0.15 SOL)
-const reserveAmount = 0.15; // 20 Eur aprox.
+const reserveAmount = 0.0015; // 20 Eur aprox.
 
 // Function to get the balance
 const getBalance = async () => {
@@ -63,10 +63,10 @@ const main = async () => {
     // Convert the existing addresses to a map for quick lookup
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
-    // Add new token addresses to the map, setting "used" to false if they don't already exist
+    // Add new token addresses to the map, setting "used" to false and "reversed" to false if they don't already exist
     tokenAddresses.forEach(address => {
         if (!existingAddressesMap.has(address)) {
-            existingAddressesMap.set(address, { address: address, used: false });
+            existingAddressesMap.set(address, { address: address, used: false, reversed: false });
         }
     });
 
@@ -96,7 +96,7 @@ const main = async () => {
 };
 
 // Define the interval (5 minutes and 5 seconds)
-const interval = (5 * 60 + 5) * 1000; // Convert to milliseconds
+const interval = 5 * 60 * 1000; // Convert to milliseconds
 
 // Start the interval
 setInterval(main, interval);
