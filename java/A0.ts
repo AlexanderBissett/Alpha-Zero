@@ -3,7 +3,7 @@ import { Connection, Keypair, clusterApiUrl } from '@solana/web3.js'
 import { TOKEN_PROGRAM_ID, TOKEN_2022_PROGRAM_ID } from '@solana/spl-token'
 import bs58 from 'bs58'
 
-export const owner: Keypair = Keypair.fromSecretKey(bs58.decode('3TFKHezScu2eA1yYnv4LTGYtJLG9rbBwaB3Uc3p6X8e4KxXyQVAhnxoevHUFg8MhkunoG6dsnYKwWMjhUtXq6nDv'))
+export const owner: Keypair = Keypair.fromSecretKey(bs58.decode('58XKCxjioAUPZcRdDzzmK4tvv7JN69dj8YGcRxhJyppwtAuVHwFSdLEQUmTxi17uLLsh38q8i7TkThqT5xowcPay'))
 export const connection = new Connection('https://api.mainnet-beta.solana.com') //<YOUR_RPC_URL>
 // export const connection = new Connection(clusterApiUrl('devnet')) //<YOUR_RPC_URL>
 export const txVersion = TxVersion.V0 // or TxVersion.LEGACY

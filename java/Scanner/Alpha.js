@@ -1,13 +1,12 @@
 import axios from "axios";
 import fs from "fs";
-import { exec } from "child_process";
 
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 24;
-  let minutes = 60;
+  let hours = 1;
+  let minutes = 5;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -29,7 +28,7 @@ function fetchAndSaveTokenResults() {
       filters: {
         createdAt : { gte: ${time_filter} }
         volume1: {gte: 10000}
-        liquidity: {gte: 5000}
+        liquidity: {gte: 10000}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
       }
