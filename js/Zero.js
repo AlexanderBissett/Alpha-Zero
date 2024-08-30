@@ -4,7 +4,7 @@ const path = require('path');
 const { Connection, Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
-const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/java/A0');
+const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/js/A0');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
 // Path to the file where unique addresses are stored
