@@ -49,16 +49,27 @@ if (fs.existsSync(addressesFilePath)) {
     existingAddresses = JSON.parse(fileContent);
 }
 
-// Merge new token addresses with existing ones and remove duplicates
-const combinedAddresses = [...new Set(existingAddresses.concat(tokenAddresses))];
+// Convert the existing addresses to a map for quick lookup
+const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
+
+// Add new token addresses to the map, setting "used" to false if they don't already exist
+tokenAddresses.forEach(address => {
+    if (!existingAddressesMap.has(address)) {
+        existingAddressesMap.set(address, { address: address, used: false });
+    }
+});
+
+// Convert the map back to an array
+const combinedAddresses = Array.from(existingAddressesMap.values());
 
 // Save the updated list back to the file
 fs.writeFileSync(addressesFilePath, JSON.stringify(combinedAddresses, null, 2));
 
-console.log('Token addresses updated succesfully');
+console.log('Token addresses updated successfully');
 
 // Loop through each address and execute the command
-combinedAddresses.forEach(address => {
+combinedAddresses.forEach(entry => {
+    const address = entry.address;
     const command = `spl-token create-account "${address}"`;
     exec(command, (error, stdout, stderr) => {
         if (error) {
@@ -72,4 +83,3 @@ combinedAddresses.forEach(address => {
         console.log(`Account created for address ${address}: ${stdout}`);
     });
 });
-
