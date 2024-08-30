@@ -32,7 +32,7 @@ const markAddressAsUsed = (address) => {
 const processAddress = (outputMint) => {
     return (async () => {
         const inputMint = NATIVE_MINT.toBase58();
-        const amount = 1000;
+        const amount = 1000; //2 Eur aprox. = 16500000
         const slippage = 5; // in percent, for this example, 0.5 means 0.5%
         const txVersion = 'LEGACY'; // or 'LEGACY'
         const isV0Tx = txVersion === 'LEGACY';

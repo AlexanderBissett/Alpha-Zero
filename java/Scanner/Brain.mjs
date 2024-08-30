@@ -7,7 +7,7 @@ import path from 'path';
 const command = 'solana balance';
 
 // Define the reserve amount (e.g., 30 SOL)
-const reserveAmount = 0.2;
+const reserveAmount = 0.15; //20€ Eur aprox.
 
 // Execute the command in the cmd
 exec(command, (error, stdout, stderr) => {
@@ -35,7 +35,8 @@ exec(command, (error, stdout, stderr) => {
     // Check if the balance is lower than the reserve
     if (balanceNumber < reserveAmount) {
         console.error('Balance is lower than the reserve amount. Exiting.');
-        return;
+        process.exit(1);
+        
     }
 });
 
