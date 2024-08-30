@@ -2,11 +2,7 @@
   {
     "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
     "used": true,
-    "reversed": false
-  },
-  {
-    "address": "9HGgAppVE6RSAb64NJJhrcEwYVufEM7L83iGYJXLpump",
-    "used": false,
-    "reversed": false
+    "reversed": false,
+    "usedAt": "2024-08-30T22:56:13.488Z"
   }
 ]

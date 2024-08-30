@@ -1,7 +1,7 @@
 "use strict";
 const fs = require('fs');
 const path = require('path');
-const { Connection, Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
+const { Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
 const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/js/A0');
@@ -20,21 +20,20 @@ if (fs.existsSync(addressesFilePath)) {
     process.exit(1); // Exit the script if the file is not found
 }
 
-// Function to mark an address as used and record the timestamp
-const markAddressAsUsed = (address) => {
+// Function to mark an address as reversed and record the timestamp
+const markAddressAsReversed = (address) => {
     const timestamp = new Date().toISOString(); // Get the current timestamp in ISO format
     addresses = addresses.map(addr => 
-        addr.address === address ? { ...addr, used: true, usedAt: timestamp } : addr
+        addr.address === address ? { ...addr, reversed: true, reversedAt: timestamp } : addr
     );
     fs.writeFileSync(addressesFilePath, JSON.stringify(addresses, null, 2));
 };
 
-
-// Function to process an address
-const processAddress = (outputMint) => {
+// Function to process an address (swap to SOL)
+const processAddress = (inputMint) => {
     return (async () => {
-        const inputMint = NATIVE_MINT.toBase58();
-        const amount = 1000; //2 Eur aprox. = 16500000
+        const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
+        const amount = 0.0002; // amount of the token to swap back to SOL
         const slippage = 5; // in percent, for this example, 0.5 means 0.5%
         const txVersion = 'LEGACY'; // or 'LEGACY'
         const isV0Tx = txVersion === 'LEGACY';
@@ -60,17 +59,23 @@ const processAddress = (outputMint) => {
         let data, swapResponse, swapTransactions, allTxBuf, allTransactions;
         try {
             data = (await axios.get(`${API_URLS.BASE_HOST}${API_URLS.PRIORITY_FEE}`)).data;
+            console.log("Fetched priority fee data:", data);
+
             swapResponse = (await axios.get(`${API_URLS.SWAP_HOST}/compute/swap-base-in?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippageBps=${slippage * 100}&txVersion=${txVersion}`)).data;
+            console.log("Fetched swap response:", swapResponse);
+
             swapTransactions = (await axios.post(`${API_URLS.SWAP_HOST}/transaction/swap-base-in`, {
                 computeUnitPriceMicroLamports: String(data.data.default.h),
                 swapResponse: swapResponse,
                 txVersion: txVersion,
                 wallet: owner.publicKey.toBase58(),
                 wrapSol: isInputSol,
-                unwrapSol: isOutputSol, // true means output mint receive sol, false means output mint received wsol
+                unwrapSol: isOutputSol, // true means output mint receives SOL
                 inputAccount: isInputSol ? undefined : inputTokenAcc?.toBase58(),
                 outputAccount: isOutputSol ? undefined : outputTokenAcc?.toBase58(),
             })).data;
+            console.log("Fetched swap transactions:", swapTransactions);
+
             allTxBuf = swapTransactions.data.map(tx => Buffer.from(tx.transaction, 'base64'));
             allTransactions = allTxBuf.map(txBuf => isV0Tx ? VersionedTransaction.deserialize(txBuf) : Transaction.from(txBuf));
         } catch (error) {
@@ -85,9 +90,10 @@ const processAddress = (outputMint) => {
                 try {
                     console.log(`${++idx} transaction sending...`);
                     tx.sign(owner);
+                    console.log('Signed transaction:', tx);
                     const txId = await sendAndConfirmTransaction(connection, tx, [owner], { skipPreflight: true });
                     console.log(`${idx} transaction confirmed, txId: ${txId}`);
-                    markAddressAsUsed(outputMint);  // Mark as used after successful transaction
+                    markAddressAsReversed(inputMint);  // Mark as reversed after successful transaction
                 } catch (error) {
                     console.error('Error sending transaction:', error);
                 }
@@ -97,6 +103,7 @@ const processAddress = (outputMint) => {
                 try {
                     idx++;
                     tx.sign([owner]);
+                    console.log('Signed transaction:', tx);
                     const txId = await connection.sendTransaction(tx, { skipPreflight: true });
                     const { lastValidBlockHeight, blockhash } = await connection.getLatestBlockhash({ commitment: 'finalized' });
                     console.log(`${idx} transaction sending..., txId: ${txId}`);
@@ -106,7 +113,7 @@ const processAddress = (outputMint) => {
                         signature: txId,
                     }, 'confirmed');
                     console.log(`${idx} transaction confirmed`);
-                    markAddressAsUsed(outputMint);  // Mark as used after successful transaction
+                    markAddressAsReversed(inputMint);  // Mark as reversed after successful transaction
                 } catch (error) {
                     console.error('Error sending transaction:', error);
                 }
@@ -119,12 +126,13 @@ const processAddress = (outputMint) => {
 const processAddresses = () => {
     (async () => {
         while (addresses.length > 0) {
-            const addressObj = addresses.find(addr => !addr.used); // Find the first unused address
-            if (!addressObj) break; // Exit if no unused addresses are left
+            const addressObj = addresses.find(addr => !addr.reversed); // Find the first non-reversed address
+            if (!addressObj) break; // Exit if no non-reversed addresses are left
             
             const address = addressObj.address;
+            console.log("Processing address:", address);
             await processAddress(address); // Process the address
-            // MarkAddressAsUsed is now inside processAddress and called only on success
+            // MarkAddressAsReversed is now inside processAddress and called only on success
         }
     })();
 };
