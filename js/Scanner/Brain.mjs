@@ -93,21 +93,6 @@ const main = async () => {
             console.error(`Error creating account for address ${address}: ${error.message}`);
         });
     });
-
-    // Execute the command for the special address So11111111111111111111111111111111111111112
-    const specialAddress = 'So11111111111111111111111111111111111111112';
-    const specialCommand = `spl-token create-account "${specialAddress}"`;
-
-    try {
-        const { stdout, stderr } = await execPromise(specialCommand);
-        if (stderr) {
-            console.error(`Error output for special address ${specialAddress}: ${stderr}`);
-        } else {
-            console.log(`Account created for special address ${specialAddress}: ${stdout}`);
-        }
-    } catch (error) {
-        console.error(`Error creating account for special address ${specialAddress}: ${error.message}`);
-    }
 };
 
 // Define the interval (5 minutes)
