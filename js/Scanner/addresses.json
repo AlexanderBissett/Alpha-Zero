@@ -1,13 +1,20 @@
 [
   {
-    "address": "9HGgAppVE6RSAb64NJJhrcEwYVufEM7L83iGYJXLpump",
-    "used": true,
-    "reversed": true
+    "address": "8UQ7wnED6bwLCpyrp9pfFH9k22daivscsjN8ctexpump",
+    "decimals": 6,
+    "used": false,
+    "reversed": false
   },
   {
-    "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
-    "used": true,
-    "reversed": true,
-    "reversedAt": "2024-08-31T12:09:47.208Z"
+    "address": "Sur145mPVhCMWqjHUUxM9Z4JCBC7ci8jhi3ia5JiaVH",
+    "decimals": 8,
+    "used": false,
+    "reversed": false
+  },
+  {
+    "address": "frog",
+    "decimals": 2,
+    "used": false,
+    "reversed": false
   }
 ]

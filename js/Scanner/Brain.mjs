@@ -64,9 +64,9 @@ const main = async () => {
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
     // Add new token addresses to the map, setting "used" to false and "reversed" to false if they don't already exist
-    tokenAddresses.forEach(address => {
+    tokenAddresses.forEach(([address, decimals]) => {
         if (!existingAddressesMap.has(address)) {
-            existingAddressesMap.set(address, { address: address, used: false, reversed: false });
+            existingAddressesMap.set(address, { address: address, decimals: decimals, used: false, reversed: false });
         }
     });
 

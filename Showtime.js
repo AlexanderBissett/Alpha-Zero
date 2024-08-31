@@ -21,4 +21,4 @@ setTimeout(() => {
 // Wait 5 seconds before running the Collector Bot
 setTimeout(() => {
   runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\test4.js');
-}, 15000);
+}, 5000);

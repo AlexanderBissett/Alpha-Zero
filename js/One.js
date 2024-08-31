@@ -181,8 +181,8 @@ const runProcess = async () => {
     await processAddresses();
 };
 
-// Set an interval to run the runProcess function every 40 seconds
-setInterval(runProcess, 40000); // 40000 milliseconds = 40 seconds
+// Set an interval to run the runProcess function every 5 seconds
+setInterval(runProcess, 5000); // 5000 milliseconds = 5 seconds
 
 // Start processing immediately
 runProcess();
