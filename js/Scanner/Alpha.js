@@ -5,8 +5,8 @@ import fs from "fs";
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 1;
-  let minutes = 5;
+  let hours = 24;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -16,7 +16,7 @@ function fetchAndSaveTokenResults() {
 
   // Define a hashmap (Map in JavaScript) to store the results
   const tokenResults = new Map();
-  const tokenAddresses = [];
+  const tokenAddresses = new Map(); // Changed to a Map to store decimals
 
   axios
     .post(
@@ -76,7 +76,7 @@ function fetchAndSaveTokenResults() {
           symbol: token.token.symbol,
           networkId: token.token.networkId,
         });
-        tokenAddresses.push(token.token.address); // Collect token addresses
+        tokenAddresses.set(token.token.address, token.token.decimals); // Collect token addresses with decimals
       });
 
       // Get the current date and time for the filename in the desired format
@@ -93,10 +93,10 @@ function fetchAndSaveTokenResults() {
       const txtFilename = `${filenameBase}.txt`;
       const jsFilename = `Current_list.mjs`;
 
-      // Write the token addresses to a JavaScript file
-      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
+      // Write the token addresses to a JavaScript file with decimals
+      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(Array.from(tokenAddresses.entries()))};`;
       fs.writeFileSync(jsFilename, tokenAddressesContent);
-      console.log(`Token addresses written to ${jsFilename}`);
+      console.log(`Token addresses with decimals written to ${jsFilename}`);
 
       // Format the output for the text file
       let output = "Token Results:\n";

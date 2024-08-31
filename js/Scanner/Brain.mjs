@@ -110,7 +110,7 @@ const main = async () => {
     }
 };
 
-// Define the interval (5 minutes and 5 seconds)
+// Define the interval (5 minutes)
 const interval = 5 * 60 * 1000; // Convert to milliseconds
 
 // Start the interval
