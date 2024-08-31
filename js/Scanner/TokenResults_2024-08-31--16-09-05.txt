@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 5zk1JaYyDFLHujwiK3JAsBwFdjW5WJduH52Ectvypump
+Name: DANDY
+Symbol: $DANDY
+Volume1: 10750
+Liquidity: 15663
+MarketCap: 110140
+PriceUSD: 0.000110140017795
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 858piPtdvnkyqdNqc7trwTvsDCAYCSqV6AL8NzAFkuNb
+Name: whistling chicken ass
+Symbol: wca
+Volume1: 29398
+Liquidity: 10987
+MarketCap: 53980
+PriceUSD: 0.0000539800888872
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

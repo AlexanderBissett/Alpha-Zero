@@ -24,33 +24,34 @@ function fetchAndSaveTokenResults() {
       {
         // Query for Raydium
         query: `{
-    filterTokens(
-      filters: {
+  filterTokens(
+    filters: {
         createdAt : { gte: ${time_filter} }
         volume1: {gte: 10000}
         liquidity: {gte: 10000}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
+    }
+    limit: 30
+  ) {
+    results {
+      volume1
+      liquidity
+      marketCap
+      priceUSD
+      exchanges {
+        name
       }
-      limit: 30
-    ) {
-      results {
-        volume1
-        liquidity
-        marketCap
-        priceUSD
-        exchanges {
-          name
-        }
-        token {
-          address
-          name
-          networkId
-          symbol
-        }
+      token {
+        address
+        decimals
+        name
+        networkId
+        symbol
       }
     }
-  }`
+  }
+}`
       },
       {
         headers: {
@@ -71,6 +72,7 @@ function fetchAndSaveTokenResults() {
           priceUSD: token.priceUSD,
           exchanges: token.exchanges.map((exchange) => exchange.name),
           name: token.token.name,
+          decimals: token.token.decimals,
           symbol: token.token.symbol,
           networkId: token.token.networkId,
         });
@@ -106,6 +108,7 @@ function fetchAndSaveTokenResults() {
         output += `Liquidity: ${value.liquidity}\n`;
         output += `MarketCap: ${value.marketCap}\n`;
         output += `PriceUSD: ${value.priceUSD}\n`;
+        output += `Decimals: ${value.decimals}\n`;
         output += `Exchanges: ${value.exchanges.join(", ")}\n`;
         output += `NetworkId: ${value.networkId}\n`;
         output += `\n`;
