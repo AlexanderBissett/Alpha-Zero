@@ -33,7 +33,7 @@ const markAddressAsReversed = (address) => {
 const processAddress = (inputMint) => {
     return (async () => {
         const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
-        const amount = 1.4 * 10**6; 
+        const amount = 1.443825 * 10**6; 
         const slippage = 5; // in percent, for this example, 0.5 means 0.5%
         const txVersion = 'LEGACY'; // or 'LEGACY'
         const isV0Tx = txVersion === 'LEGACY';
