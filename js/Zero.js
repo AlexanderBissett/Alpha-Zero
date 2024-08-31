@@ -121,7 +121,7 @@ const runProcess = () => {
         const unusedAddresses = addresses.filter(addr => !addr.used); // Get all unused addresses
 
         if (unusedAddresses.length === 0) {
-            console.log("No unused addresses found, will check again in 40 seconds.");
+            console.log("No unused addresses found, will check again in 5 seconds.");
             return;
         }
 

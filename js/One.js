@@ -56,10 +56,12 @@ const runProcess = async () => {
     };
 
     // Function to process an address (swap to SOL)
-    const processAddress = (inputMint) => {
+    const processAddress = (addressObj) => {
         return (async () => {
+            const inputMint = addressObj.address;
             const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
-            const amount = 1.428537 * 10 ** 6;
+            const decimals = addressObj.decimals;
+            const amount = 1.428293 * 10 ** decimals; // Use the decimals value
             const slippage = 5; // in percent, for this example, 0.5 means 0.5%
             const txVersion = 'LEGACY'; // or 'LEGACY'
             const isV0Tx = txVersion === 'LEGACY';
@@ -165,14 +167,13 @@ const runProcess = async () => {
         const nonReversedAddresses = addresses.filter(addr => !addr.reversed);
 
         if (nonReversedAddresses.length === 0) {
-            console.log("No non-reversed addresses found, will check again in 40 seconds.");
+            console.log("No non-reversed addresses found, will check again in 5 seconds.");
             return;
         }
 
         for (const addressObj of nonReversedAddresses) {
-            const address = addressObj.address;
-            console.log("Processing address:", address);
-            await processAddress(address); // Process the address
+            console.log("Processing address:", addressObj.address);
+            await processAddress(addressObj); // Pass the whole address object
             // MarkAddressAsReversed is now inside processAddress and called only on success
         }
     };
