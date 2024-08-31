@@ -3,8 +3,7 @@
     "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
     "decimals": 6,
     "used": true,
-    "reversed": true,
-    "usedAt": "2024-08-31T14:58:12.162Z",
-    "reversedAt": "2024-08-31T15:20:21.695Z"
+    "reversed": false,
+    "usedAt": "2024-08-31T15:28:51.732Z"
   }
 ]

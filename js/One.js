@@ -23,6 +23,29 @@ const createTokenAccount = () => {
     });
 };
 
+// Function to fetch token accounts for a given address and extract the balance
+const fetchTokenAccounts = (address) => {
+    return new Promise((resolve, reject) => {
+        exec(`spl-token accounts ${address}`, (error, stdout, stderr) => {
+            if (error) {
+                console.error(`Error executing command: ${stderr}`);
+                reject(error);
+                return;
+            }
+            
+            // Use regex to extract the balance from the output
+            const balanceMatch = stdout.match(/^\s*([\d.]+)\s*$/m);
+            if (balanceMatch) {
+                const balance = parseFloat(balanceMatch[1]);
+                resolve(balance);
+            } else {
+                console.error('Failed to extract balance from token accounts output.');
+                reject(new Error('Failed to extract balance.'));
+            }
+        });
+    });
+};
+
 // Function to run all the logic, including loading addresses
 const runProcess = async () => {
     // Attempt to create the token account
@@ -61,7 +84,20 @@ const runProcess = async () => {
             const inputMint = addressObj.address;
             const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
             const decimals = addressObj.decimals;
-            const amount = 1.428293 * 10 ** decimals; // Use the decimals value
+
+            // Fetch balance for the input address
+            let balance;
+            try {
+                balance = await fetchTokenAccounts(inputMint);
+                console.log(`Fetched balance for ${inputMint}:`, balance);
+            } catch (error) {
+                console.error('Error fetching token accounts data:', error);
+                return;
+            }
+
+            // Calculate the amount based on the balance
+            const amount = balance * 10 ** decimals; // Use the balance value
+
             const slippage = 5; // in percent, for this example, 0.5 means 0.5%
             const txVersion = 'LEGACY'; // or 'LEGACY'
             const isV0Tx = txVersion === 'LEGACY';
