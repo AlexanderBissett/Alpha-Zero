@@ -33,7 +33,7 @@ const markAddressAsReversed = (address) => {
 const processAddress = (inputMint) => {
     return (async () => {
         const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
-        const amount = 0.0002; // amount of the token to swap back to SOL
+        const amount = 1.4 * 10**6; 
         const slippage = 5; // in percent, for this example, 0.5 means 0.5%
         const txVersion = 'LEGACY'; // or 'LEGACY'
         const isV0Tx = txVersion === 'LEGACY';
@@ -64,6 +64,11 @@ const processAddress = (inputMint) => {
             swapResponse = (await axios.get(`${API_URLS.SWAP_HOST}/compute/swap-base-in?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippageBps=${slippage * 100}&txVersion=${txVersion}`)).data;
             console.log("Fetched swap response:", swapResponse);
 
+            if (!swapResponse || !swapResponse.data) {
+                console.error('Swap response data is undefined or invalid');
+                return;
+            }
+
             swapTransactions = (await axios.post(`${API_URLS.SWAP_HOST}/transaction/swap-base-in`, {
                 computeUnitPriceMicroLamports: String(data.data.default.h),
                 swapResponse: swapResponse,
@@ -74,7 +79,13 @@ const processAddress = (inputMint) => {
                 inputAccount: isInputSol ? undefined : inputTokenAcc?.toBase58(),
                 outputAccount: isOutputSol ? undefined : outputTokenAcc?.toBase58(),
             })).data;
+
             console.log("Fetched swap transactions:", swapTransactions);
+
+            if (!swapTransactions || !swapTransactions.data) {
+                console.error('Swap transactions data is undefined or invalid');
+                return;
+            }
 
             allTxBuf = swapTransactions.data.map(tx => Buffer.from(tx.transaction, 'base64'));
             allTransactions = allTxBuf.map(txBuf => isV0Tx ? VersionedTransaction.deserialize(txBuf) : Transaction.from(txBuf));

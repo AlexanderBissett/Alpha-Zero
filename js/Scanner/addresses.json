@@ -2,7 +2,8 @@
   {
     "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
     "used": true,
-    "reversed": false,
-    "usedAt": "2024-08-30T22:56:13.488Z"
+    "reversed": true,
+    "usedAt": "2024-08-31T00:12:01.637Z",
+    "reversedAt": "2024-08-31T00:20:41.358Z"
   }
 ]
