@@ -200,11 +200,13 @@ const processAddressesSequentially = async () => {
     isProcessing = false; // Reset the flag once processing is complete
 };
 
+// Start processing immediately
+processAddressesSequentially();
+
 // Set an interval to run the processAddressesSequentially function every 5 seconds
 const interval = 5000; // 5 seconds
 setInterval(async () => {
-    await processAddressesSequentially();
+    if (!isProcessing) {
+        await processAddressesSequentially();
+    }
 }, interval);
-
-// Start processing immediately
-processAddressesSequentially();

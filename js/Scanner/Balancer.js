@@ -71,5 +71,5 @@ async function updateAddressBalances() {
     }
 }
 
-// Call the function to execute the script
-updateAddressBalances();
+// Set an interval to call the function every 5 seconds
+setInterval(updateAddressBalances, 5000);
