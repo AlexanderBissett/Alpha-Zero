@@ -35,7 +35,7 @@ const runProcess = () => {
     const processAddress = (outputMint) => {
         return (async () => {
             const inputMint = NATIVE_MINT.toBase58();
-            const amount = 16000000; //2 Eur aprox. = 16000000
+            const amount = 15000000; //2 Eur aprox. = 16000000
             const slippage = 5; // in percent, for this example, 0.5 means 0.5%
             const txVersion = 'LEGACY'; // or 'LEGACY'
             const isV0Tx = txVersion === 'LEGACY';
@@ -118,14 +118,15 @@ const runProcess = () => {
 
     // Function to process each address one by one
     const processAddresses = async () => {
-        const unusedAddresses = addresses.filter(addr => !addr.used); // Get all unused addresses
+        // Get only unused addresses that have wallet set to true
+        const unusedWalletAddresses = addresses.filter(addr => !addr.used && addr.wallet);
 
-        if (unusedAddresses.length === 0) {
-            console.log("No unused addresses found, will check again in 5 seconds.");
+        if (unusedWalletAddresses.length === 0) {
+            console.log("No unused wallet addresses found, will check again in 5 seconds.");
             return;
         }
 
-        for (const addressObj of unusedAddresses) {
+        for (const addressObj of unusedWalletAddresses) {
             const address = addressObj.address;
             await processAddress(address); // Process the address
             // MarkAddressAsUsed is now inside processAddress and called only on success

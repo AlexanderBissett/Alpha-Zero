@@ -63,10 +63,10 @@ const main = async () => {
     // Convert the existing addresses to a map for quick lookup
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
-    // Add new token addresses to the map, setting "used" to false and "reversed" to false if they don't already exist
+    // Add new token addresses to the map, setting "used" to false, "reversed" to false, and "wallet" to false if they don't already exist
     tokenAddresses.forEach(([address, decimals]) => {
         if (!existingAddressesMap.has(address)) {
-            existingAddressesMap.set(address, { address: address, decimals: decimals, used: false, reversed: false });
+            existingAddressesMap.set(address, { address: address, decimals: decimals, used: false, reversed: false, wallet: false });
         }
     });
 
@@ -79,20 +79,51 @@ const main = async () => {
     console.log('Token addresses updated successfully');
 
     // Loop through each address and execute the command
-    combinedAddresses.forEach(entry => {
+    for (let i = 0; i < combinedAddresses.length; i++) {
+        const entry = combinedAddresses[i];
+
+        // Skip the address if wallet is already true
+        if (entry.wallet) {
+            console.log(`Skipping address ${entry.address} as it is already marked with wallet: true.`);
+            continue;
+        }
+
         const address = entry.address;
         const createAccountCommand = `spl-token create-account "${address}"`;
 
-        execPromise(createAccountCommand).then(({ stdout, stderr }) => {
+        try {
+            const { stdout, stderr } = await execPromise(createAccountCommand);
+
             if (stderr) {
-                console.error(`Error output for address ${address}: ${stderr}`);
-                return;
+                // Check if the error indicates the account already exists
+                if (stderr.includes("Error: Account already exists")) {
+                    console.warn(`Account already exists for address ${address}. Marking wallet as true.`);
+                    entry.wallet = true;
+                } else {
+                    console.error(`Error output for address ${address}: ${stderr}`);
+                    continue;
+                }
+            } else {
+                console.log(`Account created for address ${address}: ${stdout}`);
+                entry.wallet = true;
             }
-            console.log(`Account created for address ${address}: ${stdout}`);
-        }).catch(error => {
-            console.error(`Error creating account for address ${address}: ${error.message}`);
-        });
-    });
+
+            // Save the updated list back to the file
+            fs.writeFileSync(addressesFilePath, JSON.stringify(combinedAddresses, null, 2));
+
+        } catch (error) {
+            // Analyze the error message in the catch block
+            if (error.message.includes("Error: Account already exists")) {
+                console.warn(`Account already exists for address ${address}. Marking wallet as true.`);
+                entry.wallet = true;
+
+                // Save the updated list back to the file
+                fs.writeFileSync(addressesFilePath, JSON.stringify(combinedAddresses, null, 2));
+            } else {
+                console.error(`Error creating account for address ${address}: ${error.message}`);
+            }
+        }
+    }
 };
 
 // Define the interval (5 minutes)

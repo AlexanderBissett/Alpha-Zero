@@ -4,7 +4,13 @@
     "decimals": 6,
     "used": true,
     "reversed": true,
-    "usedAt": "2024-08-31T17:53:59.773Z",
-    "reversedAt": "2024-08-31T17:57:16.303Z"
+    "wallet": true
+  },
+  {
+    "address": "Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true
   }
 ]
