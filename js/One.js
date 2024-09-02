@@ -1,6 +1,7 @@
 "use strict";
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process'); // Import exec from child_process
 const { Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
@@ -20,6 +21,28 @@ const markAddressAsReversed = (address) => {
         addr.address === address ? { ...addr, reversed: true, reversedAt: timestamp } : addr
     );
     fs.writeFileSync(addressesFilePath, JSON.stringify(addresses, null, 2));
+};
+
+// Function to run the spl-token wrap command
+const runWrapCommand = (amount) => {
+    return new Promise((resolve) => {
+        const command = `spl-token wrap ${amount}`;
+        exec(command, (error, stdout, stderr) => {
+            if (error) {
+                console.error(`Error executing command: ${error}`);
+            }
+            if (stderr) {
+                console.error(`stderr: ${stderr}`);
+            }
+            if (stdout.includes('Signature:')) {
+                console.log('Wrap command completed successfully.');
+                resolve(true); // Indicate success
+            } else {
+                console.error('Wrap command did not complete successfully.');
+                resolve(false); // Indicate failure
+            }
+        });
+    });
 };
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
@@ -153,6 +176,11 @@ const processAddress = async (inputMint, decimals, balance) => {
     return allConfirmed; // Return true only if all transactions were confirmed
 };
 
+// Function to check if there are new addresses to process
+const hasNewAddresses = (addresses) => {
+    return addresses.some(addr => !addr.reversed);
+};
+
 // Function to process addresses sequentially
 const processAddressesSequentially = async () => {
     if (isProcessing) {
@@ -174,26 +202,48 @@ const processAddressesSequentially = async () => {
         return; // Exit the function if the file is not found
     }
 
-    // Filter non-reversed addresses
-    const nonReversedAddresses = addresses.filter(addr => !addr.reversed);
+    // Check if there are new addresses to process
+    const newAddressesExist = hasNewAddresses(addresses);
 
-    if (nonReversedAddresses.length === 0) {
-        console.log("No non-reversed addresses found, will check again in 5 seconds.");
+    if (!newAddressesExist) {
+        console.log("No new addresses found, will check again in 5 seconds.");
         isProcessing = false; // Reset the flag
         return;
     }
 
+    // Run the wrap command if new addresses are detected
+    try {
+        await runWrapCommand(0.015); // Ensure wrap command is completed
+    } catch (error) {
+        console.error('Wrap command failed. Continuing without wrap.');
+    }
+
+    // Filter non-reversed addresses
+    const nonReversedAddresses = addresses.filter(addr => !addr.reversed);
+
+    // Track processed addresses
+    const processedAddresses = new Set();
+
     for (const addressObj of nonReversedAddresses) {
         const { address, decimals, balance } = addressObj; // Extract address, decimals, and balance
+
+        // Ensure the address hasn't been processed already
+        if (processedAddresses.has(address)) {
+            console.log(`Address ${address} has already been processed.`);
+            continue;
+        }
 
         // Process the current address and wait for completion
         console.log("Processing address:", address);
         const success = await processAddress(address, decimals, balance);
-        
+
         // Only proceed if processing was successful
         if (!success) {
             console.error(`Failed to process address: ${address}`);
             // Optionally, handle the failure case (e.g., retry, log more details)
+        } else {
+            // Mark address as processed
+            processedAddresses.add(address);
         }
     }
 
