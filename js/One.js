@@ -8,36 +8,6 @@ const axios = require('axios');
 const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/js/A0');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
-// Function to get balance for a specific address
-const getBalanceForAddress = (address) => {
-    return new Promise((resolve, reject) => {
-        exec(`spl-token accounts "${address}"`, (error, stdout, stderr) => {
-            if (error) {
-                console.error(`Error executing command: ${stderr}`);
-                reject(error);
-                return;
-            }
-            console.log(`Token accounts output for ${address}: ${stdout}`);
-            
-            // Use regex to extract the balance from the output
-            const balanceMatch = stdout.match(/Balance\s*--------\s*([\d.]+)/);
-            if (balanceMatch) {
-                const balance = parseFloat(balanceMatch[1].trim());
-                if (!isNaN(balance)) {
-                    console.log(`Balance for address ${address}: ${balance}`);
-                    resolve(balance);
-                } else {
-                    console.error(`Failed to parse balance for address ${address}. Balance match: "${balanceMatch[1]}"`);
-                    reject(new Error('Failed to parse balance.'));
-                }
-            } else {
-                console.error('Failed to extract balance from token accounts output.');
-                reject(new Error('Failed to extract balance.'));
-            }
-        });
-    });
-};
-
 // Function to run all the logic, including loading addresses
 const runProcess = () => {
     // Path to the file where unique addresses are stored
@@ -63,10 +33,21 @@ const runProcess = () => {
     };
 
     // Function to process an address (swap to SOL)
-    const processAddress = (inputMint, decimals) => {
+    const processAddress = (inputMint, decimals, balance) => {
         return (async () => {
             const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
-            const amount = 2.679397 * 10 ** decimals; // Use the decimals from the address
+            const amount = balance * 10 ** decimals; // Use balance from the address data
+            
+            // Log the calculated amount for debugging
+            console.log(`Processing address: ${inputMint}`);
+            console.log(`Calculated amount: ${amount} (balance: ${balance}, decimals: ${decimals})`);
+
+            // Ensure amount is a valid number
+            if (isNaN(amount) || amount <= 0) {
+                console.error(`Invalid amount calculated: ${amount}`);
+                return;
+            }
+
             const slippage = 5; // in percent, for this example, 0.5 means 0.5%
             const txVersion = 'LEGACY'; // or 'LEGACY'
             const isV0Tx = txVersion === 'LEGACY';
@@ -99,6 +80,11 @@ const runProcess = () => {
 
                 if (!swapResponse || !swapResponse.data) {
                     console.error('Swap response data is undefined or invalid');
+                    return;
+                }
+
+                if (!swapResponse.success) {
+                    console.error(`Swap failed: ${swapResponse.msg}`);
                     return;
                 }
 
@@ -176,18 +162,11 @@ const runProcess = () => {
         }
 
         for (const addressObj of nonReversedAddresses) {
-            const { address, decimals } = addressObj; // Extract address and decimals
-
-            // First, get the balance for the current address
-            const balance = getBalanceForAddress(address);
-            if (balance === null) {
-                console.log(`Skipping address ${address} due to error in balance retrieval.`);
-                continue;
-            }
+            const { address, decimals, balance } = addressObj; // Extract address, decimals, and balance
 
             // Now, proceed with processing the address as before
             console.log("Processing address:", address);
-            await processAddress(address, decimals); // Pass decimals to processAddress
+            await processAddress(address, decimals, balance); // Pass decimals and balance to processAddress
             // MarkAddressAsReversed is now inside processAddress and called only on success
         }
     };
@@ -197,7 +176,7 @@ const runProcess = () => {
 };
 
 // Set an interval to run the runProcess function every 5 seconds
-setInterval(runProcess, 500000); // 5000 milliseconds = 5 seconds
+setInterval(runProcess, 5000); // 5000 milliseconds = 5 seconds
 
 // Start processing immediately
 runProcess();

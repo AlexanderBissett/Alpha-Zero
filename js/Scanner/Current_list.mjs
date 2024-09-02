@@ -1,1 +1,1 @@
-export const tokenAddresses = [["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",6],["Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",6],["So11111111111111111111111111111111111111112",9]];
+export const tokenAddresses = [["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",6],["Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",6]];

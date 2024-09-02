@@ -4,13 +4,18 @@
     "decimals": 6,
     "used": true,
     "reversed": true,
-    "wallet": true
+    "wallet": true,
+    "usedAt": "2024-09-02T20:24:39.907Z",
+    "balance": 1.327012,
+    "reversedAt": "2024-09-02T20:26:02.082Z"
   },
   {
     "address": "Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",
     "decimals": 6,
     "used": true,
     "reversed": true,
-    "wallet": true
+    "wallet": true,
+    "balance": 274445.9856,
+    "reversedAt": "2024-09-02T20:41:35.701Z"
   }
 ]
