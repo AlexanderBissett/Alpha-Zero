@@ -56,7 +56,7 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const twoMinutesInSeconds = 4 * 60; // 2 minutes in seconds
+    const twoMinutesInSeconds = 2 * 60; // 2 minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
