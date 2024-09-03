@@ -78,6 +78,9 @@ const processAddress = async (inputMint, decimals, balance) => {
         return false; // Stop processing if wrap command fails
     }
 
+    // Wait for 5 seconds before proceeding to the next steps
+    await delay(5000);
+
     // Continue with the rest of your processing...
     const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
     const amount = balance * 10 ** decimals; // Use balance from the address data
@@ -208,10 +211,10 @@ const hasNewAddresses = (addresses) => {
 
 // Function to check if the address meets the time requirement
 const isTimeRequirementMet = (address) => {
-    const oneMinute = 60 * 1000; // One minute in milliseconds
-    const reversedAt = new Date(address.reversedAt).getTime();
+    const oneMinute = 60 * 1000 *15; // 15 minute in milliseconds
+    const usedAt = new Date(address.usedAt).getTime();
     const now = new Date().getTime();
-    return now - reversedAt > oneMinute; // More than one minute has passed
+    return now - usedAt > oneMinute; // More than 15 minute has passed since usedAt
 };
 
 // Function to process addresses sequentially

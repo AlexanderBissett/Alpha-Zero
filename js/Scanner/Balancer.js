@@ -6,11 +6,16 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function updateAddressBalances() {
     try {
+        console.log('Starting updateAddressBalances function.');
+
         // Read the addresses from the addresses.json file
+        console.log('Reading addresses.json file...');
         const data = await fs.readFile('addresses.json', 'utf8');
         const addresses = JSON.parse(data);
+        console.log('addresses.json file read successfully.');
 
         // Filter the addresses based on the conditions
+        console.log('Filtering valid addresses...');
         const validAddresses = addresses.filter(addressObj => 
             addressObj.used && 
             !addressObj.reversed && 
@@ -21,8 +26,9 @@ async function updateAddressBalances() {
             console.log('No valid addresses found.');
             return;
         }
+        console.log(`Found ${validAddresses.length} valid addresses.`);
 
-        // Function to update the balance for an address with retry logic
+        // Function to update the balance for an address with retry logic and timeout
         const updateBalance = async (addressObj) => {
             const address = addressObj.address;
             const command = `spl-token accounts ${address}`;
@@ -32,8 +38,10 @@ async function updateAddressBalances() {
 
             while (attempts < maxAttempts) {
                 try {
-                    const result = await new Promise((resolve, reject) => {
-                        exec(command, (error, stdout, stderr) => {
+                    console.log(`Attempting to update balance for address ${address} (Attempt ${attempts + 1})...`);
+                    
+                    await new Promise((resolve, reject) => {
+                        const process = exec(command, (error, stdout, stderr) => {
                             if (error) {
                                 reject(`Error executing command for address ${address}: ${error.message}`);
                                 return;
@@ -50,27 +58,37 @@ async function updateAddressBalances() {
                             const balanceLine = lines.find(line => !isNaN(parseFloat(line)));
                             const balance = balanceLine ? parseFloat(balanceLine) : 'Balance not found';
 
+                            if (balance === 'Balance not found') {
+                                reject(`Balance not found in the output for address ${address}.`);
+                                return;
+                            }
+
                             // Update the address object with the balance
                             addressObj.balance = balance;
+                            console.log(`Balance for address ${address} set to ${balance}.`);
 
                             resolve();
                         });
+
+                        // Timeout after 30 seconds if exec doesn't resolve or reject
+                        setTimeout(() => {
+                            process.kill();
+                            reject(`Command for address ${address} timed out after 30 seconds.`);
+                        }, 30000);
                     });
 
                     // If successful, break out of the loop
                     console.log(`Balance for address ${address} updated successfully.`);
                     return;
                 } catch (err) {
-                    console.error(err);
-
-                    // Increment the attempt count and wait before retrying
+                    console.error(`Error for address ${address} on attempt ${attempts + 1}: ${err}`);
                     attempts++;
                     if (attempts < maxAttempts) {
-                        console.log(`Retrying in ${retryDelay / 1000} seconds...`);
+                        console.log(`Retrying address ${address} in ${retryDelay / 1000} seconds...`);
                         await delay(retryDelay);
                     } else {
-                        console.log(`Max attempts reached for address ${address}.`);
-                        throw new Error(`Failed to update balance for address ${address} after ${maxAttempts} attempts.`);
+                        console.log(`Max attempts reached for address ${address}. Marking as failed.`);
+                        addressObj.balance = 'Error'; // Mark as failed after max attempts
                     }
                 }
             }
@@ -78,20 +96,30 @@ async function updateAddressBalances() {
 
         // Process each valid address
         for (const addressObj of validAddresses) {
+            console.log(`Processing address ${addressObj.address}...`);
             try {
                 await updateBalance(addressObj);
             } catch (err) {
-                console.error(`Final error for address ${addressObj.address}: ${err.message}`);
+                console.error(`Failed to process address ${addressObj.address}: ${err.message}`);
+                addressObj.balance = 'Error'; // Mark as failed if an exception occurs
             }
         }
 
         // Write the updated addresses back to the file
+        console.log('Writing updated addresses back to addresses.json...');
         await fs.writeFile('addresses.json', JSON.stringify(addresses, null, 2), 'utf8');
         console.log('Addresses JSON file updated successfully.');
     } catch (err) {
-        console.error(`Error: ${err.message}`);
+        console.error(`General error: ${err.message}`);
     }
 }
 
-// Set an interval to call the function every 5 seconds
-setInterval(updateAddressBalances, 5000);
+// Instead of using setInterval, let's use a recursive function that waits for completion
+async function startUpdating() {
+    await updateAddressBalances();
+    await delay(5000); // Wait 5 seconds before starting the next cycle
+    startUpdating();
+}
+
+// Start the update loop
+startUpdating();

@@ -143,7 +143,10 @@ const processAddressesSequentially = async () => {
             const success = await processAddress(address);
 
             // Only proceed if processing was successful
-            if (!success) {
+            if (success) {
+                console.log(`Successfully processed address: ${address}. Waiting for 5 seconds before continuing.`);
+                await delay(5000);  // Wait for 5 seconds before continuing
+            } else {
                 console.error(`Failed to process address: ${address}`);
                 // Optionally, handle the failure case (e.g., retry, log more details)
             }
@@ -155,14 +158,11 @@ const processAddressesSequentially = async () => {
         console.error('Unexpected error in processing addresses:', error);
     } finally {
         isProcessing = false; // Reset the flag once processing is complete
+        // Re-run the process after the interval
+        setTimeout(processAddressesSequentially, interval);
     }
 };
 
-// Set an interval to run the processAddressesSequentially function every 5 seconds
-const interval = 5000; // 5 seconds
-setInterval(async () => {
-    await processAddressesSequentially();
-}, interval);
-
 // Start processing immediately
+const interval = 5000; // 5 seconds
 processAddressesSequentially();
