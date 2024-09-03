@@ -17,7 +17,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Function to mark an address as used and record the timestamp
 const markAddressAsUsed = (address) => {
-    const timestamp = new Date().toISOString(); // Get the current timestamp in ISO format
+    const timestamp = Math.floor(Date.now() / 1000); // Get the current timestamp in Unix time
     let addresses = JSON.parse(fs.readFileSync(addressesFilePath, 'utf-8'));
     addresses = addresses.map(addr =>
         addr.address === address ? { ...addr, used: true, usedAt: timestamp } : addr

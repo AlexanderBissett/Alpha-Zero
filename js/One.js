@@ -18,7 +18,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Function to mark an address as reversed and record the timestamp
 const markAddressAsReversed = (address) => {
-    const timestamp = new Date().toISOString(); // Get the current timestamp in ISO format
+    const timestamp = Math.floor(Date.now() / 1000); // Get the current timestamp in seconds (Linux timestamp)
     let addresses = JSON.parse(fs.readFileSync(addressesFilePath, 'utf-8'));
     addresses = addresses.map(addr =>
         addr.address === address ? { ...addr, reversed: true, reversedAt: timestamp } : addr
@@ -54,14 +54,18 @@ const runWrapCommand = (amount) => {
     });
 };
 
-// Function to check if an address is eligible for processing based on time
+// Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const oneMinute = 60 * 1000; // One minute in milliseconds
-    const usedAt = new Date(address.usedAt).getTime();
-    const now = new Date().getTime();
-    const timeDifference = now - usedAt;
-    // Check if more than one minute has passed and balance is a number and used is true
-    return timeDifference > oneMinute && typeof address.balance === 'number' && address.used === true;
+    const twoMinutesInSeconds = 2 * 60; // 2 minutes in seconds
+    const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
+
+    // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
+    return (
+        typeof address.balance === 'number' &&
+        address.used === true &&
+        typeof address.usedAt === 'number' &&
+        (currentTimestamp - address.usedAt) >= twoMinutesInSeconds
+    );
 };
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
@@ -77,9 +81,6 @@ const processAddress = async (inputMint, decimals, balance) => {
         console.error('Wrap command failed. Aborting further processing.');
         return false; // Stop processing if wrap command fails
     }
-
-    // Wait for 5 seconds before proceeding to the next steps
-    await delay(5000);
 
     // Continue with the rest of your processing...
     const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
@@ -204,19 +205,6 @@ const processAddress = async (inputMint, decimals, balance) => {
     return allConfirmed; // Return true only if all transactions were confirmed
 };
 
-// Function to check if there are new addresses to process
-const hasNewAddresses = (addresses) => {
-    return addresses.some(addr => !addr.reversed);
-};
-
-// Function to check if the address meets the time requirement
-const isTimeRequirementMet = (address) => {
-    const oneMinute = 60 * 1000 *15; // 15 minute in milliseconds
-    const usedAt = new Date(address.usedAt).getTime();
-    const now = new Date().getTime();
-    return now - usedAt > oneMinute; // More than 15 minute has passed since usedAt
-};
-
 // Function to process addresses sequentially
 const processAddressesSequentially = async () => {
     if (isProcessing) {
@@ -241,10 +229,6 @@ const processAddressesSequentially = async () => {
     // Process each address sequentially
     for (const address of addresses) {
         if (address.reversed) {
-            if (!isTimeRequirementMet(address)) {
-                console.log(`Address ${address.address} has not met the time requirement for processing.`);
-                continue; // Skip if address has not met the time requirement
-            }
             console.log(`Address ${address.address} already processed.`);
             continue; // Skip if already processed
         }
