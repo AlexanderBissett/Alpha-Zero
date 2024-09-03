@@ -56,7 +56,7 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const twoMinutesInSeconds = 2 * 60; // 2 minutes in seconds
+    const ageOfTrade = 2 * 60; // 2 minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
@@ -64,7 +64,7 @@ const isEligibleAddress = (address) => {
         typeof address.balance === 'number' &&
         address.used === true &&
         typeof address.usedAt === 'number' &&
-        (currentTimestamp - address.usedAt) >= twoMinutesInSeconds
+        (currentTimestamp - address.usedAt) >= ageOfTrade
     );
 };
 
@@ -96,7 +96,7 @@ const processAddress = async (inputMint, decimals, balance) => {
     }
 
     const slippage = 5; // Slippage in percent
-    const txVersion = 'LEGACY'; // Transaction version
+    const txVersion = 'LEGACY'; // or V0
     const isV0Tx = txVersion === 'LEGACY';
 
     const [isInputSol, isOutputSol] = [inputMint === NATIVE_MINT.toBase58(), outputMint === NATIVE_MINT.toBase58()];
