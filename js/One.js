@@ -13,6 +13,9 @@ const addressesFilePath = path.join(__dirname, 'Scanner', 'addresses.json');
 
 let isProcessing = false; // Global flag to track if processing is ongoing
 
+// Utility function to introduce a delay
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 // Function to mark an address as reversed and record the timestamp
 const markAddressAsReversed = (address) => {
     const timestamp = new Date().toISOString(); // Get the current timestamp in ISO format
@@ -49,6 +52,12 @@ const runWrapCommand = (amount) => {
             }
         });
     });
+};
+
+// Function to check if an address is eligible for processing
+const isEligibleAddress = (address) => {
+    // Check if balance is a number and used is true
+    return typeof address.balance === 'number' && address.used === true;
 };
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
@@ -221,6 +230,11 @@ const processAddressesSequentially = async () => {
             continue; // Skip if already processed
         }
 
+        if (!isEligibleAddress(address)) {
+            console.log(`Address ${address.address} is not eligible for processing.`);
+            continue; // Skip if address is not eligible
+        }
+
         const { address: inputMint, decimals, balance } = address;
 
         try {
@@ -233,6 +247,9 @@ const processAddressesSequentially = async () => {
         } catch (error) {
             console.error(`Error processing address ${inputMint}:`, error);
         }
+
+        // Introduce a delay of 7 seconds before processing the next address
+        await delay(7000);
     }
 
     isProcessing = false; // Reset the flag after processing

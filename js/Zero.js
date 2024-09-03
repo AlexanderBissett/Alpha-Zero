@@ -12,6 +12,9 @@ const addressesFilePath = path.join(__dirname, 'Scanner', 'addresses.json');
 
 let isProcessing = false; // Global flag to track if processing is ongoing
 
+// Utility function to introduce a delay
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 // Function to mark an address as used and record the timestamp
 const markAddressAsUsed = (address) => {
     const timestamp = new Date().toISOString(); // Get the current timestamp in ISO format
@@ -144,6 +147,9 @@ const processAddressesSequentially = async () => {
                 console.error(`Failed to process address: ${address}`);
                 // Optionally, handle the failure case (e.g., retry, log more details)
             }
+
+            // Wait for an additional 7 seconds before processing the next address
+            await delay(7000);
         }
     } catch (error) {
         console.error('Unexpected error in processing addresses:', error);
