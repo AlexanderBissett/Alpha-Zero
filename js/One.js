@@ -56,7 +56,7 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const twoMinutesInSeconds = 2 * 60; // 2 minutes in seconds
+    const twoMinutesInSeconds = 4 * 60; // 2 minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
@@ -77,6 +77,10 @@ const processAddress = async (inputMint, decimals, balance) => {
 
     // Run the wrap command with the fixed amount and ensure it succeeds before continuing
     const wrapSuccess = await runWrapCommand(fixedWrapAmount);
+
+    // Introduce a delay of at least 5 seconds after the wrap command
+    await delay(5000);
+
     if (!wrapSuccess) {
         console.error('Wrap command failed. Aborting further processing.');
         return false; // Stop processing if wrap command fails
