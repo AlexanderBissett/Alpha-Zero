@@ -1,3 +1,0 @@
-example shit coin:
-
-, "9HGgAppVE6RSAb64NJJhrcEwYVufEM7L83iGYJXLpump"

@@ -29,12 +29,18 @@ const runWrapCommand = (amount) => {
         const command = `spl-token wrap ${amount}`;
         exec(command, (error, stdout, stderr) => {
             if (error) {
-                console.error(`Error executing command: ${error}`);
-            }
-            if (stderr) {
+                // Check for the specific error message
+                if (stderr.includes("Error: Account already exists:")) {
+                    console.warn('Wrap command failed with specific error: Account already exists. Continuing processing.');
+                    resolve(true); // Continue processing despite the specific error
+                } else {
+                    console.error(`Error executing command: ${error}`);
+                    resolve(false); // Stop processing for other errors
+                }
+            } else if (stderr) {
                 console.error(`stderr: ${stderr}`);
-            }
-            if (stdout.includes('Signature:')) {
+                resolve(false); // Stop processing for stderr output
+            } else if (stdout.includes('Signature:')) {
                 console.log('Wrap command completed successfully.');
                 resolve(true); // Indicate success
             } else {
@@ -47,14 +53,22 @@ const runWrapCommand = (amount) => {
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
 const processAddress = async (inputMint, decimals, balance) => {
+    const fixedWrapAmount = 0.01; // Fixed wrap amount in SOL
+
+    console.log(`Processing address: ${inputMint}`);
+    console.log(`Fixed wrap amount: ${fixedWrapAmount} SOL`);
+
+    // Run the wrap command with the fixed amount and ensure it succeeds before continuing
+    const wrapSuccess = await runWrapCommand(fixedWrapAmount);
+    if (!wrapSuccess) {
+        console.error('Wrap command failed. Aborting further processing.');
+        return false; // Stop processing if wrap command fails
+    }
+
+    // Continue with the rest of your processing...
     const outputMint = NATIVE_MINT.toBase58(); // Convert to SOL
     const amount = balance * 10 ** decimals; // Use balance from the address data
 
-    // Log the calculated amount for debugging
-    console.log(`Processing address: ${inputMint}`);
-    console.log(`Calculated amount: ${amount} (balance: ${balance}, decimals: ${decimals})`);
-
-    // Ensure amount is a valid number
     if (isNaN(amount) || amount <= 0) {
         console.error(`Invalid amount calculated: ${amount}`);
         return false; // Indicate failure
@@ -137,7 +151,6 @@ const processAddress = async (inputMint, decimals, balance) => {
                 tx.sign([owner]);
                 const txId = await sendAndConfirmTransaction(connection, tx, [owner], { skipPreflight: true });
                 console.log(`${idx} transaction confirmed, txId: ${txId}`);
-                // Mark the address as reversed only if all transactions are confirmed
                 if (idx === allTransactions.length) {
                     markAddressAsReversed(inputMint);
                 }
@@ -161,7 +174,6 @@ const processAddress = async (inputMint, decimals, balance) => {
                     signature: txId,
                 }, 'confirmed');
                 console.log(`${idx} transaction confirmed`);
-                // Mark the address as reversed only if all transactions are confirmed
                 if (idx === allTransactions.length) {
                     markAddressAsReversed(inputMint);
                 }
@@ -199,64 +211,39 @@ const processAddressesSequentially = async () => {
     } else {
         console.error('addresses.json file not found.');
         isProcessing = false; // Reset the flag
-        return; // Exit the function if the file is not found
+        return; // Exit the function if file is not found
     }
 
-    // Check if there are new addresses to process
-    const newAddressesExist = hasNewAddresses(addresses);
-
-    if (!newAddressesExist) {
-        console.log("No new addresses found, will check again in 5 seconds.");
-        isProcessing = false; // Reset the flag
-        return;
-    }
-
-    // Run the wrap command if new addresses are detected
-    try {
-        await runWrapCommand(0.015); // Ensure wrap command is completed
-    } catch (error) {
-        console.error('Wrap command failed. Continuing without wrap.');
-    }
-
-    // Filter non-reversed addresses
-    const nonReversedAddresses = addresses.filter(addr => !addr.reversed);
-
-    // Track processed addresses
-    const processedAddresses = new Set();
-
-    for (const addressObj of nonReversedAddresses) {
-        const { address, decimals, balance } = addressObj; // Extract address, decimals, and balance
-
-        // Ensure the address hasn't been processed already
-        if (processedAddresses.has(address)) {
-            console.log(`Address ${address} has already been processed.`);
-            continue;
+    // Process each address sequentially
+    for (const address of addresses) {
+        if (address.reversed) {
+            console.log(`Address ${address.address} already processed.`);
+            continue; // Skip if already processed
         }
 
-        // Process the current address and wait for completion
-        console.log("Processing address:", address);
-        const success = await processAddress(address, decimals, balance);
+        const { address: inputMint, decimals, balance } = address;
 
-        // Only proceed if processing was successful
-        if (!success) {
-            console.error(`Failed to process address: ${address}`);
-            // Optionally, handle the failure case (e.g., retry, log more details)
-        } else {
-            // Mark address as processed
-            processedAddresses.add(address);
+        try {
+            const success = await processAddress(inputMint, decimals, balance);
+            if (success) {
+                console.log(`Successfully processed address: ${inputMint}`);
+            } else {
+                console.error(`Failed to process address: ${inputMint}`);
+            }
+        } catch (error) {
+            console.error(`Error processing address ${inputMint}:`, error);
         }
     }
 
-    isProcessing = false; // Reset the flag once processing is complete
+    isProcessing = false; // Reset the flag after processing
 };
 
-// Start processing immediately
-processAddressesSequentially();
+// Function to periodically check for new addresses
+const startProcessingInterval = (intervalMs = 10000) => {
+    setInterval(() => {
+        processAddressesSequentially();
+    }, intervalMs);
+};
 
-// Set an interval to run the processAddressesSequentially function every 5 seconds
-const interval = 5000; // 5 seconds
-setInterval(async () => {
-    if (!isProcessing) {
-        await processAddressesSequentially();
-    }
-}, interval);
+// Start the processing loop
+startProcessingInterval();

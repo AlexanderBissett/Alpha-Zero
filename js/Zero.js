@@ -24,6 +24,7 @@ const markAddressAsUsed = (address) => {
 
 // Function to process an address and return a promise that resolves when processing is complete
 const processAddress = async (outputMint) => {
+    console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
     const amount = 15000000; // Example amount
     const slippage = 5; // Slippage in percent
@@ -50,6 +51,7 @@ const processAddress = async (outputMint) => {
 
     let data, swapResponse, swapTransactions, allTxBuf, allTransactions;
     try {
+        console.log('Fetching transaction data...');
         data = (await axios.get(`${API_URLS.BASE_HOST}${API_URLS.PRIORITY_FEE}`)).data;
         swapResponse = (await axios.get(`${API_URLS.SWAP_HOST}/compute/swap-base-in?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippageBps=${slippage * 100}&txVersion=${txVersion}`)).data;
         swapTransactions = (await axios.post(`${API_URLS.SWAP_HOST}/transaction/swap-base-in`, {
@@ -97,6 +99,7 @@ const processAddress = async (outputMint) => {
         }
     }
 
+    console.log(`Completed processing for address: ${outputMint}`);
     return allConfirmed; // Return true only if all transactions were confirmed
 };
 
@@ -109,42 +112,44 @@ const processAddressesSequentially = async () => {
 
     isProcessing = true; // Set the flag to indicate processing is in progress
 
-    let addresses = [];
+    try {
+        let addresses = [];
 
-    // Load addresses from the file
-    if (fs.existsSync(addressesFilePath)) {
-        const fileContent = fs.readFileSync(addressesFilePath, 'utf-8');
-        addresses = JSON.parse(fileContent);
-    } else {
-        console.error('addresses.json file not found.');
-        isProcessing = false; // Reset the flag
-        return; // Exit the function if the file is not found
-    }
-
-    // Filter unused wallet addresses
-    const unusedWalletAddresses = addresses.filter(addr => !addr.used && addr.wallet);
-
-    if (unusedWalletAddresses.length === 0) {
-        console.log("No unused wallet addresses found, will check again in 5 seconds.");
-        isProcessing = false; // Reset the flag
-        return;
-    }
-
-    for (const addressObj of unusedWalletAddresses) {
-        const address = addressObj.address;
-
-        // Process the current address and wait for completion
-        console.log("Processing address:", address);
-        const success = await processAddress(address);
-
-        // Only proceed if processing was successful
-        if (!success) {
-            console.error(`Failed to process address: ${address}`);
-            // Optionally, handle the failure case (e.g., retry, log more details)
+        // Load addresses from the file
+        if (fs.existsSync(addressesFilePath)) {
+            const fileContent = fs.readFileSync(addressesFilePath, 'utf-8');
+            addresses = JSON.parse(fileContent);
+        } else {
+            console.error('addresses.json file not found.');
+            return; // Exit the function if the file is not found
         }
-    }
 
-    isProcessing = false; // Reset the flag once processing is complete
+        // Filter unused wallet addresses
+        const unusedWalletAddresses = addresses.filter(addr => !addr.used && addr.wallet);
+
+        if (unusedWalletAddresses.length === 0) {
+            console.log("No unused wallet addresses found, will check again in 5 seconds.");
+            return;
+        }
+
+        for (const addressObj of unusedWalletAddresses) {
+            const address = addressObj.address;
+
+            // Process the current address and wait for completion
+            console.log("Processing address:", address);
+            const success = await processAddress(address);
+
+            // Only proceed if processing was successful
+            if (!success) {
+                console.error(`Failed to process address: ${address}`);
+                // Optionally, handle the failure case (e.g., retry, log more details)
+            }
+        }
+    } catch (error) {
+        console.error('Unexpected error in processing addresses:', error);
+    } finally {
+        isProcessing = false; // Reset the flag once processing is complete
+    }
 };
 
 // Set an interval to run the processAddressesSequentially function every 5 seconds

@@ -5,17 +5,17 @@
     "used": true,
     "reversed": true,
     "wallet": true,
-    "usedAt": "2024-09-03T14:22:19.019Z",
-    "balance": 3.953457,
-    "reversedAt": "2024-09-03T14:34:11.641Z"
+    "usedAt": "2024-09-03T11:20:38.114Z",
+    "balance": 1.311456,
+    "reversedAt": "2024-09-03T11:26:29.273Z"
   },
   {
     "address": "Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",
     "decimals": 6,
     "used": true,
-    "reversed": false,
+    "reversed": true,
     "wallet": true,
-    "usedAt": "2024-09-03T14:23:12.589Z",
-    "balance": 304919.989869
+    "balance": 274445.9856,
+    "reversedAt": "2024-09-02T20:41:35.701Z"
   }
 ]

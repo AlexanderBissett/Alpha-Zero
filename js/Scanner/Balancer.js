@@ -10,7 +10,8 @@ async function updateAddressBalances() {
         // Filter the addresses based on the conditions
         const validAddresses = addresses.filter(addressObj => 
             addressObj.used && 
-            !addressObj.reversed
+            !addressObj.reversed && 
+            addressObj.balance === undefined // Ignore addresses that already have a balance
         );
 
         if (validAddresses.length === 0) {
@@ -37,6 +38,7 @@ async function updateAddressBalances() {
 
                     // Extract the balance from the output
                     const lines = stdout.split('\n');
+                    console.log(`Command output for ${address}:`, stdout); // Added for debugging
                     const balanceLine = lines.find(line => !isNaN(parseFloat(line)));
                     const balance = balanceLine ? parseFloat(balanceLine) : 'Balance not found';
 
@@ -50,11 +52,6 @@ async function updateAddressBalances() {
 
         // Process each valid address
         for (const addressObj of validAddresses) {
-            if (addressObj.balance !== undefined) {
-                console.log(`Skipping address ${addressObj.address} as it already has a balance.`);
-                continue;
-            }
-
             try {
                 await updateBalance(addressObj);
                 console.log(`Balance for address ${addressObj.address} updated successfully.`);
