@@ -54,10 +54,14 @@ const runWrapCommand = (amount) => {
     });
 };
 
-// Function to check if an address is eligible for processing
+// Function to check if an address is eligible for processing based on time
 const isEligibleAddress = (address) => {
-    // Check if balance is a number and used is true
-    return typeof address.balance === 'number' && address.used === true;
+    const oneMinute = 60 * 1000; // One minute in milliseconds
+    const usedAt = new Date(address.usedAt).getTime();
+    const now = new Date().getTime();
+    const timeDifference = now - usedAt;
+    // Check if more than one minute has passed and balance is a number and used is true
+    return timeDifference > oneMinute && typeof address.balance === 'number' && address.used === true;
 };
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
@@ -202,6 +206,14 @@ const hasNewAddresses = (addresses) => {
     return addresses.some(addr => !addr.reversed);
 };
 
+// Function to check if the address meets the time requirement
+const isTimeRequirementMet = (address) => {
+    const oneMinute = 60 * 1000; // One minute in milliseconds
+    const reversedAt = new Date(address.reversedAt).getTime();
+    const now = new Date().getTime();
+    return now - reversedAt > oneMinute; // More than one minute has passed
+};
+
 // Function to process addresses sequentially
 const processAddressesSequentially = async () => {
     if (isProcessing) {
@@ -226,6 +238,10 @@ const processAddressesSequentially = async () => {
     // Process each address sequentially
     for (const address of addresses) {
         if (address.reversed) {
+            if (!isTimeRequirementMet(address)) {
+                console.log(`Address ${address.address} has not met the time requirement for processing.`);
+                continue; // Skip if address has not met the time requirement
+            }
             console.log(`Address ${address.address} already processed.`);
             continue; // Skip if already processed
         }
