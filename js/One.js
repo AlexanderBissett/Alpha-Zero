@@ -11,8 +11,6 @@ const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 // Path to the file where unique addresses are stored
 const addressesFilePath = path.join(__dirname, 'Scanner', 'addresses.json');
 
-let isProcessing = false; // Global flag to track if processing is ongoing
-
 // Utility function to introduce a delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -56,7 +54,7 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const ageOfTrade = 15 * 60; // 15 minutes in seconds
+    const ageOfTrade = 1 * 60; // 15 minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
@@ -70,7 +68,7 @@ const isEligibleAddress = (address) => {
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
 const processAddress = async (inputMint, decimals, balance) => {
-    const fixedWrapAmount = 0.005; // Fixed wrap amount in SOL
+    const fixedWrapAmount = 0.002; // Fixed wrap amount in SOL
 
     console.log(`Processing address: ${inputMint}`);
     console.log(`Fixed wrap amount: ${fixedWrapAmount} SOL`);
@@ -211,12 +209,6 @@ const processAddress = async (inputMint, decimals, balance) => {
 
 // Function to process addresses sequentially
 const processAddressesSequentially = async () => {
-    if (isProcessing) {
-        console.log("Processing already in progress. Skipping this run.");
-        return; // Skip if already processing
-    }
-
-    isProcessing = true; // Set the flag to indicate processing is in progress
 
     let addresses = [];
 
@@ -226,7 +218,6 @@ const processAddressesSequentially = async () => {
         addresses = JSON.parse(fileContent);
     } else {
         console.error('addresses.json file not found.');
-        isProcessing = false; // Reset the flag
         return; // Exit the function if file is not found
     }
 
@@ -258,16 +249,7 @@ const processAddressesSequentially = async () => {
         // Introduce a delay of 7 seconds before processing the next address
         await delay(7000);
     }
-
-    isProcessing = false; // Reset the flag after processing
 };
 
-// Function to periodically check for new addresses
-const startProcessingInterval = (intervalMs = 5000) => {
-    setInterval(() => {
-        processAddressesSequentially();
-    }, intervalMs);
-};
-
-// Start the processing loop
-startProcessingInterval();
+// Start the processing once
+processAddressesSequentially();

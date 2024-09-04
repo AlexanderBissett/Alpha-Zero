@@ -8,22 +8,8 @@ function runCommand(command) {
 // Run the Scanner bot
 runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Alpha.js');
 
-// Wait 5 seconds before running the B·R·A·I·N bot
+// Wait 5 seconds before running the Master
 setTimeout(() => {
-  runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Brain.mjs');
-}, 5000);
+  runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Master.mjs');
+}, 7500);
 
-// Wait 5 seconds before running the Balancer bot
-setTimeout(() => {
-  runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Balancer.js');
-}, 10000);
-
-// Wait 5 seconds before running the Gambler bot
-setTimeout(() => {
-  runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Zero.js');
-}, 15000);
-
-// Wait 5 seconds before running the Collector Bot
-setTimeout(() => {
-  runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\One.js');
-}, 20000);

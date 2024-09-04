@@ -126,11 +126,5 @@ const main = async () => {
     }
 };
 
-// Define the interval (5 minutes)
-const interval = 5 * 60 * 1000; // Convert to milliseconds
-
-// Start the interval
-setInterval(main, interval);
-
 // Run the main function immediately as well
 main();

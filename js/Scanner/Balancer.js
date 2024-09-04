@@ -109,12 +109,5 @@ async function updateAddressBalances() {
     }
 }
 
-// Instead of using setInterval, let's use a recursive function that waits for completion
-async function startUpdating() {
-    await updateAddressBalances();
-    await delay(5000); // Wait 5 seconds before starting the next cycle
-    startUpdating();
-}
-
-// Start the update loop
-startUpdating();
+// Start the update process (only once, no recursion)
+updateAddressBalances();

@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 6SfbYzsuXVdTfTd6Hq81tBN1GRPjF6MTxAudhdZHpump
+Name: wednesday
+Symbol: dudes
+Volume1: 553324
+Liquidity: 17531
+MarketCap: 126486
+PriceUSD: 0.000128412714462
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 4WpNmupHLvVKtUyGgAJZmUTEhZFedQ35ajL8CcP6pump
+Name: Jim Pinkman
+Symbol: JIM
+Volume1: 60191
+Liquidity: 11898
+MarketCap: 64155
+PriceUSD: 0.0000641545733922
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

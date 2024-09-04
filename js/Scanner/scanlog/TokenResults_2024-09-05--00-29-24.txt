@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 4WpNmupHLvVKtUyGgAJZmUTEhZFedQ35ajL8CcP6pump
+Name: Jim Pinkman
+Symbol: JIM
+Volume1: 20630
+Liquidity: 14953
+MarketCap: 102140
+PriceUSD: 0.000102139545485
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 8FHzwMkhWiTEpvbtnqbVVRd8L5j47MdbE2V5TKP5MdCY
+Name: 👑Snapchat Cat
+Symbol: SNAPCAT
+Volume1: 14209
+Liquidity: 101200
+MarketCap: 116716
+PriceUSD: 0.0000132631613927
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+

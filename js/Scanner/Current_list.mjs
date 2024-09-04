@@ -1,1 +1,1 @@
-export const tokenAddresses = [["E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump",6],["FVUeoA7gk12R2X9nYqo6WN4SEj45Wt2URaeFBA6xpump",6],["3DBsMt8uxGLPk2xRviTzfuDjSoCvbek5JqRhG2oPPa9P",9],["5ySTsiVCLDD72S9gCQQzYtkgpDoqzyiXB2by8r7QfRY3",9],["EEJjfw835rpHFr6jLKLwAEJZDBik6gTyre55ubndpump",6]];
+export const tokenAddresses = [["6SfbYzsuXVdTfTd6Hq81tBN1GRPjF6MTxAudhdZHpump",6],["8FHzwMkhWiTEpvbtnqbVVRd8L5j47MdbE2V5TKP5MdCY",9]];

@@ -42,7 +42,7 @@ function fetchAndSaveTokenResults() {
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
-    limit: 5
+    limit: 2
   ) {
     results {
       volume1

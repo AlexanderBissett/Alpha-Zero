@@ -29,7 +29,7 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    const amount = 10000000; // Example amount
+    const amount = 4000000; // Example amount
     const slippage = 5; // Slippage in percent
     const txVersion = 'LEGACY'; // Transaction version
     const isV0Tx = txVersion === 'LEGACY';
@@ -158,11 +158,10 @@ const processAddressesSequentially = async () => {
         console.error('Unexpected error in processing addresses:', error);
     } finally {
         isProcessing = false; // Reset the flag once processing is complete
-        // Re-run the process after the interval
-        setTimeout(processAddressesSequentially, interval);
+        // Do not re-run the process
+        // setTimeout(processAddressesSequentially, interval); // Commented out to ensure it runs only once
     }
 };
 
 // Start processing immediately
-const interval = 5000; // 5 seconds
 processAddressesSequentially();
