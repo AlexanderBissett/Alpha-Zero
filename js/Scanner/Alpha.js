@@ -16,7 +16,7 @@ function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
   let hours = 1;
-  let minutes = 60;
+  let minutes = 5;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -42,7 +42,7 @@ function fetchAndSaveTokenResults() {
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
-    limit: 2
+    limit: 5
   ) {
     results {
       volume1
