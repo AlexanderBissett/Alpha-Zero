@@ -12,4 +12,3 @@ runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Alpha.js');
 setTimeout(() => {
   runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Master.mjs');
 }, 7500);
-
