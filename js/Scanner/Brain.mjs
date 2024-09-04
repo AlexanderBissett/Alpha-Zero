@@ -51,7 +51,7 @@ const main = async () => {
     await getBalance();
 
     // Path to the file where unique addresses will be stored
-    const addressesFilePath = path.join('./', 'addresses.json');
+    const addressesFilePath = 'C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json';
 
     // Load existing addresses from the file
     let existingAddresses = [];
@@ -96,7 +96,7 @@ const main = async () => {
 
             if (stderr) {
                 // Check if the error indicates the account already exists
-                if (stderr.includes("Error: Account already exists")) {
+                if (stderr.includes("Error: Account already exists:")) {
                     console.warn(`Account already exists for address ${address}. Marking wallet as true.`);
                     entry.wallet = true;
                 } else {
@@ -113,7 +113,7 @@ const main = async () => {
 
         } catch (error) {
             // Analyze the error message in the catch block
-            if (error.message.includes("Error: Account already exists")) {
+            if (error.message.includes("Error: Account already exists:")) {
                 console.warn(`Account already exists for address ${address}. Marking wallet as true.`);
                 entry.wallet = true;
 

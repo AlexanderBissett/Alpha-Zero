@@ -16,14 +16,14 @@ setTimeout(() => {
 // Wait 5 seconds before running the Balancer bot
 setTimeout(() => {
   runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\Balancer.js');
-}, 5000);
+}, 10000);
 
 // Wait 5 seconds before running the Gambler bot
 setTimeout(() => {
   runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\Zero.js');
-}, 5000);
+}, 15000);
 
 // Wait 5 seconds before running the Collector Bot
 setTimeout(() => {
   runCommand('node C:\\Users\\Alexander\\AlphaZero\\js\\One.js');
-}, 5000);
+}, 20000);

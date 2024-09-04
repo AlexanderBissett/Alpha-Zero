@@ -56,7 +56,7 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const ageOfTrade = 2 * 60; // 2 minutes in seconds
+    const ageOfTrade = 15 * 60; // 15 minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // Check if balance is a number, used is true, and usedAt is at least 2 minutes old
@@ -70,7 +70,7 @@ const isEligibleAddress = (address) => {
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
 const processAddress = async (inputMint, decimals, balance) => {
-    const fixedWrapAmount = 0.01; // Fixed wrap amount in SOL
+    const fixedWrapAmount = 0.005; // Fixed wrap amount in SOL
 
     console.log(`Processing address: ${inputMint}`);
     console.log(`Fixed wrap amount: ${fixedWrapAmount} SOL`);
@@ -263,7 +263,7 @@ const processAddressesSequentially = async () => {
 };
 
 // Function to periodically check for new addresses
-const startProcessingInterval = (intervalMs = 10000) => {
+const startProcessingInterval = (intervalMs = 5000) => {
     setInterval(() => {
         processAddressesSequentially();
     }, intervalMs);

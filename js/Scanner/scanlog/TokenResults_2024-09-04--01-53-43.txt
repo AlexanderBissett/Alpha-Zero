@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 52JH5NDsE9Z1kx1gAjD3rrp5RRAcbm9TH4hmSJQ7cPwJ
+Name: BOZO THE BABOON
+Symbol: BOZO
+Volume1: 82855
+Liquidity: 17269
+MarketCap: 229997
+PriceUSD: 0.000229997463148
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+

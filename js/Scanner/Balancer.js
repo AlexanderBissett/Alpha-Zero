@@ -6,16 +6,11 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function updateAddressBalances() {
     try {
-        console.log('Starting updateAddressBalances function.');
-
         // Read the addresses from the addresses.json file
-        console.log('Reading addresses.json file...');
-        const data = await fs.readFile('addresses.json', 'utf8');
+        const data = await fs.readFile('C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json', 'utf8');
         const addresses = JSON.parse(data);
-        console.log('addresses.json file read successfully.');
 
         // Filter the addresses based on the conditions
-        console.log('Filtering valid addresses...');
         const validAddresses = addresses.filter(addressObj => 
             addressObj.used && 
             !addressObj.reversed && 
@@ -107,7 +102,7 @@ async function updateAddressBalances() {
 
         // Write the updated addresses back to the file
         console.log('Writing updated addresses back to addresses.json...');
-        await fs.writeFile('addresses.json', JSON.stringify(addresses, null, 2), 'utf8');
+        await fs.writeFile('C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json', JSON.stringify(addresses, null, 2), 'utf8');
         console.log('Addresses JSON file updated successfully.');
     } catch (err) {
         console.error(`General error: ${err.message}`);

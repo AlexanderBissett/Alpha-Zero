@@ -1,0 +1,22 @@
+[
+  {
+    "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725402220,
+    "balance": 1.325797,
+    "reversedAt": 1725402381
+  },
+  {
+    "address": "Ch6U8MDg7B8P3SHrjcPvDDkqLpG73JSrfvJErsQfpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725402287,
+    "balance": 622528.411213,
+    "reversedAt": 1725402452
+  }
+]

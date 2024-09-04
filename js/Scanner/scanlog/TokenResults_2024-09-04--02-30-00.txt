@@ -1,0 +1,56 @@
+Token Results:
+Token Address: E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump
+Name: Shill and earn
+Symbol: SAE
+Volume1: 1200391
+Liquidity: 21826
+MarketCap: 174415
+PriceUSD: 0.00017441786933
+Decimals: 6
+Exchanges: Raydium, Meteora, Pump
+NetworkId: 1399811149
+
+Token Address: FVUeoA7gk12R2X9nYqo6WN4SEj45Wt2URaeFBA6xpump
+Name: Baguette smoking a Faguette
+Symbol: BAGFAG
+Volume1: 76546
+Liquidity: 13315
+MarketCap: 67622
+PriceUSD: 0.0000697394936672
+Decimals: 6
+Exchanges: Raydium, Pump, Meteora
+NetworkId: 1399811149
+
+Token Address: 5ySTsiVCLDD72S9gCQQzYtkgpDoqzyiXB2by8r7QfRY3
+Name: Megan Fox
+Symbol: MeganFox
+Volume1: 14632
+Liquidity: 104685
+MarketCap: 122236
+PriceUSD: 0.0000165183978932
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 52JH5NDsE9Z1kx1gAjD3rrp5RRAcbm9TH4hmSJQ7cPwJ
+Name: BOZO THE BABOON
+Symbol: BOZO
+Volume1: 120575
+Liquidity: 14069
+MarketCap: 150888
+PriceUSD: 0.0001508880927
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 3DBsMt8uxGLPk2xRviTzfuDjSoCvbek5JqRhG2oPPa9P
+Name: Pumped Trump
+Symbol: PTRUMP
+Volume1: 17055
+Liquidity: 104051
+MarketCap: 123968
+PriceUSD: 0.0000160997871434
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+

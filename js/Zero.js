@@ -29,7 +29,7 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    const amount = 15000000; // Example amount
+    const amount = 10000000; // Example amount
     const slippage = 5; // Slippage in percent
     const txVersion = 'LEGACY'; // Transaction version
     const isV0Tx = txVersion === 'LEGACY';

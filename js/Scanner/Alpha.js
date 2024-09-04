@@ -1,12 +1,22 @@
 import axios from "axios";
 import fs from "fs";
+import path from "path";
+
+// Define the folder paths
+const baseFolder = "C:\\Users\\Alexander\\AlphaZero\\js\\Scanner";
+const logFolder = path.join(baseFolder, "scanlog");
+
+// Ensure the log folder exists
+if (!fs.existsSync(logFolder)) {
+  fs.mkdirSync(logFolder, { recursive: true });
+}
 
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
   let hours = 1;
-  let minutes = 5;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -32,7 +42,7 @@ function fetchAndSaveTokenResults() {
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
-    limit: 30
+    limit: 5
   ) {
     results {
       volume1
@@ -90,8 +100,8 @@ function fetchAndSaveTokenResults() {
 
       const formattedDate = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
       const filenameBase = `TokenResults_${formattedDate}`;
-      const txtFilename = `${filenameBase}.txt`;
-      const jsFilename = `Current_list.mjs`;
+      const txtFilename = path.join(logFolder, `${filenameBase}.txt`);
+      const jsFilename = path.join(baseFolder, `Current_list.mjs`);
 
       // Write the token addresses to a JavaScript file with decimals
       const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(Array.from(tokenAddresses.entries()))};`;
