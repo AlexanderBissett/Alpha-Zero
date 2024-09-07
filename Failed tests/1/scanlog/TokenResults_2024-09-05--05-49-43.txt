@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 5NRbCCtFnXJ7hZwRDaA5FN5vh8k55TQbr9pD5Jhpr4Fs
+Name: FWOG
+Symbol: FWOG
+Volume1: 192715
+Liquidity: 59094
+MarketCap: 524938
+PriceUSD: 0.000524937750961
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

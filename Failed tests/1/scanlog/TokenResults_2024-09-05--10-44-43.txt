@@ -1,0 +1,12 @@
+Token Results:
+Token Address: YcUzxsUL4wTETS1qWe5HsgCHNaQz9wddcoL2L62xn7k
+Name: Half of Pepe
+Symbol: PE
+Volume1: 27576
+Liquidity: 11776
+MarketCap: 63466
+PriceUSD: 0.0000634661549818
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

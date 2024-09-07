@@ -1,0 +1,34 @@
+Token Results:
+Token Address: HCW2KKFbE8dPB3dRw1khU96bKBqZ935yuhLSxwDKpump
+Name: Bara
+Symbol: BARA
+Volume1: 37265
+Liquidity: 12197
+MarketCap: 70440
+PriceUSD: 0.0000704397122504
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: C7xcjdhTfpiaErz3raCHS1xyjzoW4yi9bmyoUv5Vpump
+Name: Toshi
+Symbol: TOSHI
+Volume1: 15659
+Liquidity: 13856
+MarketCap: 14414163
+PriceUSD: 0.0144141633796
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: EDSzd96u7jtLZZCHDHr82XoUXrqB6a1tfwhucFWGpump
+Name: Wolf
+Symbol: Wolf
+Volume1: 13405
+Liquidity: 13022
+MarketCap: 12732142
+PriceUSD: 0.0127321423041
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

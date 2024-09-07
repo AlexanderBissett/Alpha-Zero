@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+Name: Aitrolls
+Symbol: Aitrolls
+Volume1: 13359
+Liquidity: 15546
+MarketCap: 110194
+PriceUSD: 0.000110193827868
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+Name: eddy 
+Symbol: eddy
+Volume1: 26190
+Liquidity: 11264
+MarketCap: 56737
+PriceUSD: 0.0000576470737256
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

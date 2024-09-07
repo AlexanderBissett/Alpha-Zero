@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 5jgNetFMKvaKLDJKGGxRE3LqJap3x8kvbW3TK1XZpump
+Name: POX
+Symbol: POX
+Volume1: 19012
+Liquidity: 11590
+MarketCap: 61436
+PriceUSD: 0.0000614362039457
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

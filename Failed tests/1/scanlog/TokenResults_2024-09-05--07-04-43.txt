@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 264ZqVYEmwCj4GLzNfqoYBC9XCngHyQ2gkdW4Gdrpump
+Name: PikachuYodaR2D2MickyMouseShrek
+Symbol: OPENAI
+Volume1: 15315
+Liquidity: 10948
+MarketCap: 54888
+PriceUSD: 0.0000548884029293
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 6xxC8eY4bhvFibH9V1TsesSxsG1EP1D4JDsFget4pump
+Name: Hedge.Fun
+Symbol: $HEDGE
+Volume1: 206368
+Liquidity: 19300
+MarketCap: 168619
+PriceUSD: 0.00016861885324
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

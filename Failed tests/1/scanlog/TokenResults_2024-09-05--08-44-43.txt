@@ -1,0 +1,45 @@
+Token Results:
+Token Address: G3xVGNrvV7AsBzbeuH13i9iA7FoYmQNoB53qG7BNpump
+Name: InsightAi
+Symbol: INSIGHT
+Volume1: 12229
+Liquidity: 12816
+MarketCap: 76141
+PriceUSD: 0.0000761410547766
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: BPNEfjuG6H4bUvZ7qaZ8jYr2qwQYcxMQB45j31mKpump
+Name: SUNFLOWER LAND
+Symbol: $LAND
+Volume1: 12720
+Liquidity: 12604
+MarketCap: 11629332
+PriceUSD: 0.011629332239
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 6SPuuAQCsta448Q4NDPdNdgQtqgkHhzzpMYHwo9zpump
+Name: PumpFunTrading
+Symbol: PFT
+Volume1: 301571
+Liquidity: 14525
+MarketCap: 95590
+PriceUSD: 0.0000955898275361
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 3GGw6yRyMV1TtTqbhgT6tueatbi76BFYPHNQeQTSpump
+Name: DBait
+Symbol: DBait 
+Volume1: 16661
+Liquidity: 12132
+MarketCap: 68170
+PriceUSD: 0.0000681695511347
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

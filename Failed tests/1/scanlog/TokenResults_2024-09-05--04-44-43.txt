@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 7NZWHRtuEyncsNw7rWc7rwC6wf7ZtQ25vafRgLeEpump
+Name: Guts
+Symbol: GUTS
+Volume1: 62233
+Liquidity: 14602
+MarketCap: 96602
+PriceUSD: 0.0000966017195567
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

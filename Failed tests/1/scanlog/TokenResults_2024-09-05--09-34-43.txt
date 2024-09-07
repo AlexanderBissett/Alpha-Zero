@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 7jYhuM9NauX34igUqzzRZEekgNpDUBnsticqmcy5pump
+Name: FwogWifHat
+Symbol: FWIF
+Volume1: 48386
+Liquidity: 10602
+MarketCap: 51061
+PriceUSD: 0.0000510614709563
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: CLVoZzjbhxGGjodFQ9zgZwFbxk6YXB2FH5NLv2jVpump
+Name: SAH
+Symbol: SAH
+Volume1: 79939
+Liquidity: 90461
+MarketCap: 3746911
+PriceUSD: 0.00374691066003
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

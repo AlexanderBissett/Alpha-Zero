@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 61UGPjdpGPBqa7DrFa312kYmok5Q5AvuHQhGXBUn9abq
+Name: PUFFY
+Symbol: Puffy
+Volume1: 257857
+Liquidity: 202421
+MarketCap: 305409207
+PriceUSD: 0.305409206832
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: CP4AK1sZfucyM7LBFr2eMJqd9wYcfR9nay8QgiC2pump
+Name: All A Man Needs 
+Symbol: Head
+Volume1: 32553
+Liquidity: 11045
+MarketCap: 55554
+PriceUSD: 0.0000555538663228
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

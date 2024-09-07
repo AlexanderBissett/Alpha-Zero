@@ -1,0 +1,12 @@
+Token Results:
+Token Address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+Name: eddy 
+Symbol: eddy
+Volume1: 46041
+Liquidity: 10286
+MarketCap: 47059
+PriceUSD: 0.0000478139355368
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

@@ -1,0 +1,12 @@
+Token Results:
+Token Address: DoV1LiVHtQSjP1mkPEU8P7FyahM4daK3eddVtLrhHie9
+Name: PixelCat
+Symbol: PCAT
+Volume1: 33300
+Liquidity: 13007
+MarketCap: 27045
+PriceUSD: 0.0000391963449691
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

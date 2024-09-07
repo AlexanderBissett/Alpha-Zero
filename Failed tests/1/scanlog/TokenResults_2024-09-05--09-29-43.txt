@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 7jYhuM9NauX34igUqzzRZEekgNpDUBnsticqmcy5pump
+Name: FwogWifHat
+Symbol: FWIF
+Volume1: 17698
+Liquidity: 10663
+MarketCap: 52052
+PriceUSD: 0.0000520518860591
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

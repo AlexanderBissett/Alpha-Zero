@@ -11,7 +11,7 @@ const execPromise = promisify(exec);
 const command = 'solana balance';
 
 // Define the reserve amount (e.g., 0.15 SOL)
-const reserveAmount = 0.0015; // 20 Eur aprox.
+const reserveAmount = 0.008; // 1 Eur aprox.
 
 // Function to get the balance
 const getBalance = async () => {

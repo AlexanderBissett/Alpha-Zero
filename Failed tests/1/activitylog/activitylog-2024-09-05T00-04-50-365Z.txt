@@ -1,0 +1,2462 @@
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.148486714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.146986714 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Account created for address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump: Creating account CBfMNHqDE3VMpe24hisnBmZ14B1UemPJJd4manvu1s9F
+
+Signature: 4HtJ9PJkjiRh7nFmo5NkLYH31Hz2xquk8b9A1svZG8ZxipPVETCfvz3UcxSkJMm5nzzjbD4A58jkt7RgocDiRRcn
+
+
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Account created for address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump: Creating account G7CEuWK93M2zYv2jwhb4QE3tUvBPcTQ77vprAL8wFyEB
+
+Signature: 2qPRDAgHKDdwtRGhPaBYHHHwekbrN4XJooh2NsTFhKKr8495eamLHQw57vTbZLNfM55Rqvbu4R8xemq7tcqLNiRM
+
+
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Processing address: HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Starting to process address with outputMint: HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Fetching transaction data...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Total 1 transactions {
+  id: '4a7a6570-25c5-43a7-89cb-d7b1590236d7-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcO9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2RnXbZh6UJgimXLrGrbY7FBBgTBD/1hJ7pJb2CObDx0RS9lJxDYCwz8gd5DtFqNSTKG5l1zxIaKpDP/sffi2is1vmwlpgKeRz0WSUZD4OWiI9wo6Gn/E/4If/GYMAgMRlqYrumLjvK+t5ksgh8yMMW7L09bRFSJ64z8u4LdDGqoGDReCTRGid8SuF2NnxbLASv6b2yFT+aOh6i05ca4nu1IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFXsFgPMcX85EpiWC28+deO51lDoISjk7NQNo0iiZMIjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAzCgMtr4xksUDg4Ac9EMBgPnj+GYyI6yAEGlxDb99UHBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqbYnBJPbyDpr2Q1BzuBVXwRrr6BwNCR/aPNp9ZJhh/Y4BwoACQNKJQAAAAAAAAoABQLgyBAACQYAAQAMBw0BAQcCAAEMAgAAAMDh5AAAAAAADQEBARELEgANAwEFBAgEBAQGAgQEBAQEBBEIwOHkAAAAAABZCd1qCAAAAA0DAQAAAQk='
+    }
+  ]
+}
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction sending...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 500ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 1000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 2000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 4000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Error sending transaction: Error: 429 Too Many Requests:  {"jsonrpc":"2.0","error":{"code": 429, "message":"Too many requests for a specific RPC call"}, "id": "e7e89abe-b95c-49c7-8a93-5f3b4fcfac47" } 
+
+    at ClientBrowser.callServer (C:\Users\Alexander\AlphaZero\js\node_modules\@solana\web3.js\lib\index.cjs.js:5030:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Completed processing for address: HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Failed to process address: HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Processing address: BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Starting to process address with outputMint: BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Fetching transaction data...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Total 1 transactions {
+  id: 'ec1f3bd0-dd81-4b9c-a20e-958530c8aaa3-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcO9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2UvZScQ2AsM/IHeQ7RajUkyhuZdc8SGiqQz/7H34torNh21bYm3LDplXzOLwpQhGXU3QHKjfpGTcg4X1Po5wRJrVv99VjiIPub8lfZkXuHs7ftw6m4rWwK0Akuth55UopuB1f2DQMu4mp6MoeGjudXyNBvmLNcd1Mz5ZX4Gl/ToMDV+zjjd4D2hPjLxPOdTTvakFPYkAoWmMI4zDm5z5pH8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFXsFgPMcX85EpiWC28+deO51lDoISjk7NQNo0iiZMIjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAzCgMtr4xksUDg4Ac9EMBgPnj+GYyI6yAEGlxDb99UHBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqcLkvQhBUU6pBc218gW9jBjm8ZbWzycqF/d/N50jIIjzBwoACQNKJQAAAAAAAAoABQLgyBAACQYAAQAMBw0BAQcCAAEMAgAAAMDh5AAAAAAADQEBARELEgANAgEFAwgDAwMEBgMDAwMDAxEIwOHkAAAAAACwdXP+BAAAAA0DAQAAAQk='
+    }
+  ]
+}
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction sending...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction confirmed, txId: 2ajYANdwXPqxntdzGGRyWXU8YPf1cLneT4arU4BM14XrA9mAafUbNmJUnQSovQnzFmkXXfyPno28wgeyX3ccaRXg
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Completed processing for address: BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump
+Successfully processed address: BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump. Waiting for 5 seconds before continuing.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Found 1 valid addresses.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Processing address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Attempting to update balance for address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump (Attempt 1)...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Command output for BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump: Balance     
+------------
+23187.036993
+
+
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Balance for address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump set to 23187.036993.
+Balance for address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump updated successfully.
+Writing updated addresses back to addresses.json...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Addresses JSON file updated successfully.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump is not eligible for processing.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump is not eligible for processing.
+
+
+All scripts executed.

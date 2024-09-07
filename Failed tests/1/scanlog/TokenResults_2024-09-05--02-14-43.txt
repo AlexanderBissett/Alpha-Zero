@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump
+Name: Balls of Fate
+Symbol: $BOF
+Volume1: 47239
+Liquidity: 13718
+MarketCap: 85379
+PriceUSD: 0.0000853785012164
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump
+Name: vlorp
+Symbol: VLORP
+Volume1: 171623
+Liquidity: 16302
+MarketCap: 117829
+PriceUSD: 0.000117829469904
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

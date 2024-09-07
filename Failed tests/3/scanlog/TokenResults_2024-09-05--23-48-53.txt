@@ -1,0 +1,12 @@
+Token Results:
+Token Address: FQX7Cf1dQVY7YL675nRFeEHxjc9ZsWD1kEGAQDYvpump
+Name: STIVI
+Symbol: STIVI
+Volume1: 32069
+Liquidity: 18352
+MarketCap: 158921
+PriceUSD: 0.000158921498953
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

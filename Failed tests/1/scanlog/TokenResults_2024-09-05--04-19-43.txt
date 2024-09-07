@@ -1,0 +1,12 @@
+Token Results:
+Token Address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+Name: meche
+Symbol: meche
+Volume1: 16746
+Liquidity: 10968
+MarketCap: 52183
+PriceUSD: 0.0000549323849005
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

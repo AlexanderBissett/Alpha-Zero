@@ -1,0 +1,12 @@
+Token Results:
+Token Address: ESSFVtvnt5KGD5zUNuZ3kycowvydbo3WaHztdWxypump
+Name: Angel Cat
+Symbol: AC
+Volume1: 20098
+Liquidity: 16052
+MarketCap: 118610
+PriceUSD: 0.000118610223514
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

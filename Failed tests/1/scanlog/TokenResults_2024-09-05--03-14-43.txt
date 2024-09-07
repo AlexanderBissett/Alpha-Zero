@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump
+Name: DirtyDev
+Symbol: DirtyD
+Volume1: 22353
+Liquidity: 22097
+MarketCap: 223711
+PriceUSD: 0.000223710617211
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

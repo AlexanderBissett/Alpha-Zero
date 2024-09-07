@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 7fnYi394mvN8XH2vsDoeF8ZiKtpT5N3pRH7vkKXtpump
+Name: fok.
+Symbol: FOK
+Volume1: 19619
+Liquidity: 12912
+MarketCap: 76710
+PriceUSD: 0.0000767103341154
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

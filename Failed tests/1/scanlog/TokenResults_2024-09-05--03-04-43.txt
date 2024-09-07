@@ -1,0 +1,12 @@
+Token Results:
+Token Address: DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump
+Name: DogeDesigner on SOL
+Symbol: Doge
+Volume1: 34805
+Liquidity: 20698
+MarketCap: 195869
+PriceUSD: 0.000195869097464
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

@@ -1,0 +1,34 @@
+Token Results:
+Token Address: 3h52PdDDJGgi1BanD7zdJD9sTAqcjQUYpQY4JAaLSeK1
+Name: Monkey Pox
+Symbol: POX
+Volume1: 284225
+Liquidity: 209057
+MarketCap: 325514256
+PriceUSD: 0.325514255884
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 7NZWHRtuEyncsNw7rWc7rwC6wf7ZtQ25vafRgLeEpump
+Name: Guts
+Symbol: GUTS
+Volume1: 36417
+Liquidity: 12870
+MarketCap: 75499
+PriceUSD: 0.0000754988419238
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: D44aSZNw8KRiLi4qvFU2Ss8WEQNd4G3n2UVe1JzMpump
+Name: FROGG
+Symbol: FROGG
+Volume1: 24260
+Liquidity: 20544
+MarketCap: 192997
+PriceUSD: 0.00019299728713
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

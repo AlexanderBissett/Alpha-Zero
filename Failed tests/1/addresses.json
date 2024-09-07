@@ -1,0 +1,192 @@
+[
+  {
+    "address": "HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725495075,
+    "balance": 83885.510474,
+    "reversedAt": 1725495989
+  },
+  {
+    "address": "BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725495028,
+    "balance": 23187.036993,
+    "reversedAt": 1725496019
+  },
+  {
+    "address": "6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725495310,
+    "balance": 21404.916296,
+    "reversedAt": 1725496246
+  },
+  {
+    "address": "53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725495610,
+    "balance": 17008.80788,
+    "reversedAt": 1725496572
+  },
+  {
+    "address": "DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725495911,
+    "balance": 0
+  },
+  {
+    "address": "BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725496508,
+    "balance": 27502.477217,
+    "reversedAt": 1725497426
+  },
+  {
+    "address": "8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725497470,
+    "balance": 29931.528432,
+    "reversedAt": 1725498392
+  },
+  {
+    "address": "ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725497729,
+    "balance": 33887.346915,
+    "reversedAt": 1725498646
+  },
+  {
+    "address": "DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725498325,
+    "balance": 11836.135821,
+    "reversedAt": 1725499240
+  },
+  {
+    "address": "4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725499057,
+    "balance": 9715.430324,
+    "reversedAt": 1725499965
+  },
+  {
+    "address": "BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725500161,
+    "balance": 0
+  },
+  {
+    "address": "6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": true,
+    "wallet": true,
+    "usedAt": 1725501020,
+    "balance": 15839.460769,
+    "reversedAt": 1725532480
+  },
+  {
+    "address": "6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725501643,
+    "balance": 0
+  },
+  {
+    "address": "ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725501730,
+    "balance": 0
+  },
+  {
+    "address": "GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725502959,
+    "balance": 0
+  },
+  {
+    "address": "31c7iJ3PiuG5ewHrkPrMG7mdqUiaRmH72epLgwKzZbfC",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725503109,
+    "balance": 0
+  },
+  {
+    "address": "7ecg6BFFuWuYmYtTawquJFpNeVCCY7dXVSd6J4pbdQit",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725503482,
+    "balance": 0
+  },
+  {
+    "address": "3h52PdDDJGgi1BanD7zdJD9sTAqcjQUYpQY4JAaLSeK1",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725503804,
+    "balance": 0
+  },
+  {
+    "address": "7NZWHRtuEyncsNw7rWc7rwC6wf7ZtQ25vafRgLeEpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725504185,
+    "balance": 0
+  },
+  {
+    "address": "D44aSZNw8KRiLi4qvFU2Ss8WEQNd4G3n2UVe1JzMpump",
+    "decimals": 6,
+    "used": true,
+    "reversed": false,
+    "wallet": true,
+    "usedAt": 1725504320,
+    "balance": 0
+  }
+]

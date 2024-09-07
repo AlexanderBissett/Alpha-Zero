@@ -1,0 +1,471 @@
+Current time: 9/5/2024, 4:19:50 AM
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.013873929 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.012373929 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump as it is already marked with wallet: true.
+Skipping address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump as it is already marked with wallet: true.
+Skipping address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump as it is already marked with wallet: true.
+Skipping address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump as it is already marked with wallet: true.
+Skipping address DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx as it is already marked with wallet: true.
+Skipping address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump as it is already marked with wallet: true.
+Skipping address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU as it is already marked with wallet: true.
+Skipping address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump as it is already marked with wallet: true.
+Skipping address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump as it is already marked with wallet: true.
+Skipping address BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump as it is already marked with wallet: true.
+Skipping address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump as it is already marked with wallet: true.
+Skipping address 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump as it is already marked with wallet: true.
+Skipping address ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Account created for address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump: Creating account BeU4ehxem8wbXst7aXUwABGbqyamk5WW9eq5Yo7fnUSZ
+
+Signature: 3TmPo9jcw9Qdo6iG9XWGTbhfhx5juFLTEmnrcgSRSpixXxmxkCCzmWsAkKSTCv2PBAc2zNp1BpvmFJ1mkm3mBXfc
+
+
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Processing address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Starting to process address with outputMint: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Fetching transaction data...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Total 1 transactions {
+  id: '817bd1d4-110f-4970-9b1d-9f9913f5d377-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcO9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2UHxOM6O+KtV5Y2HaUCGUbamKkojUYddzX0HWK3UKyPkS9lJxDYCwz8gd5DtFqNSTKG5l1zxIaKpDP/sffi2is2eLfWYSwySuYo5k5es3AVizKDDsiN9ZyDfYabf5b+gvr0uWY7EUt/ZuC/av5BG/0dQHiaGmFyxALbEKPr/RGhszT2q6fcRKhQMpDsCJViAuYLxcauLJrcRkUy/QCGPXJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFXsFgPMcX85EpiWC28+deO51lDoISjk7NQNo0iiZMIjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAzCgMtr4xksUDg4Ac9EMBgPnj+GYyI6yAEGlxDb99UHBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqabvHxpa4czdFPfoIrMjD7Busp640MA9A+ivefea15Z5BwoACQNKJQAAAAAAAAoABQLgyBAACQYAAQAMBw0BAQcCAAEMAgAAAMDh5AAAAAAADQEBARELEgANAwEEBggGBgYFAgYGBgYGBhEIwOHkAAAAAACZSywZCAAAAA0DAQAAAQk='
+    }
+  ]
+}
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction sending...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 500ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 1000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 2000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Server responded with 429 Too Many Requests.  Retrying after 4000ms delay...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Error sending transaction: Error: 429 Too Many Requests:  {"jsonrpc":"2.0","error":{"code": 429, "message":"Too many requests for a specific RPC call"}, "id": "1ea2ac83-91ba-4947-b431-5883c8784d15" } 
+
+    at ClientBrowser.callServer (C:\Users\Alexander\AlphaZero\js\node_modules\@solana\web3.js\lib\index.cjs.js:5030:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Completed processing for address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Failed to process address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump already processed.
+Address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump already processed.
+Address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU already processed.
+Address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump already processed.
+Address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump already processed.
+Processing address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.011829649 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.010329649 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump as it is already marked with wallet: true.
+Skipping address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump as it is already marked with wallet: true.
+Skipping address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump as it is already marked with wallet: true.
+Skipping address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump as it is already marked with wallet: true.
+Skipping address DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx as it is already marked with wallet: true.
+Skipping address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump as it is already marked with wallet: true.
+Skipping address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU as it is already marked with wallet: true.
+Skipping address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump as it is already marked with wallet: true.
+Skipping address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump as it is already marked with wallet: true.
+Skipping address BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump as it is already marked with wallet: true.
+Skipping address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump as it is already marked with wallet: true.
+Skipping address 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump as it is already marked with wallet: true.
+Skipping address ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump as it is already marked with wallet: true.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Processing address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Starting to process address with outputMint: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Fetching transaction data...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Total 1 transactions {
+  id: 'f7bcd62f-6ab7-4ba3-a945-83c741dabed9-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcO9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2UHxOM6O+KtV5Y2HaUCGUbamKkojUYddzX0HWK3UKyPkS9lJxDYCwz8gd5DtFqNSTKG5l1zxIaKpDP/sffi2is2eLfWYSwySuYo5k5es3AVizKDDsiN9ZyDfYabf5b+gvr0uWY7EUt/ZuC/av5BG/0dQHiaGmFyxALbEKPr/RGhszT2q6fcRKhQMpDsCJViAuYLxcauLJrcRkUy/QCGPXJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFXsFgPMcX85EpiWC28+deO51lDoISjk7NQNo0iiZMIjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAzCgMtr4xksUDg4Ac9EMBgPnj+GYyI6yAEGlxDb99UHBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqVpohtT14OorCfN6FN0uUKL84deNB/UM5NPZxzwhFnKhBwoACQNKJQAAAAAAAAoABQLgyBAACQYAAQAMBw0BAQcCAAEMAgAAAMDh5AAAAAAADQEBARELEgANAwEEBggGBgYFAgYGBgYGBhEIwOHkAAAAAAC+ti9PCAAAAA0DAQAAAQk='
+    }
+  ]
+}
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction sending...
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Error sending transaction: { InstructionError: [ 3, { Custom: 1 } ] }
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Completed processing for address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Error from C:/Users/Alexander/AlphaZero/js/Zero.js: Failed to process address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump already processed.
+Address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump already processed.
+Address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU already processed.
+Address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump already processed.
+Address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump already processed.
+Processing address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.011814148 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.010314148 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump as it is already marked with wallet: true.
+Skipping address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump as it is already marked with wallet: true.
+Skipping address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump as it is already marked with wallet: true.
+Skipping address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump as it is already marked with wallet: true.
+Skipping address DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx as it is already marked with wallet: true.
+Skipping address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump as it is already marked with wallet: true.
+Skipping address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU as it is already marked with wallet: true.
+Skipping address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump as it is already marked with wallet: true.
+Skipping address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump as it is already marked with wallet: true.
+Skipping address BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump as it is already marked with wallet: true.
+Skipping address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump as it is already marked with wallet: true.
+Skipping address 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump as it is already marked with wallet: true.
+Skipping address ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg as it is already marked with wallet: true.
+Skipping address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump as it is already marked with wallet: true.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Processing address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Starting to process address with outputMint: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Fetching transaction data...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Total 1 transactions {
+  id: 'c8cbc7e4-f023-425d-9a76-e61b6784da8b-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcO9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2UHxOM6O+KtV5Y2HaUCGUbamKkojUYddzX0HWK3UKyPkS9lJxDYCwz8gd5DtFqNSTKG5l1zxIaKpDP/sffi2is2eLfWYSwySuYo5k5es3AVizKDDsiN9ZyDfYabf5b+gvr0uWY7EUt/ZuC/av5BG/0dQHiaGmFyxALbEKPr/RGhszT2q6fcRKhQMpDsCJViAuYLxcauLJrcRkUy/QCGPXJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFXsFgPMcX85EpiWC28+deO51lDoISjk7NQNo0iiZMIjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAzCgMtr4xksUDg4Ac9EMBgPnj+GYyI6yAEGlxDb99UHBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqbDKhoW/PxkicIGiYDsR7KSHEqiXDUs2M8Z83hqFY+74BwoACQNKJQAAAAAAAAoABQLgyBAACQYAAQAMBw0BAQcCAAEMAgAAAMDh5AAAAAAADQEBARELEgANAwEEBggGBgYFAgYGBgYGBhEIwOHkAAAAAADvDbd1CAAAAA0DAQAAAQk='
+    }
+  ]
+}
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction sending...
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: 1 transaction confirmed, txId: tnckCWm9XApz93byzusjfkW96jGaZG7Ueaf2F9XPQEfUE2tJhfyaWa48q3eLCe4UTiZVJVBjEVQdyXyqbKpBjbi
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Completed processing for address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: Successfully processed address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump. Waiting for 5 seconds before continuing.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Found 1 valid addresses.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Processing address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Attempting to update balance for address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump (Attempt 1)...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Command output for GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump: Balance
+-------
+0
+
+
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Balance for address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump set to 0.
+Balance for address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump updated successfully.
+Writing updated addresses back to addresses.json...
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: Addresses JSON file updated successfully.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump already processed.
+Address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump already processed.
+Address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU already processed.
+Address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump already processed.
+Address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump already processed.
+Processing address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.011798647 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: 0.010298647000000001 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Token addresses updated successfully
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump as it is already marked with wallet: true.
+Skipping address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump as it is already marked with wallet: true.
+Skipping address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump as it is already marked with wallet: true.
+Skipping address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump as it is already marked with wallet: true.
+Skipping address DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx as it is already marked with wallet: true.
+Skipping address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump as it is already marked with wallet: true.
+Skipping address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump as it is already marked with wallet: true.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Skipping address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU as it is already marked with wallet: true.
+Skipping address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump as it is already marked with wallet: true.
+Skipping address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump as it is already marked with wallet: true.
+Skipping address BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump as it is already marked with wallet: true.
+Skipping address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump as it is already marked with wallet: true.
+Skipping address 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump as it is already marked with wallet: true.
+Skipping address ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg as it is already marked with wallet: true.
+Skipping address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump as it is already marked with wallet: true.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Zero.js...
+Output from C:/Users/Alexander/AlphaZero/js/Zero.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js: No valid addresses found.
+
+
+Running C:/Users/Alexander/AlphaZero/js/One.js...
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address HMkrBeqogBYqJTV4JAaduSstp2b2r6L4kQyqwg6Hpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BD6DgFfpEHPDaEVWB4MGNYQa6nsDUZtRJ6CTnvjQpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6GhuLQHHfZSYSnaU4QLmX8WcvJmEA4Bd4KCeZ6Sqpump already processed.
+Address 53BwFT2Mk7wXyN2H5LE3gK5LtgbhCvTDH9P2HSbVpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: DHjnmpK291uUpFVPitU8ZbGTQHPR4ymHaBtvz78qUyvx
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address BnRjKGEwDkZYvRUGnC6dqLkGFsmpRSAsfSGEvrK9pump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump already processed.
+Address ARFDWZWPdApiKsGdnR2fPGFXqg1KLRy2jQcCUsbLc2kU already processed.
+Address DKA8tWzoDGMogTyjnBeM8hSLL7Yww3rDQ3MMLRrFpump already processed.
+Address 4PdEYeqxoZ878P3uxLzGR2h1ETGRcj93ocLPb9jMpump already processed.
+Processing address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: BH6cSkrdMrSdFRQK3Y9Bktxo863h8uSSKBe2ATubpump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump already processed.
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: 6HHwqsPEReupCu7CBSXqd7uEN6ujNJJPZYq8QU9apump
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Processing address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Fixed wrap amount: 0.002 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Wrap command failed with specific error: Account already exists. Continuing processing.
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Invalid amount calculated: 0
+
+Error from C:/Users/Alexander/AlphaZero/js/One.js: Failed to process address: ELLNdo3FobPy1j7GoLoVj5D6Skj879DAmE82surkiYrg
+
+Output from C:/Users/Alexander/AlphaZero/js/One.js: Address GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump is not eligible for processing.
+
+
+All scripts executed.

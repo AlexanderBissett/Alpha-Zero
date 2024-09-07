@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 6gGFxStQZUCGqP7mgUZTrkpC57MGvvKE1fusNCsgpump
+Name: Pim Pimling
+Symbol: Pim P
+Volume1: 277428
+Liquidity: 14091
+MarketCap: 88691
+PriceUSD: 0.0000886914822645
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+
+Token Address: 58tJn4WtfU8qg1DHK5KwVva4wSXbotfqRsoNi6cEpump
+Name: FROGGY FUKS
+Symbol: FR0GGY
+Volume1: 76652
+Liquidity: 17959
+MarketCap: 146921
+PriceUSD: 0.000146920996288
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

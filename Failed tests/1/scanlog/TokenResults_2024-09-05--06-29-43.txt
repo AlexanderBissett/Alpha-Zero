@@ -1,0 +1,23 @@
+Token Results:
+Token Address: HyzzRjGw9Qsmat7nXtaBXexFSYBoX5XryQjR5VnQpump
+Name: reddit rabbit
+Symbol: r/ relli
+Volume1: 33221
+Liquidity: 12581
+MarketCap: 72583
+PriceUSD: 0.0000725831071026
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 2X2Ew7XWoJ4Ec7djzCKV4vxW59PPqHeokmvgKNFApump
+Name: Sassmate
+Symbol: Sassy
+Volume1: 105292
+Liquidity: 14683
+MarketCap: 98298
+PriceUSD: 0.0000982983717388
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

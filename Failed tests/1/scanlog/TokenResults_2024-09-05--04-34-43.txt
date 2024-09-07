@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 7ecg6BFFuWuYmYtTawquJFpNeVCCY7dXVSd6J4pbdQit
+Name: CLOVER
+Symbol: CLOVER
+Volume1: 75878
+Liquidity: 15005
+MarketCap: 101736
+PriceUSD: 0.00010173628228
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 3h52PdDDJGgi1BanD7zdJD9sTAqcjQUYpQY4JAaLSeK1
+Name: Monkey Pox
+Symbol: POX
+Volume1: 205181
+Liquidity: 205154
+MarketCap: 313287221
+PriceUSD: 0.31328722071
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

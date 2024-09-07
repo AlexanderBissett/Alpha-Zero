@@ -1,0 +1,2477 @@
+Current time: 9/5/2024, 11:39:50 AM
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+
+Running C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs...
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance: 0.001499045 SOL
+
+Error from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Balance is lower than the reserve amount. Exiting.
+
+Output from C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Reserve: 0.0015 SOL
+Available for Trading: -9.549999999999663e-7 SOL
+
+Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1
+Failed to execute C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs: Script C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs exited with code 1

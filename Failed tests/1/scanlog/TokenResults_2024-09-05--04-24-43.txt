@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 31c7iJ3PiuG5ewHrkPrMG7mdqUiaRmH72epLgwKzZbfC
+Name: Pepe
+Symbol: pepe
+Volume1: 148887
+Liquidity: 10558
+MarketCap: 46588
+PriceUSD: 0.0000499365302061
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: GNVtdpq7Jyyg3MZJaf1rS6kHuT8FZUVVTKY9qNtUpump
+Name: meche
+Symbol: meche
+Volume1: 36814
+Liquidity: 11451
+MarketCap: 56593
+PriceUSD: 0.0000595750707129
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

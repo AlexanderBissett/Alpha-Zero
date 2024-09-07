@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 8QsXARRuWjKTWv2UffCLV8QYR7DR1KYYfX5KGxKmZD2h
+Name: Durian Dog
+Symbol: dDOG
+Volume1: 20553
+Liquidity: 21879
+MarketCap: 1236859
+PriceUSD: 0.00123685933119
+Decimals: 9
+Exchanges: Raydium
+NetworkId: 1399811149
+

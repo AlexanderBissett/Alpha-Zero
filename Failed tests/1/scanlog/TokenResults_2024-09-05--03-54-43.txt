@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 6f6Cza6azR4kQm5m84mSu796pDbpc9ACH9uH8MZUpump
+Name: Bwozo
+Symbol: BWOZO
+Volume1: 46941
+Liquidity: 15610
+MarketCap: 110535
+PriceUSD: 0.000110534613953
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

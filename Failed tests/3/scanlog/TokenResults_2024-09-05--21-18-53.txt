@@ -1,0 +1,12 @@
+Token Results:
+Token Address: nww4ppfai9KxVz6AJHMRjQdFvvyJFMctwGZjX7S4i54
+Name: MineSol
+Symbol: MINE
+Volume1: 233528
+Liquidity: 16850
+MarketCap: 128734
+PriceUSD: 0.000128734430326
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

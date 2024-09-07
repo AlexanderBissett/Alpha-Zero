@@ -1,0 +1,12 @@
+Token Results:
+Token Address: DMy7gxcGFJcPSwGyVm2VdwieP3BwpZTnKQmbZ93Gpump
+Name: Mr Paca
+Symbol: $PACA
+Volume1: 23261
+Liquidity: 16583
+MarketCap: 19953864
+PriceUSD: 0.0199538643916
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

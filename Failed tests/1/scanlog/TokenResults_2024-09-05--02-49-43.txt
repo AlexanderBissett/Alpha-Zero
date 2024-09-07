@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 8HYW7obXB61Pq8Jtk4mYfw4LodHzmaRLV2CmkQkwpump
+Name: YUMMY
+Symbol: YUMMY
+Volume1: 12158
+Liquidity: 12174
+MarketCap: 67728
+PriceUSD: 0.0000677278893167
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

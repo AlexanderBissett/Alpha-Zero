@@ -1,0 +1,23 @@
+Token Results:
+Token Address: 7ecg6BFFuWuYmYtTawquJFpNeVCCY7dXVSd6J4pbdQit
+Name: CLOVER
+Symbol: CLOVER
+Volume1: 24683
+Liquidity: 12975
+MarketCap: 76772
+PriceUSD: 0.0000767720156725
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
+Token Address: 31c7iJ3PiuG5ewHrkPrMG7mdqUiaRmH72epLgwKzZbfC
+Name: Pepe
+Symbol: pepe
+Volume1: 277282
+Liquidity: 26735
+MarketCap: 293834
+PriceUSD: 0.000314956200586
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

@@ -1,0 +1,12 @@
+Token Results:
+Token Address: Dyxq8GX4gdSHcKkrUkZizy6yXf8sbm9C2CmySV6fpump
+Name: ZAZA
+Symbol: ZAZA
+Volume1: 184933
+Liquidity: 33894
+MarketCap: 524443
+PriceUSD: 0.000524443184067
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

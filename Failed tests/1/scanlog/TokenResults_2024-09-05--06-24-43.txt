@@ -1,0 +1,12 @@
+Token Results:
+Token Address: HyzzRjGw9Qsmat7nXtaBXexFSYBoX5XryQjR5VnQpump
+Name: reddit rabbit
+Symbol: r/ relli
+Volume1: 19653
+Liquidity: 12684
+MarketCap: 74169
+PriceUSD: 0.0000741687871976
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+

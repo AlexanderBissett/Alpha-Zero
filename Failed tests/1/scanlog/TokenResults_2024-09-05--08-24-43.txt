@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 2HFeubjsxdpQhtrD4omRUgANjgSmWe5sfE1j7evEpump
+Name: SolamiEduNeedsDisabilities
+Symbol: SEND
+Volume1: 85392
+Liquidity: 40224
+MarketCap: 748657
+PriceUSD: 0.000748657219109
+Decimals: 6
+Exchanges: Raydium
+NetworkId: 1399811149
+

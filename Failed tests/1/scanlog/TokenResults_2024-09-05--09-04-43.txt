@@ -1,0 +1,12 @@
+Token Results:
+Token Address: 2EJtvVEjp8QoNzBDm5isuE1SSsAmeyZUJ9zp7ZUupump
+Name: Vesper
+Symbol: Vesper
+Volume1: 152804
+Liquidity: 14855
+MarketCap: 99444
+PriceUSD: 0.0000994437188427
+Decimals: 6
+Exchanges: Raydium, Pump
+NetworkId: 1399811149
+
