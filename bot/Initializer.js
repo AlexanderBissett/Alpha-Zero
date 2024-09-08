@@ -11,7 +11,7 @@ const currentDir = __dirname;
 
 // Define paths for Scanner and Master files
 const scannerFilePath = path.join(currentDir, 'Scanner', 'Scanner.js');
-const masterFilePath = path.join(currentDir, 'Workers', 'Manager.mjs');
+const masterFilePath = path.join(currentDir, 'Manager.mjs');
 
 // Run the Scanner bot
 runCommand(`node ${scannerFilePath}`);
