@@ -4,11 +4,11 @@ const path = require('path');
 const { Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
-const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/js/A0');
+const { fetchTokenAccountData, owner, connection } = require('./A0.js');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
 // Path to the file where unique addresses are stored
-const addressesFilePath = path.join(__dirname, 'Scanner', 'addresses.json');
+const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
 
 let isProcessing = false; // Global flag to track if processing is ongoing
 

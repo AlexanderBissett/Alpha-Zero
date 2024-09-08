@@ -2,13 +2,18 @@ import { exec } from 'child_process';
 import { promisify } from 'util';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 const execPromise = promisify(exec);
+
+// Manually define __dirname in ECMAScript modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Function to generate a timestamped log file path
 const getLogFilePath = () => {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-    return `C:/Users/Alexander/AlphaZero/js/Scanner/activitylog/activitylog-${timestamp}.txt`;
+    return path.join(__dirname, 'ActivityLog', `activitylog-${timestamp}.txt`);
 };
 
 // Helper function to write to the log file
@@ -60,10 +65,10 @@ const runScript = (scriptPath, logFilePath) => {
 // Function to execute scripts in sequence
 const executeScripts = async (logFilePath) => {
     const scripts = [
-        'C:/Users/Alexander/AlphaZero/js/Scanner/Brain.mjs',
-        'C:/Users/Alexander/AlphaZero/js/Zero.js',
-        'C:/Users/Alexander/AlphaZero/js/Scanner/Balancer.js',
-        'C:/Users/Alexander/AlphaZero/js/One.js'
+        path.join(__dirname, 'Workers', 'Banker.mjs'),
+        path.join(__dirname, 'Traders', 'Buyer.js'),
+        path.join(__dirname, 'Workers', 'Accountant.js'),
+        path.join(__dirname, 'Traders', 'Seller.js')
     ];
 
     for (const script of scripts) {

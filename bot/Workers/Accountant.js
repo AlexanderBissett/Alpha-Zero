@@ -1,5 +1,11 @@
 import { exec } from 'child_process';
 import { promises as fs } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Determine the directory of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Function to introduce a delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -7,7 +13,8 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function updateAddressBalances() {
     try {
         // Read the addresses from the addresses.json file
-        const data = await fs.readFile('C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json', 'utf8');
+        const filePath = path.join(__dirname, 'addresses.json');
+        const data = await fs.readFile(filePath, 'utf8');
         const addresses = JSON.parse(data);
 
         // Filter the addresses based on the conditions
@@ -102,12 +109,12 @@ async function updateAddressBalances() {
 
         // Write the updated addresses back to the file
         console.log('Writing updated addresses back to addresses.json...');
-        await fs.writeFile('C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json', JSON.stringify(addresses, null, 2), 'utf8');
+        await fs.writeFile(filePath, JSON.stringify(addresses, null, 2), 'utf8');
         console.log('Addresses JSON file updated successfully.');
     } catch (err) {
         console.error(`General error: ${err.message}`);
     }
 }
 
-// Start the update process (only once, no recursion)
+// Start the update process
 updateAddressBalances();

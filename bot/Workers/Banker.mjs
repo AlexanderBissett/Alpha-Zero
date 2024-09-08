@@ -1,8 +1,9 @@
-import { tokenAddresses } from './Current_list.mjs';  // New addresses from Scanner.js
+import { tokenAddresses } from '../Scanner/scanlog/Current_list.mjs';  // New addresses from Scanner.js
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { promisify } from 'util';
+import { fileURLToPath } from 'url';
 
 // Convert exec to return a promise
 const execPromise = promisify(exec);
@@ -12,6 +13,10 @@ const command = 'solana balance';
 
 // Define the reserve amount (e.g., 0.15 SOL)
 const reserveAmount = 0.008; // 1 Eur aprox.
+
+// Get the directory name from import.meta.url
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Function to get the balance
 const getBalance = async () => {
@@ -51,7 +56,7 @@ const main = async () => {
     await getBalance();
 
     // Path to the file where unique addresses will be stored
-    const addressesFilePath = 'C:\\Users\\Alexander\\AlphaZero\\js\\Scanner\\addresses.json';
+    const addressesFilePath = path.join(__dirname, 'addresses.json');
 
     // Load existing addresses from the file
     let existingAddresses = [];

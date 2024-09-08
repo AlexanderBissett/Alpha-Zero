@@ -1,0 +1,819 @@
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.071682263 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Processing address: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Starting to process address with outputMint: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Fetching transaction data...
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Total 1 transactions {
+  id: '3bb83096-2bb3-46cb-89f6-5ad6fbc6344a-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgT9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2S4veamb7Ct0qcLO+Tn/Et3E+uRK/5H4GGHIJd/ghMkGS9lJxDYCwz8gd5DtFqNSTKG5l1zxIaKpDP/sffi2is1wi/UNu1XlL37dJFRBQuN1AcY7TScgt9KmK0KzDQzrj3GUdSNaxfLnD71Wj/0WsLCoXwrU7hdp8d5CJq1GQ6wxbw6Nh3xmHLCwPEtYCKq5vgKjSyuWAyVws0CcubrBe8mKWSOPYB8gQZK1R7thX43mZ1AgLPxO2nO2RKo3Iz9ylJWQuToG7+35tY/03BYuWYTQsL4+kicBrxfQlAAjiasf/Gn+QE1STmce2g3HDYNnse71hwXIfewVFJdvvVZ4eYMLO2nmcar0uW1rnfdoObbr6d8TLBwMzdYMGOPuOgRa5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQVewWA8xxfzkSmJYLbz5147nWUOghKOTs1A2jSKJkwiMlyWPTiSJ8bs9ECkUjg2DC1oTmdr/EIQEjnvY2+n4WQMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAA0Lpk+YQMLrOt01g/V40SfT+zCWSKt6obIJEF+EvOoUoMwoDLa+MZLFA4OAHPRDAYD54/hmMiOsgBBpcQ2/fVBwabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKk6VpMZ3wPDNWv7+MPLNF81bYRn7tX5YEPnL8kLRhFE4gkOAAkDSiUAAAAAAAAOAAUC4MgQAA0GAAEAEQsSAQELAgABDAIAAAAAEnoAAAAAABIBAQERDQYABwAPCxIBARAiABIDAQcIDAgICAkECAgICAgIAwcKAgwCAgIGBQICAgICAhEIABJ6AAAAAAASTgoAAAAAABIDBwAAAQkSAwEAAAEJ'
+    }
+  ]
+}
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: 1 transaction sending...
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: 1 transaction confirmed, txId: M4WvLZp8aDriMLgEumjCuKzEAVxdauKnDJbHopkc6B8ekqyvWowNTvujDTBHtZagJLS4K8pQtcn6P4PWk9r48Ay
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Completed processing for address: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: Successfully processed address: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R. Waiting for 5 seconds before continuing.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Found 1 valid addresses.
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Processing address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R...
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Attempting to update balance for address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R (Attempt 1)...
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Command output for 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R: Balance 
+--------
+0.710891
+
+
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Balance for address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R set to 0.710891.
+Balance for address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R updated successfully.
+Writing updated addresses back to addresses.json...
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: Addresses JSON file updated successfully.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R is not eligible for processing.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.071666762 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.06366676199999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Processing address: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Fixed wrap amount: 0.0005 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Wrap command completed successfully.
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Fetched priority fee data: {
+  id: 'db536fc4-890a-42e3-b8f9-d8b792bfe172',
+  success: true,
+  data: { default: { vh: 119259, h: 10500, m: 9618 } }
+}
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Fetched swap response: {
+  id: '93a4752f-6b48-4f05-b104-3b655840d879',
+  success: true,
+  version: 'V1',
+  data: {
+    swapType: 'BaseIn',
+    inputMint: '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R',
+    inputAmount: '710891',
+    outputMint: 'So11111111111111111111111111111111111111112',
+    outputAmount: '8010710',
+    otherAmountThreshold: '7610174',
+    slippageBps: 500,
+    priceImpactPct: 0.44,
+    referrerAmount: '0',
+    routePlan: [ [Object], [Object] ]
+  }
+}
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Fetched swap transactions: {
+  id: '93a4752f-6b48-4f05-b104-3b655840d879-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcS9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2SRolDb1GzLoOlbyUtT4k/9ZxzOFaoY5MhlO4Yr6p6ftNMmof0qAuDmX1vAwCjur9CxYSO0x9zGVga2aUFcptgo+5YQuF1x/fX2W6zfUj+s2JOqa5c+5NEu3rbVVgfPV+EvZScQ2AsM/IHeQ7RajUkyhuZdc8SGiqQz/7H34torNa7j0+MWnRSnzfKUe4aDdAxRAs8svfPua60ET93zrV155UWCCdtqs768LQRodcSZFh6LB6hCsGexL7Gp78kiPHJ+WoXndE11PbtpVD2C95zmwZgcTOaft0WZL8VBmOSGcCztp5nGq9Llta533aDm26+nfEywcDM3WDBjj7joEWuYICxeaQzSMSK6mQQJZuu/t8T2EsARNSNKMsWEF4eRZuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQVewWA8xxfzkSmJYLbz5147nWUOghKOTs1A2jSKJkwiELzW40fN+bMCn640Sv5B596vxlM3NRmwi9fHouqTeqIyXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAMwoDLa+MZLFA4OAHPRDAYD54/hmMiOsgBBpcQ2/fVBwbd9uHXZaGT2cvhRs7reawctIXtX1s3kTqM9YV+/wCp1TB8RH5ajfOuLGQ9BpoOwA34+riuuPPbLAv+owANctQGDwAJA0olAAAAAAAADwAFAuDIEAAOBgAGAA0LEQEBECIAEQUJBgMMAwMDCgQDAwMDAwMFBgEIDAgICAcCCAgICAgIEQjr2AoAAAAAAD4fdAAAAAAAEQMGAAABCREDAQAAAQk='
+    }
+  ]
+}
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Total 1 transactions {
+  id: '93a4752f-6b48-4f05-b104-3b655840d879-tx',
+  version: 'V1',
+  success: true,
+  data: [
+    {
+      transaction: 'AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAcS9jtOP6DyLBPGjYBMiyi7V7uzmohWjSUiG9oCeWY85kITa6i9OvJrSpMNHUY8gAZMdtZ2Oa11EL2ZCzC//W9d2SRolDb1GzLoOlbyUtT4k/9ZxzOFaoY5MhlO4Yr6p6ftNMmof0qAuDmX1vAwCjur9CxYSO0x9zGVga2aUFcptgo+5YQuF1x/fX2W6zfUj+s2JOqa5c+5NEu3rbVVgfPV+EvZScQ2AsM/IHeQ7RajUkyhuZdc8SGiqQz/7H34torNa7j0+MWnRSnzfKUe4aDdAxRAs8svfPua60ET93zrV155UWCCdtqs768LQRodcSZFh6LB6hCsGexL7Gp78kiPHJ+WoXndE11PbtpVD2C95zmwZgcTOaft0WZL8VBmOSGcCztp5nGq9Llta533aDm26+nfEywcDM3WDBjj7joEWuYICxeaQzSMSK6mQQJZuu/t8T2EsARNSNKMsWEF4eRZuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQVewWA8xxfzkSmJYLbz5147nWUOghKOTs1A2jSKJkwiELzW40fN+bMCn640Sv5B596vxlM3NRmwi9fHouqTeqIyXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAMwoDLa+MZLFA4OAHPRDAYD54/hmMiOsgBBpcQ2/fVBwbd9uHXZaGT2cvhRs7reawctIXtX1s3kTqM9YV+/wCp1TB8RH5ajfOuLGQ9BpoOwA34+riuuPPbLAv+owANctQGDwAJA0olAAAAAAAADwAFAuDIEAAOBgAGAA0LEQEBECIAEQUJBgMMAwMDCgQDAwMDAwMFBgEIDAgICAcCCAgICAgIEQjr2AoAAAAAAD4fdAAAAAAAEQMGAAABCREDAQAAAQk='
+    }
+  ]
+}
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: 1 transaction sending..., txId: 59NfAiiVsjP42qpwvAarmyFPJwUJQPD9amnyBdrqmQ1SPo1FgWy3E6uxx9FLjpJd9gZvKFVc13pc6fk7e4bcvKsr
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: 1 transaction confirmed
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Successfully processed address: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079656971 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.07165697099999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Balance: 0.079656971 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Reserve: 0.008 SOL
+Available for Trading: 0.07165697099999999 SOL
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Token addresses updated successfully
+
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Banker.mjs: Skipping address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R as it is already marked with wallet: true.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Buyer.js: No unused wallet addresses found, will check again in 5 seconds.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Workers\Accountant.js: No valid addresses found.
+
+
+Running C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js...
+Output from C:\Users\Alexander\Desktop\Bot\AlphaZero\bot\Traders\Seller.js: Address 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R already processed.
+
+
+All scripts executed.

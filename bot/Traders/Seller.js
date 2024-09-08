@@ -5,11 +5,11 @@ const { exec } = require('child_process'); // Import exec from child_process
 const { Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
-const { fetchTokenAccountData, owner, connection } = require('C:/Users/Alexander/AlphaZero/js/A0');
+const { fetchTokenAccountData, owner, connection } = require('./A0.js');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
 // Path to the file where unique addresses are stored
-const addressesFilePath = path.join(__dirname, 'Scanner', 'addresses.json');
+const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
 
 // Utility function to introduce a delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
