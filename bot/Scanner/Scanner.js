@@ -68,7 +68,7 @@ function fetchAndSaveTokenResults() {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+          Authorization: "" // API key Codex
         }
       }
     )
