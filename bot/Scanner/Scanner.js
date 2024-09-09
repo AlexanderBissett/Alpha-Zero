@@ -17,8 +17,8 @@ if (!fs.existsSync(logFolder)) {
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 24;
-  let minutes = 60;
+  let hours = 1;
+  let minutes = 10;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -39,12 +39,12 @@ function fetchAndSaveTokenResults() {
   filterTokens(
     filters: {
         createdAt : { gte: ${time_filter} }
-        volume1: {gte: 5000, lte: 50000}
-        liquidity: {gte: 5000, lte: 50000}
+        volume1: {gte: 26000, lte: 900000}
+        liquidity: {gte: 26000, lte: 900000}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
-    limit: 100
+    limit: 5
   ) {
     results {
       volume1

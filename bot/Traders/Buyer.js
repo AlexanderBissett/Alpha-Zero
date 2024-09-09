@@ -29,8 +29,8 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    const amount = 8000000; // Example amount
-    const slippage = 5; // Slippage in percent
+    const amount = 170000000; // Amount of Solana to trade expressed in Lamports
+    const slippage = 5; // Slippage in percent (0.5 = 0.5%)
     const txVersion = 'LEGACY'; // Transaction version
     const isV0Tx = txVersion === 'LEGACY';
 
@@ -151,8 +151,8 @@ const processAddressesSequentially = async () => {
                 // Optionally, handle the failure case (e.g., retry, log more details)
             }
 
-            // Wait for an additional 7 seconds before processing the next address
-            await delay(7000);
+            // Wait for an additional 5 seconds before processing the next address
+            await delay(5000);
         }
     } catch (error) {
         console.error('Unexpected error in processing addresses:', error);
