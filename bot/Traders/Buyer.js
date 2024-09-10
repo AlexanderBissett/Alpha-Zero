@@ -31,7 +31,7 @@ const processAddress = async (outputMint) => {
     const inputMint = NATIVE_MINT.toBase58();
     const amount = 170000000; // Amount of Solana to trade expressed in Lamports
     const slippage = 5; // Slippage in percent (0.5 = 0.5%)
-    const txVersion = 'LEGACY'; // Transaction version
+    const txVersion = 'LEGACY'; // or V0
     const isV0Tx = txVersion === 'LEGACY';
 
     const [isInputSol, isOutputSol] = [inputMint === NATIVE_MINT.toBase58(), outputMint === NATIVE_MINT.toBase58()];
