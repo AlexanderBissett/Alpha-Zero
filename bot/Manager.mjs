@@ -65,6 +65,7 @@ const runScript = (scriptPath, logFilePath) => {
 // Function to execute scripts in sequence
 const executeScripts = async (logFilePath) => {
     const scripts = [
+        path.join(__dirname, 'Workers', 'Security.js'),
         path.join(__dirname, 'Workers', 'Banker.mjs'),
         path.join(__dirname, 'Traders', 'Buyer.js'),
         path.join(__dirname, 'Workers', 'Accountant.js'),
