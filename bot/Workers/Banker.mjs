@@ -1,4 +1,4 @@
-import { tokenAddresses } from '../Scanner/scanlog/Current_list.mjs';  // New addresses from Scanner.js
+import { tokenAddresses } from '../Scanner/scanlog/Secure_current_list.mjs';  // New addresses from Scanner.js
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
