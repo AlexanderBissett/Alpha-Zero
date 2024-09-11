@@ -2,6 +2,15 @@ import { Connection, PublicKey } from '@solana/web3.js';
 import { TOKEN_PROGRAM_ID, getMint } from '@solana/spl-token';
 import { tokenAddresses } from '../Scanner/scanlog/Current_list.mjs';  // Import token addresses from Scanner.js
 import fs from 'fs';  // For writing to a file
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Function to get the absolute path for the output file
+const getOutputFilePath = () => {
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    return path.resolve(__dirname, '../Scanner/scanlog/Secure_current_list.mjs');
+};
 
 async function isTokenFreezeable(mintAddress) {
     const connection = new Connection('https://api.mainnet-beta.solana.com');
@@ -32,11 +41,19 @@ async function checkFreezeableTokens(tokenAddresses) {
         }
     }
 
-    // Write non-freezeable tokens to Secure_current_list.mjs
+    // Ensure the file is created with an empty array if no non-freezeable tokens
     const outputData = `export const tokenAddresses = ${JSON.stringify(nonFreezeableTokens, null, 4)};`;
+    const outputFilePath = getOutputFilePath();
 
-    fs.writeFileSync('../Scanner/scanlog/Secure_current_list.mjs', outputData, 'utf8');
-    console.log('Secure_current_list.mjs has been updated with non-freezeable tokens.');
+    // Ensure the directory exists
+    fs.mkdirSync(path.dirname(outputFilePath), { recursive: true });
+
+    try {
+        fs.writeFileSync(outputFilePath, outputData, 'utf8');
+        console.log('Secure_current_list.mjs has been updated with non-freezeable tokens.');
+    } catch (error) {
+        console.error(`Failed to write to file: ${error.message}`);
+    }
 }
 
 // Example usage with imported token addresses

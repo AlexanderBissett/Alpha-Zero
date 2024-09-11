@@ -29,7 +29,7 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    const amount = 170000000; // Amount of Solana to trade expressed in Lamports
+    const amount = 10000; // Amount of Solana to trade expressed in Lamports
     const slippage = 5; // Slippage in percent (0.5 = 0.5%)
     const txVersion = 'LEGACY'; // or V0
     const isV0Tx = txVersion === 'LEGACY';

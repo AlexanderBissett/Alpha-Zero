@@ -18,7 +18,11 @@ const getLogFilePath = () => {
 
 // Helper function to write to the log file
 const logToFile = (message, logFilePath) => {
-    fs.appendFileSync(logFilePath, message + '\n', 'utf8');
+    try {
+        fs.appendFileSync(logFilePath, message + '\n', 'utf8');
+    } catch (err) {
+        console.error(`Failed to write to log file: ${err.message}`);
+    }
 };
 
 // Helper function to log the current time
@@ -28,38 +32,22 @@ const logCurrentTime = (logFilePath) => {
 };
 
 // Helper function to run a script
-const runScript = (scriptPath, logFilePath) => {
-    return new Promise((resolve, reject) => {
-        const process = exec(`node ${scriptPath}`);
+const runScript = async (scriptPath, logFilePath) => {
+    try {
+        const { stdout, stderr } = await execPromise(`node ${scriptPath}`);
 
-        // If the script produces output, log it to the file
-        process.stdout.on('data', (data) => {
-            const outputMessage = `Output from ${scriptPath}: ${data}`;
-            logToFile(outputMessage, logFilePath);
-        });
-        process.stderr.on('data', (data) => {
-            const errorMessage = `Error from ${scriptPath}: ${data}`;
-            logToFile(errorMessage, logFilePath);
-        });
-
-        // When the script finishes, resolve/reject based on the exit code
-        process.on('exit', (code) => {
-            if (code === 0) {
-                resolve();  // Resolve normally if script exits with code 0
-            } else {
-                const exitError = new Error(`Script ${scriptPath} exited with code ${code}`);
-                logToFile(exitError.message, logFilePath);
-                reject(exitError);
-            }
-        });
-
-        // Handle other signals in case the process is terminated
-        process.on('error', (err) => {
-            const errorMessage = `Failed to start process: ${err.message}`;
-            logToFile(errorMessage, logFilePath);
-            reject(new Error(errorMessage));
-        });
-    });
+        if (stdout) {
+            logToFile(`Output from ${scriptPath}: ${stdout}`, logFilePath);
+        }
+        if (stderr) {
+            logToFile(`Error from ${scriptPath}: ${stderr}`, logFilePath);
+        }
+    } catch (err) {
+        const errorMessage = `Failed to execute ${scriptPath}: ${err.message}`;
+        logToFile(errorMessage, logFilePath);
+        console.error(errorMessage); // Print to console for immediate feedback
+        throw err;
+    }
 };
 
 // Function to execute scripts in sequence
@@ -91,13 +79,13 @@ const executeScripts = async (logFilePath) => {
 // Function to start the process and manage log files
 const main = async () => {
     let logFilePath = getLogFilePath();
-    
+
     const logFileSwitchInterval = 5 * 60 * 1000; // 5 minutes
 
     setInterval(() => {
         logFilePath = getLogFilePath();
         logCurrentTime(logFilePath);
-    }, logFileSwitchInterval); 
+    }, logFileSwitchInterval);
 
     while (true) {
         await executeScripts(logFilePath);
@@ -105,6 +93,17 @@ const main = async () => {
         await new Promise(resolve => setTimeout(resolve, 1000));
     }
 };
+
+// Ensure the log directory exists
+const ensureLogDirectoryExists = () => {
+    const logDir = path.dirname(getLogFilePath());
+    if (!fs.existsSync(logDir)) {
+        fs.mkdirSync(logDir, { recursive: true });
+    }
+};
+
+// Ensure the log directory exists before starting
+ensureLogDirectoryExists();
 
 // Start the process
 main();
