@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 
 const execPromise = promisify(exec);
 
-// Manually define __dirname in ECMAScript modules
+// Manually define __filename and __dirname in ECMAScript modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -46,11 +46,10 @@ const runScript = async (scriptPath, logFilePath) => {
         const errorMessage = `Failed to execute ${scriptPath}: ${err.message}`;
         logToFile(errorMessage, logFilePath);
         console.error(errorMessage); // Print to console for immediate feedback
-        throw err;
     }
 };
 
-// Function to execute scripts in sequence
+// Function to execute scripts in sequence without exiting early on errors
 const executeScripts = async (logFilePath) => {
     const scripts = [
         path.join(__dirname, 'Workers', 'Security.js'),
@@ -66,14 +65,13 @@ const executeScripts = async (logFilePath) => {
         try {
             await runScript(script, logFilePath);
         } catch (error) {
-            const failMessage = `Failed to execute ${script}: ${error.message}`;
+            // Handle errors within each script, but continue to the next one
+            const failMessage = `Error while executing ${script}: ${error.message}`;
             logToFile(failMessage, logFilePath);
-            // Exit early if any script fails
-            return;
         }
     }
 
-    logToFile('\nAll scripts executed.', logFilePath);
+    logToFile('\nAll scripts attempted.', logFilePath);
 };
 
 // Function to start the process and manage log files
@@ -96,7 +94,7 @@ const main = async () => {
 
 // Ensure the log directory exists
 const ensureLogDirectoryExists = () => {
-    const logDir = path.dirname(getLogFilePath());
+    const logDir = path.join(__dirname, 'ActivityLog'); // Ensure ActivityLog folder is created
     if (!fs.existsSync(logDir)) {
         fs.mkdirSync(logDir, { recursive: true });
     }
