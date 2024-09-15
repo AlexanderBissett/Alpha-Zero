@@ -31,10 +31,16 @@ const logCurrentTime = (logFilePath) => {
     logToFile(`Current time: ${currentTime}`, logFilePath);
 };
 
-// Helper function to run a script
-const runScript = async (scriptPath, logFilePath) => {
+// Helper function to run a script with a timeout
+const runScriptWithTimeout = async (scriptPath, logFilePath, timeout) => {
     try {
-        const { stdout, stderr } = await execPromise(`node ${scriptPath}`);
+        const scriptPromise = execPromise(`node ${scriptPath}`);
+        const timeoutPromise = new Promise((_, reject) => 
+            setTimeout(() => reject(new Error('Script timed out')), timeout)
+        );
+
+        // Use Promise.race to apply the timeout
+        const { stdout, stderr } = await Promise.race([scriptPromise, timeoutPromise]);
 
         if (stdout) {
             logToFile(`Output from ${scriptPath}: ${stdout}`, logFilePath);
@@ -49,11 +55,12 @@ const runScript = async (scriptPath, logFilePath) => {
     }
 };
 
-// Function to execute scripts in sequence without exiting early on errors
+// Function to execute scripts in sequence with timeout for non-Buyer.js and non-Seller.js scripts
 const executeScripts = async (logFilePath) => {
     const scripts = [
         path.join(__dirname, 'Workers', 'Security.js'),
         path.join(__dirname, 'Workers', 'Banker.mjs'),
+        path.join(__dirname, 'Workers', 'Cleaner.cjs'),
         path.join(__dirname, 'Traders', 'Buyer.js'),
         path.join(__dirname, 'Workers', 'Accountant.js'),
         path.join(__dirname, 'Traders', 'Seller.js')
@@ -62,10 +69,20 @@ const executeScripts = async (logFilePath) => {
     for (const script of scripts) {
         const startMessage = `\nRunning ${script}...`;
         logToFile(startMessage, logFilePath);
+
+        const scriptName = path.basename(script);
+        const isBuyerOrSeller = scriptName === 'Buyer.js' || scriptName === 'Seller.js';
+
+        // Timeout of 2 minutes (120000 ms) for non-Buyer.js and non-Seller.js scripts
+        const timeout = isBuyerOrSeller ? 0 : 120000;
+
         try {
-            await runScript(script, logFilePath);
+            if (timeout) {
+                await runScriptWithTimeout(script, logFilePath, timeout);
+            } else {
+                await execPromise(`node ${script}`);
+            }
         } catch (error) {
-            // Handle errors within each script, but continue to the next one
             const failMessage = `Error while executing ${script}: ${error.message}`;
             logToFile(failMessage, logFilePath);
         }

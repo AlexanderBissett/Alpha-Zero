@@ -7,8 +7,9 @@ const axios = require('axios');
 const { fetchTokenAccountData, owner, connection } = require('./A0.js');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
-// Path to the file where unique addresses are stored
+// Path to the files where addresses and capital are stored
 const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
+const capitalFilePath = path.join(__dirname, '..', 'Workers', 'current_capital.json');
 
 let isProcessing = false; // Global flag to track if processing is ongoing
 
@@ -29,7 +30,15 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    const amount = 10000; // Amount of Solana to trade expressed in Lamports
+    
+    // Existing amount (static)
+    //const amount = 10000; // Amount of Solana to trade expressed in Lamports
+
+    // Existing amount (dynamic)
+    const capital = JSON.parse(fs.readFileSync(capitalFilePath, 'utf-8')).lamports;
+    const percentageToUse = 0.25; // Change this value to 0.10 for 10%, 0.25 for 25%, 1 for 100%, etc.
+    const amount = Math.floor(capital * percentageToUse); // Calculate the amount based on the percentage
+
     const slippage = 5; // Slippage in percent (0.5 = 0.5%)
     const txVersion = 'LEGACY'; // or V0
     const isV0Tx = txVersion === 'LEGACY';

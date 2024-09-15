@@ -16,7 +16,7 @@ iyest=int(yest)
 
 url = "https://graph.defined.fi/graphql"
 
-MY_KEY = "f489353be7368dc360236c9e9555c629cabad054"
+MY_KEY = ""
 
 headers = {
   "content_type":"application/json",

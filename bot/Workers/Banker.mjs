@@ -12,7 +12,7 @@ const execPromise = promisify(exec);
 const command = 'solana balance';
 
 // Define the reserve amount (e.g., 0.15 SOL)
-const reserveAmount = 0.0; // 5 Eur aprox.
+const reserveAmount = 0.0; // 5 Eur approx.
 
 // Get the directory name from import.meta.url
 const __filename = fileURLToPath(import.meta.url);
@@ -38,16 +38,34 @@ const getBalance = async () => {
         console.log(`Balance: ${balanceNumber} SOL`);
         console.log(`Reserve: ${reserveAmount} SOL`);
         console.log(`Available for Trading: ${availableForTrading} SOL`);
-        
+
         // Check if the balance is lower than the reserve
         if (balanceNumber < reserveAmount) {
             console.error('Balance is lower than the reserve amount. Exiting.');
             process.exit(1); // Exit with error code
         }
 
+        // Convert availableForTrading to lamports and save it to a file
+        await saveAvailableLamports(availableForTrading);
+
     } catch (error) {
         console.error(`Error executing command: ${error.message}`);
         process.exit(1); // Exit on error
+    }
+};
+
+// New function to convert available SOL to lamports and write to file
+const saveAvailableLamports = async (availableForTrading) => {
+    try {
+        const lamports = availableForTrading * 1_000_000_000;  // 1 SOL = 1,000,000,000 lamports
+        const lamportsFilePath = path.join(__dirname, 'current_capital.json');
+
+        // Write the lamports value to the file
+        fs.writeFileSync(lamportsFilePath, JSON.stringify({ lamports }, null, 2));
+
+        console.log(`Available lamports (${lamports}) saved to ${lamportsFilePath}`);
+    } catch (error) {
+        console.error(`Error saving lamports data: ${error.message}`);
     }
 };
 
@@ -68,10 +86,17 @@ const main = async () => {
     // Convert the existing addresses to a map for quick lookup
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
-    // Add new token addresses to the map, setting "used" to false, "reversed" to false, and "wallet" to false if they don't already exist
+    // Add new token addresses to the map, setting "used" to false, "reversed" to false, "wallet" to false, and "scannedAt" to the current Unix timestamp if they don't already exist
     tokenAddresses.forEach(([address, decimals]) => {
         if (!existingAddressesMap.has(address)) {
-            existingAddressesMap.set(address, { address: address, decimals: decimals, used: false, reversed: false, wallet: false });
+            existingAddressesMap.set(address, { 
+                address: address, 
+                decimals: decimals, 
+                used: false, 
+                reversed: false, 
+                wallet: false, 
+                scannedAt: Math.floor(Date.now() / 1000)  // Add the scannedAt field with current Unix timestamp
+            });
         }
     });
 

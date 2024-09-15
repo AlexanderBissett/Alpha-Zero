@@ -39,8 +39,8 @@ function fetchAndSaveTokenResults() {
   filterTokens(
     filters: {
         createdAt : { gte: ${time_filter} }
-        volume1: {gte: 100000}
-        liquidity: {gte: 100000}
+        volume1: {gte: 1000}
+        liquidity: {gte: 1000}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
@@ -68,7 +68,7 @@ function fetchAndSaveTokenResults() {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: "" // API key Codex
+          Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
         }
       }
     )
