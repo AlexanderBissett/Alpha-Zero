@@ -39,8 +39,9 @@ function fetchAndSaveTokenResults() {
   filterTokens(
     filters: {
         createdAt : { gte: ${time_filter} }
-        volume1: {gte: 1000}
-        liquidity: {gte: 1000}
+        volume1: {gte: 10000}
+        liquidity: {gte: 10000}
+        priceUSD: {lte: 0.009}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
