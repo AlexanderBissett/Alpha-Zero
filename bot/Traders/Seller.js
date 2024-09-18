@@ -57,6 +57,11 @@ const isEligibleAddress = (address) => {
     const ageOfTrade = 15 * 60; // X minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
+    // If the changeLimit is true, process the address immediately
+    if (address.changeLimit === true) {
+        return true;
+    }
+
     // Check if balance is a number, used is true, and usedAt is at least older than the time in ageOfTrade
     return (
         typeof address.balance === 'number' &&
