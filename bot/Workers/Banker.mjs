@@ -12,7 +12,7 @@ const execPromise = promisify(exec);
 const command = 'solana balance';
 
 // Define the reserve amount (e.g., 0.15 SOL)
-const reserveAmount = 0.0; // 5 Eur approx.
+const reserveAmount = 0.04; // 5 Eur approx.
 
 // Get the directory name from import.meta.url
 const __filename = fileURLToPath(import.meta.url);
