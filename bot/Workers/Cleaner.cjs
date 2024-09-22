@@ -5,7 +5,7 @@ const path = require('path');
 const filePath = path.join(__dirname, 'addresses.json');
 
 // Time threshold: 15 minutes in seconds
-const TIME_THRESHOLD = 15 * 60; // 900 seconds
+const TIME_THRESHOLD = 10 * 60; // 900 seconds
 
 // Read the JSON file
 fs.readFile(filePath, 'utf8', (err, data) => {

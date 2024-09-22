@@ -109,7 +109,7 @@ async function calculatePriceDifference() {
           console.log(`Address: ${entry.address}, OGpriceUSD: ${OGprice}, priceUSD: ${currentPrice}, Difference: ${percentageDifference.toFixed(2)}%`);
 
           // If the percentage difference is >= 10%, set changeLimit to true
-          if (Math.abs(percentageDifference) >= 10) {
+          if (Math.abs(percentageDifference) >= 5) {
             entry.changeLimit = true;
             console.log(`Address ${entry.address} has reached the change limit of 10%. changeLimit marked as true.`);
           }
