@@ -17,7 +17,7 @@ fs.readFile(configFilePath, 'utf8', (err, configData) => {
 
     // Extract the cleaner time and file path from the config
     const cleanerTimeMinutes = config.cleanerTimeMinutes || 10; // Default to 10 minutes if not specified
-    const filePath = config.filePath || './addresses.json'; // Default to addresses.json if not specified
+    const filePath = 'Workers/addresses.json'
 
     // Read the JSON file (specified in the config)
     fs.readFile(filePath, 'utf8', (err, data) => {
