@@ -10,6 +10,7 @@ const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 // Path to the files where addresses and capital are stored
 const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
 const capitalFilePath = path.join(__dirname, '..', 'Workers', 'current_capital.json');
+const configFilePath = path.join(__dirname, '..', 'Config.json');
 
 let isProcessing = false; // Global flag to track if processing is ongoing
 
@@ -30,14 +31,22 @@ const markAddressAsUsed = (address) => {
 const processAddress = async (outputMint) => {
     console.log(`Starting to process address with outputMint: ${outputMint}`);
     const inputMint = NATIVE_MINT.toBase58();
-    
-    // Existing amount (static)
-    //const amount = 10000; // Amount of Solana to trade expressed in Lamports
 
-    // Existing amount (dynamic)
-    const capital = JSON.parse(fs.readFileSync(capitalFilePath, 'utf-8')).lamports;
-    const percentageToUse = 0.25; // Change this value to 0.10 for 10%, 0.25 for 25%, 1 for 100%, etc.
-    const amount = Math.floor(capital * percentageToUse); // Calculate the amount based on the percentage
+    // Read the config file
+    const config = JSON.parse(fs.readFileSync(configFilePath, 'utf-8'));
+    const amountType = config.amountType; // "static" or "dynamic"
+    let amount;
+
+    if (amountType === 'static') {
+        amount = config.staticAmount; // Use the static amount
+    } else if (amountType === 'dynamic') {
+        const capital = JSON.parse(fs.readFileSync(capitalFilePath, 'utf-8')).lamports;
+        const percentageToUse = config.percentageToUse || 0.25; // Default to 25% if not specified
+        amount = Math.floor(capital * percentageToUse); // Calculate the amount based on the percentage
+    } else {
+        console.error('Invalid amount type specified in config. Defaulting to static amount of 0.');
+        amount = 0; // Fallback if configuration is invalid
+    }
 
     const slippage = 5; // Slippage in percent (0.5 = 0.5%)
     const txVersion = 'LEGACY'; // or V0
