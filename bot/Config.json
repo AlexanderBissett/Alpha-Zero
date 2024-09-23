@@ -11,7 +11,5 @@
 
     "amountType": "dynamic", 
     "staticAmount": 10000, 
-    "percentageToUse": 0.25
-    
+    "percentageToUse": 0.25    
 }
-
