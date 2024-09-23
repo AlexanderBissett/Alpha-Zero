@@ -4,8 +4,8 @@ const path = require('path');
 // Path to the JSON file (assuming it's in the same directory)
 const filePath = path.join(__dirname, 'addresses.json');
 
-// Time threshold: 15 minutes in seconds
-const TIME_THRESHOLD = 10 * 60; // 900 seconds
+// Time threshold: 10 minutes in seconds
+const TIME_THRESHOLD = 10 * 60; // 600 seconds
 
 // Read the JSON file
 fs.readFile(filePath, 'utf8', (err, data) => {
@@ -21,10 +21,11 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     // Get current Unix timestamp (in seconds)
     const currentTimestamp = Math.floor(Date.now() / 1000);
 
-    // Filter out addresses that are not used and older than 15 minutes
+    // Filter out addresses that are not used, older than 10 minutes, or have balance: 0
     const filteredAddresses = addresses.filter(addr => {
       const timeElapsed = currentTimestamp - addr.scannedAt;
-      return addr.used || timeElapsed <= TIME_THRESHOLD;
+      const hasBalance = addr.balance === undefined || addr.balance > 0; // Only delete if balance is exactly 0
+      return addr.used || (timeElapsed <= TIME_THRESHOLD && hasBalance);
     });
 
     // Write the updated data back to the file
