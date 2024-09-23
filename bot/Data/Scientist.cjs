@@ -6,6 +6,20 @@ const path = require('path');
 // Apply the stealth plugin to Puppeteer
 puppeteer.use(StealthPlugin());
 
+// Load configuration from Config.json
+const configFilePath = path.resolve(__dirname, '../Config.json');
+
+let config = {};
+async function loadConfig() {
+    try {
+        const data = await fs.readFile(configFilePath, 'utf8');
+        config = JSON.parse(data);
+    } catch (err) {
+        console.error('Error loading Config.json:', err);
+        process.exit(1);
+    }
+}
+
 // Function to delay actions (simulating human-like delay)
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
@@ -26,7 +40,6 @@ async function getTokenPrice(tokenAddress) {
     // Navigate to the token page, wait for network to be idle
     const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
 
-    // Check if the page loaded successfully
     if (response.status() !== 200) {
       throw new Error(`Failed to load page, status code: ${response.status()}`);
     }
@@ -35,7 +48,7 @@ async function getTokenPrice(tokenAddress) {
     await delay(2000);
 
     // Wait for a selector that indicates the page has loaded correctly
-    await page.waitForSelector('body'); // You might need to update this with a specific selector on Solscan
+    await page.waitForSelector('body'); 
 
     // Extract the price
     const price = await page.evaluate(() => {
@@ -80,8 +93,12 @@ async function saveAddressesToFile(addresses) {
 // Function to process addresses and get token prices
 async function processAddresses() {
   try {
+    await loadConfig(); // Load the config to get the interval value
+
     const addresses = await getAddressesFromFile();
     const currentTime = Math.floor(Date.now() / 1000); // Get current UNIX timestamp in seconds
+
+    const priceUpdateIntervalSeconds = config.priceUpdateIntervalSeconds || 45;  // Default to 45 seconds if not set
 
     if (addresses.length === 0) {
       console.log('No addresses found in file.');
@@ -91,9 +108,9 @@ async function processAddresses() {
     for (const entry of addresses) {
       // Only process addresses where 'used' is true and 'reversed' is false
       if (entry.used && !entry.reversed && entry.address) {
-        // Check if priceMeasuredAt exists and is less than 45 seconds ago
-        if (entry.priceMeasuredAt && currentTime - entry.priceMeasuredAt < 45) {
-          console.log(`Skipping address ${entry.address} (last updated less than 45 seconds ago).`);
+        // Use the interval from the config file
+        if (entry.priceMeasuredAt && currentTime - entry.priceMeasuredAt < priceUpdateIntervalSeconds) {
+          console.log(`Skipping address ${entry.address} (last updated less than ${priceUpdateIntervalSeconds} seconds ago).`);
           continue;
         }
 
@@ -119,4 +136,5 @@ async function processAddresses() {
   }
 }
 
+// Run the address processing function
 processAddresses();

@@ -16,9 +16,9 @@ if (!fs.existsSync(logFolder)) {
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
-  let days = 1;
-  let hours = 1;
-  let minutes = 5;
+  let days = 24;
+  let hours = 24;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 

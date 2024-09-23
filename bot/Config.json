@@ -1,0 +1,9 @@
+{
+    "filePath": "./addresses.json",
+    "cleanerTimeMinutes": 10,
+    "reserveAmount": 0.04,
+    "priceChangeThreshold": 10,
+    "priceUpdateIntervalSeconds": 45,
+    "ageOfTradeMinutes": 15
+}
+

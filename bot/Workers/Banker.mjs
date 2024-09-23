@@ -8,15 +8,28 @@ import { fileURLToPath } from 'url';
 // Convert exec to return a promise
 const execPromise = promisify(exec);
 
-// Command to run
-const command = 'solana balance';
-
-// Define the reserve amount (e.g., 0.15 SOL)
-const reserveAmount = 0.04; // 5 Eur approx.
-
 // Get the directory name from import.meta.url
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Path to the Config.json file
+const configFilePath = path.join(__dirname, '../Config.json');
+
+// Read and parse Config.json to load reserveAmount and other configuration
+let config = {};
+if (fs.existsSync(configFilePath)) {
+    const configData = fs.readFileSync(configFilePath, 'utf8');
+    config = JSON.parse(configData);
+} else {
+    console.error('Config.json not found!');
+    process.exit(1);
+}
+
+// Extract the reserveAmount from config or use a default value
+const reserveAmount = config.reserveAmount || 0.04; // Default to 0.04 if not specified
+
+// Command to run
+const command = 'solana balance';
 
 // Function to get the balance
 const getBalance = async () => {
@@ -74,7 +87,7 @@ const main = async () => {
     await getBalance();
 
     // Path to the file where unique addresses will be stored
-    const addressesFilePath = path.join(__dirname, 'addresses.json');
+    const addressesFilePath = path.join(__dirname, config.filePath || './addresses.json');
 
     // Load existing addresses from the file
     let existingAddresses = [];

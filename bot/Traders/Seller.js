@@ -8,6 +8,11 @@ const axios = require('axios');
 const { fetchTokenAccountData, owner, connection } = require('./A0.js');
 const { API_URLS } = require('@raydium-io/raydium-sdk-v2');
 
+// Load configuration from config.json
+const configPath = path.join(__dirname, '..', 'Config.json');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+const ageOfTrade = config.ageOfTradeMinutes * 60; // Convert minutes to seconds
+
 // Path to the file where unique addresses are stored
 const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
 
@@ -54,7 +59,6 @@ const runWrapCommand = (amount) => {
 
 // Function to check if an address is eligible for processing
 const isEligibleAddress = (address) => {
-    const ageOfTrade = 15 * 60; // X minutes in seconds
     const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in Unix timestamp
 
     // If the changeLimit is true, process the address immediately
@@ -214,7 +218,6 @@ const processAddress = async (inputMint, decimals, balance) => {
 
 // Function to process addresses sequentially
 const processAddressesSequentially = async () => {
-
     let addresses = [];
 
     // Load addresses from the file

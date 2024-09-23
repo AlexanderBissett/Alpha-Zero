@@ -2,6 +2,21 @@ const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
 
+// Load configuration from Config.json
+const configFilePath = path.resolve(__dirname, '../Config.json');
+
+let config = {};
+async function loadConfig() {
+    try {
+        const data = await fs.readFile(configFilePath, 'utf8');
+        config = JSON.parse(data);
+    } catch (err) {
+        console.error('Error loading Config.json:', err);
+        process.exit(1);
+    }
+}
+
+// Get token price function
 async function getTokenPrice(tokenAddress) {
   const url = `https://solscan.io/token/${tokenAddress}`;
   const browser = await puppeteer.launch({ headless: true, defaultViewport: null }); // Run in headless mode
@@ -59,23 +74,19 @@ async function processAddresses() {
       return;
     }
 
-    // Process each address one by one
     for (const entry of addresses) {
-      // Add default changeLimit as false if it doesn't exist
       if (entry.changeLimit === undefined) {
         entry.changeLimit = false;
       }
 
-      // Only process if changeLimit is false, and used is true, reversed is false, OGpriceUSD is missing
       if (entry.used && !entry.reversed && (entry.OGpriceUSD === undefined || entry.OGpriceUSD === null) && !entry.changeLimit) {
         console.log(`Processing address ${entry.address}`);
-        const price = await getTokenPrice(entry.address);  // Await each price fetch one by one
+        const price = await getTokenPrice(entry.address); 
         entry.OGpriceUSD = price !== null ? price : 'Price not found';
       } else {
         console.log(`Skipping address ${entry.address} (used: ${entry.used}, reversed: ${entry.reversed}, OGpriceUSD: ${entry.OGpriceUSD}, changeLimit: ${entry.changeLimit})`);
       }
 
-      // Save after processing each address to avoid data loss
       await saveAddressesToFile(addresses);
     }
     
@@ -86,32 +97,30 @@ async function processAddresses() {
   }
 }
 
-// New function to calculate percentage difference and update changeLimit, processing one by one
 async function calculatePriceDifference() {
   try {
-    const addresses = await getAddressesFromFile();
+    await loadConfig();  // Load the config file to get the priceChangeThreshold
     
-    // Process each address one by one
+    const addresses = await getAddressesFromFile();
+    const priceChangeThreshold = config.priceChangeThreshold || 10;  // Default to 10 if not specified in Config.json
+    
     for (const entry of addresses) {
-      // Ensure changeLimit field is present, set to false if missing
       if (entry.changeLimit === undefined) {
         entry.changeLimit = false;
       }
 
-      // Calculate the price difference only if changeLimit is false and both prices are present
       if (entry.OGpriceUSD !== undefined && entry.OGpriceUSD !== null && entry.priceUSD !== undefined && entry.priceUSD !== null && !entry.changeLimit) {
         const OGprice = parseFloat(entry.OGpriceUSD);
         const currentPrice = parseFloat(entry.priceUSD);
 
-        // Ensure both prices are valid numbers
         if (!isNaN(OGprice) && !isNaN(currentPrice) && OGprice !== 0) {
           const percentageDifference = ((currentPrice - OGprice) / OGprice) * 100;
           console.log(`Address: ${entry.address}, OGpriceUSD: ${OGprice}, priceUSD: ${currentPrice}, Difference: ${percentageDifference.toFixed(2)}%`);
 
-          // If the percentage difference is >= 10%, set changeLimit to true
-          if (Math.abs(percentageDifference) >= 5) {
+          // Use the configurable threshold from Config.json
+          if (Math.abs(percentageDifference) >= priceChangeThreshold) {
             entry.changeLimit = true;
-            console.log(`Address ${entry.address} has reached the change limit of 10%. changeLimit marked as true.`);
+            console.log(`Address ${entry.address} has reached the change limit of ${priceChangeThreshold}%. changeLimit marked as true.`);
           }
         } else {
           console.log(`Invalid prices for address ${entry.address}. OGpriceUSD or priceUSD is not valid.`);
@@ -120,7 +129,6 @@ async function calculatePriceDifference() {
         console.log(`Skipping address ${entry.address} as OGpriceUSD, priceUSD, or changeLimit is invalid or already marked as true.`);
       }
 
-      // Save after processing each address to avoid data loss
       await saveAddressesToFile(addresses);
     }
 
@@ -131,8 +139,7 @@ async function calculatePriceDifference() {
   }
 }
 
-// Call the function to calculate price differences and check change limits one by one
 (async () => {
-  await calculatePriceDifference();  // Process one by one in percentage difference check
-  await processAddresses();  // Process one by one in fetching OGpriceUSD
+  await calculatePriceDifference();  
+  await processAddresses();  
 })();
