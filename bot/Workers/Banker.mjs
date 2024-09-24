@@ -26,7 +26,7 @@ if (fs.existsSync(configFilePath)) {
 }
 
 // Extract the reserveAmount from config or use a default value
-const reserveAmount = config.reserveAmount || 0.04; // Default to 0.04 if not specified
+const reserveAmount = config.reserveAmount || 0; // Default to 0 if not specified
 
 // Command to run
 const command = 'solana balance';
