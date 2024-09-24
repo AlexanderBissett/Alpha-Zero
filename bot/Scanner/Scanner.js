@@ -16,7 +16,7 @@ if (!fs.existsSync(logFolder)) {
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
-  let days = 24;
+  let days = 1;
   let hours = 24;
   let minutes = 60;
   let seconds = 60;
@@ -52,6 +52,7 @@ function fetchAndSaveTokenResults() {
       liquidity
       marketCap
       priceUSD
+      holders
       exchanges {
         name
       }
@@ -83,6 +84,7 @@ function fetchAndSaveTokenResults() {
           liquidity: token.liquidity,
           marketCap: token.marketCap,
           priceUSD: token.priceUSD,
+          holders: token.holders,
           exchanges: token.exchanges.map((exchange) => exchange.name),
           name: token.token.name,
           decimals: token.token.decimals,
@@ -121,6 +123,7 @@ function fetchAndSaveTokenResults() {
         output += `Liquidity: ${value.liquidity}\n`;
         output += `MarketCap: ${value.marketCap}\n`;
         output += `PriceUSD: ${value.priceUSD}\n`;
+        output += `Holders: ${value.holders}\n`;
         output += `Decimals: ${value.decimals}\n`;
         output += `Exchanges: ${value.exchanges.join(", ")}\n`;
         output += `NetworkId: ${value.networkId}\n`;
