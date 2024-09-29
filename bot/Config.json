@@ -1,7 +1,7 @@
 {
     "filePath": "./addresses.json",
     
-    "cleanerTimeMinutes": 10,
+    "cleanerTimeMinutes": 7,
     "reserveAmount": 0.04,
     
     "priceChangeThreshold": 10,
@@ -10,6 +10,6 @@
     "ageOfTradeMinutes": 15,
 
     "amountType": "static", 
-    "staticAmount": 10000000, 
+    "staticAmount": 5000000, 
     "percentageToUse": 0.25    
 }

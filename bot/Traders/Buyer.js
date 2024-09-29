@@ -1,7 +1,7 @@
 "use strict";
 const fs = require('fs');
 const path = require('path');
-const { Transaction, VersionedTransaction, sendAndConfirmTransaction } = require('@solana/web3.js');
+const { sendAndConfirmTransaction, Transaction, VersionedTransaction } = require('@solana/web3.js');
 const { NATIVE_MINT } = require('@solana/spl-token');
 const axios = require('axios');
 const { fetchTokenAccountData, owner, connection } = require('./A0.js');
@@ -27,9 +27,8 @@ const markAddressAsUsed = (address) => {
     fs.writeFileSync(addressesFilePath, JSON.stringify(addresses, null, 2));
 };
 
-// Function to process an address and return a promise that resolves when processing is complete
-const processAddress = async (outputMint) => {
-    console.log(`Starting to process address with outputMint: ${outputMint}`);
+// Function to process an address using the updated `apiSwap` method
+const apiSwap = async (outputMint) => {
     const inputMint = NATIVE_MINT.toBase58();
 
     // Read the config file
@@ -49,8 +48,8 @@ const processAddress = async (outputMint) => {
     }
 
     const slippage = 5; // Slippage in percent (0.5 = 0.5%)
-    const txVersion = 'LEGACY'; // or V0
-    const isV0Tx = txVersion === 'LEGACY';
+    const txVersion = 'V0'; // or LEGACY
+    const isV0Tx = txVersion === 'V0';
 
     const [isInputSol, isOutputSol] = [inputMint === NATIVE_MINT.toBase58(), outputMint === NATIVE_MINT.toBase58()];
 
@@ -158,7 +157,7 @@ const processAddressesSequentially = async () => {
 
             // Process the current address and wait for completion
             console.log("Processing address:", address);
-            const success = await processAddress(address);
+            const success = await apiSwap(address);
 
             // Only proceed if processing was successful
             if (success) {
