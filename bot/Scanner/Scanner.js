@@ -17,8 +17,8 @@ if (!fs.existsSync(logFolder)) {
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 24;
-  let minutes = 60;
+  let hours = 1;
+  let minutes = 5;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 

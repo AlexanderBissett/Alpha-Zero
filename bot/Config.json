@@ -9,7 +9,7 @@
     
     "ageOfTradeMinutes": 15,
 
-    "amountType": "dynamic", 
-    "staticAmount": 10000, 
+    "amountType": "static", 
+    "staticAmount": 10000000, 
     "percentageToUse": 0.25    
 }
