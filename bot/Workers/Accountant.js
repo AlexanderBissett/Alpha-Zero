@@ -30,13 +30,13 @@ async function updateAddressBalances() {
         }
         console.log(`Found ${validAddresses.length} valid addresses.`);
 
-        // Function to update the balance for an address with retry logic and timeout
+        // Function to update the balance for an address with retry logic
         const updateBalance = async (addressObj) => {
             const address = addressObj.address;
             const command = `spl-token accounts ${address}`;
             let attempts = 0;
             const maxAttempts = 3; // Maximum number of retry attempts
-            const retryDelay = 10000; // Delay in milliseconds (10 seconds)
+            const retryDelay = 10000; // Reduced delay to 10 seconds
 
             while (attempts < maxAttempts) {
                 try {
@@ -72,11 +72,11 @@ async function updateAddressBalances() {
                             resolve();
                         });
 
-                        // Timeout after 30 seconds if exec doesn't resolve or reject
+                        // Timeout after 10 seconds if exec doesn't resolve or reject
                         setTimeout(() => {
                             process.kill();
-                            reject(`Command for address ${address} timed out after 30 seconds.`);
-                        }, 30000);
+                            reject(`Command for address ${address} timed out after 10 seconds.`);
+                        }, 10000);
                     });
 
                     // If successful, break out of the loop

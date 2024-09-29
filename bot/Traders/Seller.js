@@ -103,8 +103,8 @@ const processAddress = async (inputMint, decimals, balance) => {
     }
 
     const slippage = 5; // Slippage in percent
-    const txVersion = 'LEGACY'; // or V0
-    const isV0Tx = txVersion === 'LEGACY';
+    const txVersion = 'V0'; // or V0
+    const isV0Tx = txVersion === 'V0';
 
     const [isInputSol, isOutputSol] = [inputMint === NATIVE_MINT.toBase58(), outputMint === NATIVE_MINT.toBase58()];
 
