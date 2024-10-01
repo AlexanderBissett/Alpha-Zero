@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch'; // Ensure you have node-fetch installed
 import { fileURLToPath } from 'url';
+import { Connection, PublicKey } from '@solana/web3.js';
+import { getMint } from '@solana/spl-token';
 
 // Define the folder path
 const __filename = fileURLToPath(import.meta.url);
@@ -27,17 +29,19 @@ const fetchBoostedTokensSolanaRaydium = async () => {
 
         const data = await response.json();
 
-        // Prepare an array to store token addresses
-        const tokenAddresses = [];
+        // Prepare an array to store token addresses and their decimals
+        const tokenDetails = [];
         // Prepare output content for the text file
         let outputContent = '';
 
         // Ensure the response has tokens data
         if (data && data.length > 0) {
             // Output specific token information for tokens with chainId: 'solana'
-            data.forEach(token => {
-                if (token.chainId === 'solana' && token.totalAmount >= 100) { // Check if chainId is 'solana' and totalAmount is >= 100
-                    tokenAddresses.push(token.tokenAddress); // Add the token address to the array
+            for (const token of data) {
+                if (token.chainId === 'solana' && token.amount >= 50) { // Check if chainId is 'solana' and totalAmount is >= 50
+                    const tokenAddress = token.tokenAddress; // Get the token address
+                    const decimals = await getTokenDecimals(tokenAddress); // Fetch decimals
+                    tokenDetails.push([tokenAddress, decimals]); // Store address and decimals in the specified format
 
                     // Prepare detailed output content for the text file
                     outputContent += `==========================================================================================\n`;
@@ -47,18 +51,19 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                     outputContent += `Token Address: ${token.tokenAddress}\n`;
                     outputContent += `Total Amount: ${token.totalAmount}\n`;
                     outputContent += `Amount: ${token.amount}\n`;
+                    outputContent += `Decimals: ${decimals}\n`; // Add decimals to output
                     outputContent += '\n'; // Separator for readability
                 }
-            });
+            }
 
             // Save output to Current_list.mjs
-            if (tokenAddresses.length > 0) {
-                const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
+            if (tokenDetails.length > 0) {
+                const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenDetails)};`;
                 const jsFilename = path.join(logFolder, 'Current_list.mjs');
                 fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
-                console.log(`Token addresses written to ${jsFilename}`);
+                console.log(`Token addresses with decimals written to ${jsFilename}`);
             } else {
-                console.log('No tokens with totalAmount >= 100 found.');
+                console.log('No tokens with totalAmount >= 50 found.');
             }
 
             // Generate a timestamp for the log file name
@@ -86,8 +91,21 @@ const fetchBoostedTokensSolanaRaydium = async () => {
     }
 };
 
+// Function to get token decimals
+const getTokenDecimals = async (tokenAddress) => {
+    const connection = new Connection('https://api.mainnet-beta.solana.com');
+    const tokenPublicKey = new PublicKey(tokenAddress);
+    try {
+        const mintInfo = await getMint(connection, tokenPublicKey);
+        return mintInfo.decimals;
+    } catch (error) {
+        console.error(`Error fetching decimals for ${tokenAddress}:`, error.message);
+        return null; // Return null if there's an error
+    }
+};
+
 // Fetch boosted tokens once
 fetchBoostedTokensSolanaRaydium();
 
 // Set interval to fetch every 5 minutes (300000 ms)
-setInterval(fetchBoostedTokensSolanaRaydium, 300000); 
+setInterval(fetchBoostedTokensSolanaRaydium, 300000);
