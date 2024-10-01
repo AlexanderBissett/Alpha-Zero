@@ -53,6 +53,15 @@ function fetchAndSaveTokenResults() {
       marketCap
       priceUSD
       holders
+      buyCount1
+      sellCount1
+      txnCount1
+      change1
+      high1
+      low1
+      uniqueBuys1
+      uniqueSells1
+      uniqueTransactions1
       exchanges {
         name
       }
@@ -85,6 +94,15 @@ function fetchAndSaveTokenResults() {
           marketCap: token.marketCap,
           priceUSD: token.priceUSD,
           holders: token.holders,
+          buyCount1: token.buyCount1,
+          sellCount1: token.sellCount1,
+          txnCount1: token.txnCount1,
+          change1: token.change1,
+          high1: token.high1,
+          low1: token.low1,
+          uniqueBuys1: token.uniqueBuys1,
+          uniqueSells1: token.uniqueSells1,
+          uniqueTransactions1: token.uniqueTransactions1,
           exchanges: token.exchanges.map((exchange) => exchange.name),
           name: token.token.name,
           decimals: token.token.decimals,
@@ -116,6 +134,10 @@ function fetchAndSaveTokenResults() {
       // Format the output for the text file
       let output = "Token Results:\n";
       tokenResults.forEach((value, key) => {
+        output += `\n`;
+        output += `==========================================================================================\n`;
+        output += `==========================================================================================\n`;
+        output += `Basic info:\n`;
         output += `Token Address: ${key}\n`;
         output += `Name: ${value.name}\n`;
         output += `Symbol: ${value.symbol}\n`;
@@ -123,7 +145,24 @@ function fetchAndSaveTokenResults() {
         output += `Liquidity: ${value.liquidity}\n`;
         output += `MarketCap: ${value.marketCap}\n`;
         output += `PriceUSD: ${value.priceUSD}\n`;
+        output += `\n`;
+        output += `Activity info:\n`;
         output += `Holders: ${value.holders}\n`;
+        output += `buyCount1: ${value.buyCount1}\n`;
+        output += `sellCount1: ${value.sellCount1}\n`;
+        output += `txnCount1: ${value.txnCount1}\n`;
+        output += `\n`;
+        output += `Price fluctuation info:\n`;
+        output += `change1: ${value.change1}\n`;
+        output += `high1: ${value.high1}\n`;
+        output += `low1: ${value.low1}\n`;
+        output += `\n`;
+        output += `Unique actions info:\n`;
+        output += `uniqueBuys1: ${value.uniqueBuys1}\n`;
+        output += `uniqueSells1: ${value.uniqueSells1}\n`;
+        output += `uniqueTransactions1: ${value.uniqueTransactions1}\n`;
+        output += `\n`;
+        output += `Miscellaneous info:\n`;
         output += `Decimals: ${value.decimals}\n`;
         output += `Exchanges: ${value.exchanges.join(", ")}\n`;
         output += `NetworkId: ${value.networkId}\n`;
