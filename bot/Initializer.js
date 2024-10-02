@@ -20,5 +20,3 @@ runCommand(`node ${scannerFilePath}`);
 setTimeout(() => {
   runCommand(`node ${masterFilePath}`);
 }, 7500);
-
-//Alpha-Zero Technical High Liquidity Model 0.2.1 by 101 @ The Organitation
