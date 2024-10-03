@@ -1,48 +1,44 @@
-import { Connection, PublicKey } from '@solana/web3.js';
-import pkg from '@raydium-io/raydium-sdk';
-const { Raydium } = pkg; // Destructure Raydium from the imported package
+import axios from "axios";
 
-// Replace with your own token address and network
-const TOKEN_ADDRESS = '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R'; // Replace with your token address
-const NETWORK = 'https://api.mainnet-beta.solana.com'; // or testnet, devnet
-
-const connection = new Connection(NETWORK);
-
-async function getRaydiumPools() {
-    try {
-        // Assuming there's a method to fetch liquidity pools; this may differ based on SDK version.
-        const pools = await Raydium.fetchAllPools(connection);
-        return pools;
-    } catch (error) {
-        console.error("Error fetching pools:", error);
-        return [];
-    }
-}
-
+// Function to check if a token can be swapped on Raydium
 async function checkTokenSwappable(tokenAddress) {
     try {
-        const tokenPubKey = new PublicKey(tokenAddress);
+        const response = await axios.post(
+            "https://graph.defined.fi/graphql",
+            {
+                // GraphQL query to check token
+                query: `{
+                    token(input: { address: "${tokenAddress}", networkId: 1399811149 }) {
+                        address
+                        exchanges {
+                            name
+                        }
+                    }
+                }`
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+                }
+            }
+        );
 
-        // Fetch all pools from Raydium
-        const pools = await getRaydiumPools();
+        const exchanges = response.data.data.token.exchanges;
 
-        // Check if the token is part of any liquidity pool
-        const isSwappable = pools.some(pool => {
-            const { tokenA, tokenB } = pool;
-            return tokenA.equals(tokenPubKey) || tokenB.equals(tokenPubKey);
-        });
+        // Check if 'Raydium' is present in the exchanges array
+        const isSwappable = exchanges.some(exchange => exchange.name.includes("Raydium"));
 
-        return isSwappable;
+        if (isSwappable) {
+            console.log(`Token ${tokenAddress} can be swapped on Raydium.`);
+        } else {
+            console.log(`Token ${tokenAddress} cannot be swapped on Raydium.`);
+        }
     } catch (error) {
         console.error("Error checking token:", error);
-        return false;
     }
 }
 
-checkTokenSwappable(TOKEN_ADDRESS).then(isSwappable => {
-    if (isSwappable) {
-        console.log(`Token ${TOKEN_ADDRESS} can be swapped on Raydium.`);
-    } else {
-        console.log(`Token ${TOKEN_ADDRESS} cannot be swapped on Raydium.`);
-    }
-});
+// Replace with your token address
+const tokenAddressToCheck = "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"; // Example token address
+checkTokenSwappable(tokenAddressToCheck);
