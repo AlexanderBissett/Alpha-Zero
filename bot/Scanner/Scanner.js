@@ -19,7 +19,7 @@ if (!fs.existsSync(logFolder)) {
 // Function to fetch boosted tokens from the API
 const fetchBoostedTokensSolanaRaydium = async () => {
     try {
-        const response = await fetch('https://api.dexscreener.com/token-boosts/latest/v1', {
+        const response = await fetch('https://api.dexscreener.com/token-boosts/top/v1', {
             method: 'GET',
             headers: {}
         });
@@ -39,7 +39,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         if (data && data.length > 0) {
             // Process each token
             for (const token of data) {
-                if (token.chainId === 'solana' && token.amount >= 50) { // Filter Solana tokens with amount >= 50
+                if (token.chainId === 'solana' && token.totalAmount >= 1000) { // Filter Solana tokens with amount >= 50
                     const tokenAddress = token.tokenAddress;
                     const decimals = await getTokenDecimals(tokenAddress);
 
@@ -72,7 +72,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                 fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
                 console.log(`Token addresses with decimals written to ${jsFilename}`);
             } else {
-                console.log('No swappable tokens with totalAmount >= 50 found.');
+                console.log('No swappable tokens found.');
             }
 
             // Generate a timestamp for the log file name
