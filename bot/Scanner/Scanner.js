@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import fetch from 'node-fetch'; // Ensure you have node-fetch installed
+import fetch from 'node-fetch';
 import { fileURLToPath } from 'url';
+import axios from "axios"; // For checking swappability on Raydium
 import { Connection, PublicKey } from '@solana/web3.js';
 import { getMint } from '@solana/spl-token';
 
@@ -36,23 +37,31 @@ const fetchBoostedTokensSolanaRaydium = async () => {
 
         // Ensure the response has tokens data
         if (data && data.length > 0) {
-            // Output specific token information for tokens with chainId: 'solana'
+            // Process each token
             for (const token of data) {
-                if (token.chainId === 'solana' && token.amount >= 50) { // Check if chainId is 'solana' and totalAmount is >= 50
-                    const tokenAddress = token.tokenAddress; // Get the token address
-                    const decimals = await getTokenDecimals(tokenAddress); // Fetch decimals
-                    tokenDetails.push([tokenAddress, decimals]); // Store address and decimals in the specified format
+                if (token.chainId === 'solana' && token.amount >= 50) { // Filter Solana tokens with amount >= 50
+                    const tokenAddress = token.tokenAddress;
+                    const decimals = await getTokenDecimals(tokenAddress);
 
-                    // Prepare detailed output content for the text file
-                    outputContent += `==========================================================================================\n`;
-                    outputContent += `==========================================================================================\n`;
-                    outputContent += `URL: ${token.url}\n`;
-                    outputContent += `Chain ID: ${token.chainId}\n`;
-                    outputContent += `Token Address: ${token.tokenAddress}\n`;
-                    outputContent += `Total Amount: ${token.totalAmount}\n`;
-                    outputContent += `Amount: ${token.amount}\n`;
-                    outputContent += `Decimals: ${decimals}\n`; // Add decimals to output
-                    outputContent += '\n'; // Separator for readability
+                    if (decimals !== null) {
+                        // Check if the token can be swapped on Raydium
+                        const isSwappable = await checkTokenSwappable(tokenAddress);
+
+                        if (isSwappable) {
+                            tokenDetails.push([tokenAddress, decimals]); // Store address and decimals
+
+                            // Prepare detailed output content for the text file
+                            outputContent += `==========================================================================================\n`;
+                            outputContent += `==========================================================================================\n`;
+                            outputContent += `URL: ${token.url}\n`;
+                            outputContent += `Chain ID: ${token.chainId}\n`;
+                            outputContent += `Token Address: ${token.tokenAddress}\n`;
+                            outputContent += `Total Amount: ${token.totalAmount}\n`;
+                            outputContent += `Amount: ${token.amount}\n`;
+                            outputContent += `Decimals: ${decimals}\n`;
+                            outputContent += '\n'; // Separator for readability
+                        }
+                    }
                 }
             }
 
@@ -63,7 +72,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                 fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
                 console.log(`Token addresses with decimals written to ${jsFilename}`);
             } else {
-                console.log('No tokens with totalAmount >= 50 found.');
+                console.log('No swappable tokens with totalAmount >= 50 found.');
             }
 
             // Generate a timestamp for the log file name
@@ -103,6 +112,41 @@ const getTokenDecimals = async (tokenAddress) => {
         return null; // Return null if there's an error
     }
 };
+
+// Function to check if a token can be swapped on Raydium
+async function checkTokenSwappable(tokenAddress) {
+    try {
+        const response = await axios.post(
+            "https://graph.defined.fi/graphql",
+            {
+                // GraphQL query to check token
+                query: `{
+                    token(input: { address: "${tokenAddress}", networkId: 1399811149 }) {
+                        address
+                        exchanges {
+                            name
+                        }
+                    }
+                }`
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+                }
+            }
+        );
+
+        const exchanges = response.data.data.token.exchanges;
+
+        // Check if 'Raydium' is present in the exchanges array
+        return exchanges.some(exchange => exchange.name.includes("Raydium"));
+
+    } catch (error) {
+        console.error("Error checking token:", error);
+        return false;
+    }
+}
 
 // Fetch boosted tokens once
 fetchBoostedTokensSolanaRaydium();
