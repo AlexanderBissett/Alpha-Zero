@@ -5,9 +5,9 @@
     "reserveAmount": 0.04,
     
     "priceChangeThreshold": 10,
-    "priceUpdateIntervalSeconds": 45,
+    "priceUpdateIntervalSeconds": 100,
     
-    "ageOfTradeMinutes": 15,
+    "ageOfTradeMinutes": 30,
 
     "amountType": "static", 
     "staticAmount": 5000000, 
