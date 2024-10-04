@@ -18,6 +18,9 @@ if (!fs.existsSync(logFolder)) {
 
 // Function to fetch boosted tokens from the API
 const fetchBoostedTokensSolanaRaydium = async () => {
+    const timestamp = new Date().toISOString();
+    console.log(`Starting fetchBoostedTokensSolanaRaydium at ${timestamp}`);
+
     try {
         const response = await fetch('https://api.dexscreener.com/token-boosts/top/v1', {
             method: 'GET',
@@ -29,18 +32,20 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         }
 
         const data = await response.json();
+        console.log(`Number of tokens returned by Dexscreener: ${data.length}`);
 
         // Prepare an array to store token addresses and their decimals
         const tokenDetails = [];
-        // Prepare output content for the text file
-        let outputContent = '';
+        let outputContent = '';  // For detailed file logging
 
         // Ensure the response has tokens data
         if (data && data.length > 0) {
             // Process each token with a delay between requests
             for (const token of data) {
-                if (token.chainId === 'solana' && token.totalAmount >= 1) { // Filter Solana tokens with amount >= 1
+                if (token.chainId === 'solana' && token.totalAmount >= 500) { // Filter Solana tokens with amount >= 1
                     const tokenAddress = token.tokenAddress;
+                    console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
+
                     const decimals = await getTokenDecimals(tokenAddress);
 
                     if (decimals !== null) {
@@ -70,6 +75,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
 
             // Save output to Current_list.mjs
             if (tokenDetails.length > 0) {
+                console.log('Swappable token details with decimals:', tokenDetails);
                 const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenDetails)};`;
                 const jsFilename = path.join(logFolder, 'Current_list.mjs');
                 fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
@@ -86,11 +92,11 @@ const fetchBoostedTokensSolanaRaydium = async () => {
             const hours = String(now.getHours()).padStart(2, '0');
             const minutes = String(now.getMinutes()).padStart(2, '0');
             const seconds = String(now.getSeconds()).padStart(2, '0');
-            const timestamp = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
+            const timestampForFile = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
 
             // Save detailed output to a text file with timestamp
             if (outputContent) {
-                const outputFilePath = path.join(logFolder, `TokenResults_${timestamp}.txt`);
+                const outputFilePath = path.join(logFolder, `TokenResults_${timestampForFile}.txt`);
                 fs.writeFileSync(outputFilePath, outputContent, 'utf8');
                 console.log(`Detailed output saved to ${outputFilePath}`);
             }
