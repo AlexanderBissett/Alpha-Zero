@@ -39,7 +39,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         if (data && data.length > 0) {
             // Process each token
             for (const token of data) {
-                if (token.chainId === 'solana' && token.totalAmount >= 1000) { // Filter Solana tokens with amount >= 50
+                if (token.chainId === 'solana' && token.totalAmount >= 1000) { // Filter Solana tokens with amount >= 1000
                     const tokenAddress = token.tokenAddress;
                     const decimals = await getTokenDecimals(tokenAddress);
 
