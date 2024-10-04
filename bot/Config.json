@@ -1,7 +1,7 @@
 {
     "filePath": "./addresses.json",
     
-    "cleanerTimeMinutes": 7,
+    "cleanerTimeMinutes": 35,
     "reserveAmount": 0.04,
     
     "priceChangeThreshold": 10,
