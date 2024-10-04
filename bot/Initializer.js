@@ -11,14 +11,14 @@ const currentDir = __dirname;
 
 // Define paths for Scanner and Manager files
 const scannerFilePath = path.join(currentDir, 'Scanner', 'Scanner.js');
-const masterFilePath = path.join(currentDir, 'Manager.mjs');
+const managerFilePath = path.join(currentDir, 'Manager.mjs');
 
 // Run the Scanner bot
 runCommand(`node ${scannerFilePath}`);
 
 // Wait 7.5 seconds before running the Manager
 setTimeout(() => {
-  runCommand(`node ${masterFilePath}`);
+  runCommand(`node ${managerFilePath}`);
 }, 7500);
 
 //Alpha-Zero Fundamental Model 0.2.2 by 101 @ The Organitation
