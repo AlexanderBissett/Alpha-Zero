@@ -37,9 +37,9 @@ const fetchBoostedTokensSolanaRaydium = async () => {
 
         // Ensure the response has tokens data
         if (data && data.length > 0) {
-            // Process each token
+            // Process each token with a delay between requests
             for (const token of data) {
-                if (token.chainId === 'solana' && token.totalAmount >= 1000) { // Filter Solana tokens with amount >= 50
+                if (token.chainId === 'solana' && token.totalAmount >= 1) { // Filter Solana tokens with amount >= 1
                     const tokenAddress = token.tokenAddress;
                     const decimals = await getTokenDecimals(tokenAddress);
 
@@ -62,6 +62,9 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                             outputContent += '\n'; // Separator for readability
                         }
                     }
+
+                    // Introduce a delay between each token request to prevent rate-limiting (429 errors)
+                    await sleep(2000); // Delay for 2 seconds between requests
                 }
             }
 
@@ -147,6 +150,11 @@ async function checkTokenSwappable(tokenAddress) {
         return false;
     }
 }
+
+// Utility function to sleep for a given number of milliseconds
+const sleep = (ms) => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
 
 // Fetch boosted tokens once
 fetchBoostedTokensSolanaRaydium();

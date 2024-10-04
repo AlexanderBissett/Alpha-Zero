@@ -21,4 +21,4 @@ setTimeout(() => {
   runCommand(`node ${masterFilePath}`);
 }, 7500);
 
-//Alpha-Zero Fundamental Experimental Model 0.2.1 by 101 @ The Organitation
+//Alpha-Zero Fundamental Model 0.2.2 by 101 @ The Organitation
