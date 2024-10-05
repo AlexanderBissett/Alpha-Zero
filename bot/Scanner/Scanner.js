@@ -16,6 +16,10 @@ if (!fs.existsSync(logFolder)) {
     fs.mkdirSync(logFolder, { recursive: true });
 }
 
+// Define minimum and maximum boost thresholds
+const MIN_BOOSTS = 150;  // Set your desired minimum boost threshold
+const MAX_BOOSTS = 300; // Set your desired maximum boost threshold
+
 // Function to fetch boosted tokens from the API
 const fetchBoostedTokensSolanaRaydium = async () => {
     const timestamp = new Date().toISOString();
@@ -42,7 +46,8 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         if (data && data.length > 0) {
             // Process each token with a delay between requests
             for (const token of data) {
-                if (token.chainId === 'solana' && token.totalAmount >= 500) { // Filter Solana tokens with amount >= 1
+                // Filter Solana tokens with totalAmount within the specified range
+                if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) { 
                     const tokenAddress = token.tokenAddress;
                     console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
 
