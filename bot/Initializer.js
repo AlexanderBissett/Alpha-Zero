@@ -14,9 +14,16 @@ const currentDir = __dirname;
 const scannerFilePath = path.join(currentDir, 'Scanner', 'Scanner.js');
 const managerFilePath = path.join(currentDir, 'Manager.mjs');
 
-// Define path for the scanlog directory and the target file
+// Define path for the scanlog directory
 const scanlogDir = path.join(currentDir, 'Scanner', 'scanlog');
-const targetFilePath = path.join(scanlogDir, 'Current_list.mjs');
+
+// Check if the scanlog directory exists, if not, create it
+if (!fs.existsSync(scanlogDir)) {
+  fs.mkdirSync(scanlogDir, { recursive: true });  // 'recursive: true' ensures that any parent directories are created if they don't exist
+  console.log(`Directory ${scanlogDir} created.`);
+} else {
+  console.log(`Directory ${scanlogDir} already exists.`);
+}
 
 // Run the Scanner bot
 runCommand(`node ${scannerFilePath}`);
@@ -31,4 +38,4 @@ fs.watch(scanlogDir, (eventType, filename) => {
   }
 });
 
-//Alpha-Zero Fundamental Model 0.2.2 by 101 @ The Organitation
+//Alpha-Zero Fundamental Model 0.2.3 by 101 @ The Organitation

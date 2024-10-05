@@ -65,9 +65,9 @@ async function updateAddressBalances() {
                                 return;
                             }
 
-                            // Update the address object with the balance
-                            addressObj.balance = balance;
-                            console.log(`Balance for address ${address} set to ${balance}.`);
+                            // Update the address object with the integer part of the balance
+                            addressObj.balance = Math.floor(balance);  // Only keep the integer part
+                            console.log(`Balance for address ${address} set to ${addressObj.balance}.`);
 
                             resolve();
                         });

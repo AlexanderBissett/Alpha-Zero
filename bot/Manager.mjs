@@ -55,7 +55,7 @@ const runScriptWithTimeout = async (scriptPath, logFilePath, timeout) => {
     }
 };
 
-// Function to execute scripts in sequence with timeout for non-Buyer.js and non-Seller.js scripts
+// Function to execute scripts in sequence with timeout for non-Buyer.js, non-Seller.js, and non-Accountant.js scripts
 const executeScripts = async (logFilePath) => {
     const scripts = [
         path.join(__dirname, 'Workers', 'Security.js'),
@@ -73,10 +73,10 @@ const executeScripts = async (logFilePath) => {
         logToFile(startMessage, logFilePath);
 
         const scriptName = path.basename(script);
-        const isBuyerOrSeller = scriptName === 'Buyer.js' || scriptName === 'Seller.js';
+        const isExemptFromTimeout = ['Buyer.js', 'Seller.js', 'Accountant.js'].includes(scriptName);
 
-        // Timeout of 2 minutes (120000 ms) for non-Buyer.js and non-Seller.js scripts
-        const timeout = isBuyerOrSeller ? 0 : 120000;
+        // Timeout of 2 minutes (120000 ms) for non-Buyer.js, non-Seller.js, and non-Accountant.js scripts
+        const timeout = isExemptFromTimeout ? 0 : 120000;
 
         try {
             if (timeout) {
