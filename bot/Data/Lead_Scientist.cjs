@@ -78,6 +78,12 @@ async function processAddresses() {
       if (entry.changeLimit === undefined) {
         entry.changeLimit = false;
       }
+      if (entry.changePositiveLimit === undefined) {
+        entry.changePositiveLimit = false;
+      }
+      if (entry.changeNegativeLimit === undefined) {
+        entry.changeNegativeLimit = false;
+      }
 
       if (entry.used && !entry.reversed && (entry.OGpriceUSD === undefined || entry.OGpriceUSD === null) && !entry.changeLimit) {
         console.log(`Processing address ${entry.address}`);
@@ -99,14 +105,21 @@ async function processAddresses() {
 
 async function calculatePriceDifference() {
   try {
-    await loadConfig();  // Load the config file to get the priceChangeThreshold
+    await loadConfig();  // Load the config file to get the price change thresholds
     
     const addresses = await getAddressesFromFile();
-    const priceChangeThreshold = config.priceChangeThreshold || 10;  // Default to 10 if not specified in Config.json
+    const positiveThreshold = config.positivePriceChangeThreshold || 100;  // Default to 100% if not specified
+    const negativeThreshold = config.negativePriceChangeThreshold || 100;  // Default to 100% if not specified
     
     for (const entry of addresses) {
       if (entry.changeLimit === undefined) {
         entry.changeLimit = false;
+      }
+      if (entry.changePositiveLimit === undefined) {
+        entry.changePositiveLimit = false;
+      }
+      if (entry.changeNegativeLimit === undefined) {
+        entry.changeNegativeLimit = false;
       }
 
       if (entry.OGpriceUSD !== undefined && entry.OGpriceUSD !== null && entry.priceUSD !== undefined && entry.priceUSD !== null && !entry.changeLimit) {
@@ -117,10 +130,18 @@ async function calculatePriceDifference() {
           const percentageDifference = ((currentPrice - OGprice) / OGprice) * 100;
           console.log(`Address: ${entry.address}, OGpriceUSD: ${OGprice}, priceUSD: ${currentPrice}, Difference: ${percentageDifference.toFixed(2)}%`);
 
-          // Use the configurable threshold from Config.json
-          if (Math.abs(percentageDifference) >= priceChangeThreshold) {
+          // Check for price increase
+          if (percentageDifference >= positiveThreshold) {
+            entry.changePositiveLimit = true;
             entry.changeLimit = true;
-            console.log(`Address ${entry.address} has reached the change limit of ${priceChangeThreshold}%. changeLimit marked as true.`);
+            console.log(`Address ${entry.address} has reached the positive change limit of ${positiveThreshold}%. changePositiveLimit marked as true.`);
+          }
+
+          // Check for price decrease
+          if (percentageDifference <= -negativeThreshold) {
+            entry.changeNegativeLimit = true;
+            entry.changeLimit = true;
+            console.log(`Address ${entry.address} has reached the negative change limit of ${negativeThreshold}%. changeNegativeLimit marked as true.`);
           }
         } else {
           console.log(`Invalid prices for address ${entry.address}. OGpriceUSD or priceUSD is not valid.`);

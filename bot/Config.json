@@ -4,10 +4,11 @@
     "cleanerTimeMinutes": 10,
     "reserveAmount": 0.04,
     
-    "priceChangeThreshold": 20,
+    "positivePriceChangeThreshold": 15,
+    "negativePriceChangeThreshold": 30,
     "priceUpdateIntervalSeconds": 40,
     
-    "ageOfTradeMinutes": 20,
+    "ageOfTradeMinutes": 30,
 
     "amountType": "static", 
     "staticAmount": 5000000, 

@@ -47,4 +47,4 @@ fs.watch(scanlogDir, (eventType, filename) => {
   }
 });
 
-//Alpha-Zero Fundamental Model 0.2.4 by 101 @ The Organitation
+//Alpha-Zero Fundamental Model 0.2.5 by 101 @ The Organitation
