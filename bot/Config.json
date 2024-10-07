@@ -5,7 +5,7 @@
     "reserveAmount": 0.04,
     
     "priceChangeThreshold": 20,
-    "priceUpdateIntervalSeconds": 100,
+    "priceUpdateIntervalSeconds": 40,
     
     "ageOfTradeMinutes": 20,
 
