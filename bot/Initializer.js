@@ -14,8 +14,9 @@ const currentDir = __dirname;
 const scannerFilePath = path.join(currentDir, 'Scanner', 'Scanner.js');
 const managerFilePath = path.join(currentDir, 'Manager.mjs');
 
-// Define path for the scanlog directory
+// Define path for the scanlog directory and the Current_list file
 const scanlogDir = path.join(currentDir, 'Scanner', 'scanlog');
+const currentListFilePath = path.join(scanlogDir, 'Current_list.mjs');
 
 // Check if the scanlog directory exists, if not, create it
 if (!fs.existsSync(scanlogDir)) {
@@ -28,6 +29,14 @@ if (!fs.existsSync(scanlogDir)) {
 // Run the Scanner bot
 runCommand(`node ${scannerFilePath}`);
 
+// Check if Current_list.mjs already exists and launch Manager if it does
+if (fs.existsSync(currentListFilePath)) {
+  console.log(`File ${currentListFilePath} already exists. Launching Manager...`);
+  runCommand(`node ${managerFilePath}`);
+} else {
+  console.log(`File ${currentListFilePath} does not exist yet.`);
+}
+
 // Watch the scanlog directory for file creation
 fs.watch(scanlogDir, (eventType, filename) => {
   if (eventType === 'rename' && filename === 'Current_list.mjs') {
@@ -38,4 +47,4 @@ fs.watch(scanlogDir, (eventType, filename) => {
   }
 });
 
-//Alpha-Zero Fundamental Model 0.2.3 by 101 @ The Organitation
+//Alpha-Zero Fundamental Model 0.2.4 by 101 @ The Organitation
