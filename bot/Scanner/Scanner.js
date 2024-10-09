@@ -18,7 +18,7 @@ if (!fs.existsSync(logFolder)) {
 
 // Define minimum and maximum boost thresholds
 const MIN_BOOSTS = 150;  // Set your desired minimum boost threshold
-const MAX_BOOSTS = 300; // Set your desired maximum boost threshold
+const MAX_BOOSTS = 300;  // Set your desired maximum boost threshold
 
 // Function to fetch boosted tokens from the API
 const fetchBoostedTokensSolanaRaydium = async () => {
@@ -47,7 +47,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
             // Process each token with a delay between requests
             for (const token of data) {
                 // Filter Solana tokens with totalAmount within the specified range
-                if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) { 
+                if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) {
                     const tokenAddress = token.tokenAddress;
                     console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
 
@@ -114,17 +114,32 @@ const fetchBoostedTokensSolanaRaydium = async () => {
     }
 };
 
-// Function to get token decimals
+// Function to get token decimals with exponential backoff
 const getTokenDecimals = async (tokenAddress) => {
     const connection = new Connection('https://api.mainnet-beta.solana.com');
     const tokenPublicKey = new PublicKey(tokenAddress);
-    try {
-        const mintInfo = await getMint(connection, tokenPublicKey);
-        return mintInfo.decimals;
-    } catch (error) {
-        console.error(`Error fetching decimals for ${tokenAddress}:`, error.message);
-        return null; // Return null if there's an error
+    
+    let retries = 5; // Max number of retries
+    let delay = 2000; // Start with 2 second delay
+
+    while (retries > 0) {
+        try {
+            const mintInfo = await getMint(connection, tokenPublicKey);
+            return mintInfo.decimals;
+        } catch (error) {
+            if (error.message.includes("429")) {
+                console.error(`Rate limit hit. Retrying after ${delay}ms...`);
+                await sleep(delay);
+                delay *= 2; // Exponential backoff
+                retries--;
+            } else {
+                console.error(`Error fetching decimals for ${tokenAddress}:`, error.message);
+                return null;
+            }
+        }
     }
+
+    return null; // Return null if retries are exhausted
 };
 
 // Function to check if a token can be swapped on Raydium
