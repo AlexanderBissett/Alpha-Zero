@@ -44,14 +44,14 @@ const fetchBoostedTokensSolanaRaydium = async () => {
 
         // Ensure the response has tokens data
         if (data && data.length > 0) {
-            // Process each token with a delay between requests
+            // Process each token sequentially, with a delay between each one
             for (const token of data) {
                 // Filter Solana tokens with totalAmount within the specified range
                 if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) {
                     const tokenAddress = token.tokenAddress;
                     console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
 
-                    const decimals = await getTokenDecimals(tokenAddress);
+                    const decimals = await getTokenDecimals(tokenAddress);  // Fetch token decimals sequentially
 
                     if (decimals !== null) {
                         // Check if the token can be swapped on Raydium
@@ -73,8 +73,8 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                         }
                     }
 
-                    // Introduce a delay between each token request to prevent rate-limiting (429 errors)
-                    await sleep(2000); // Delay for 2 seconds between requests
+                    // Introduce a delay between each token processing to prevent rate-limiting (429 errors)
+                    await sleep(5000); // Delay for 5 seconds before processing the next token
                 }
             }
 
@@ -114,7 +114,7 @@ const fetchBoostedTokensSolanaRaydium = async () => {
     }
 };
 
-// Function to get token decimals with exponential backoff
+// Function to get token decimals with exponential backoff and sequential processing
 const getTokenDecimals = async (tokenAddress) => {
     const connection = new Connection('https://api.mainnet-beta.solana.com');
     const tokenPublicKey = new PublicKey(tokenAddress);
