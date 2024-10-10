@@ -12,6 +12,18 @@ const getOutputFilePath = () => {
     return path.resolve(__dirname, '../Scanner/scanlog/Secure_current_list.mjs');
 };
 
+// Function to read addresses from addresses.json
+const readAddressesFromFile = () => {
+    const addressesFilePath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), 'addresses.json');
+    if (!fs.existsSync(addressesFilePath)) {
+        console.error('addresses.json file not found!');
+        return [];
+    }
+    
+    const addressesData = fs.readFileSync(addressesFilePath, 'utf8');
+    return JSON.parse(addressesData);
+};
+
 async function isTokenFreezeable(mintAddress) {
     const connection = new Connection('https://api.mainnet-beta.solana.com');
     const mintPublicKey = new PublicKey(mintAddress);
@@ -35,9 +47,17 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 // Function to filter and output non-freezeable tokens
 async function checkFreezeableTokens(tokenAddresses) {
     const nonFreezeableTokens = [];
+    const existingAddresses = readAddressesFromFile().map(entry => entry.address); // Get existing addresses
 
     for (const token of tokenAddresses) {
         const [mintAddress, decimals, ...rest] = token; // Destructure to get address, decimals, and any additional info
+
+        // Check if the address already exists
+        if (existingAddresses.includes(mintAddress)) {
+            console.log(`Address ${mintAddress} already exists in addresses.json. Skipping...`);
+            continue; // Skip processing this token
+        }
+
         const isFreezeable = await isTokenFreezeable(mintAddress);
 
         if (!isFreezeable) {
