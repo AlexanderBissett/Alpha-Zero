@@ -99,16 +99,49 @@ const main = async () => {
     // Convert the existing addresses to a map for quick lookup
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
-    // Add new token addresses to the map, setting "used" to false, "reversed" to false, "wallet" to false, and "scannedAt" to the current Unix timestamp if they don't already exist
-    tokenAddresses.forEach(([address, decimals]) => {
-        if (!existingAddressesMap.has(address)) {
+    // Add new token addresses to the map
+    tokenAddresses.forEach(([address, decimals, ...rest]) => {
+        const ignore = rest.includes("ignore"); // Check for ignore in additional parameters
+
+        // If the address already exists, check for the ignore status
+        if (existingAddressesMap.has(address)) {
+            const existingEntry = existingAddressesMap.get(address);
+            if (existingEntry.ignore) {
+                // If the existing entry has ignore: true, maintain it
+                existingAddressesMap.set(address, {
+                    ...existingEntry,
+                    decimals: decimals,  // Update decimals if needed
+                });
+            } else {
+                // If ignore is not true and we have a new entry with ignore, update the entry
+                if (ignore) {
+                    existingAddressesMap.set(address, {
+                        address: address,
+                        decimals: decimals,
+                        used: false,
+                        reversed: false,
+                        wallet: false,
+                        scannedAt: Math.floor(Date.now() / 1000),
+                        ignore: true,
+                    });
+                } else {
+                    // If no ignore, just keep the existing entry without adding ignore
+                    existingAddressesMap.set(address, {
+                        ...existingEntry,
+                        decimals: decimals, // Update decimals if needed
+                    });
+                }
+            }
+        } else {
+            // If it doesn't exist, add a new entry
             existingAddressesMap.set(address, { 
                 address: address, 
                 decimals: decimals, 
                 used: false, 
                 reversed: false, 
                 wallet: false, 
-                scannedAt: Math.floor(Date.now() / 1000)  // Add the scannedAt field with current Unix timestamp
+                scannedAt: Math.floor(Date.now() / 1000),
+                ...(ignore && { ignore: true }) // Add ignore property if applicable
             });
         }
     });
@@ -125,9 +158,9 @@ const main = async () => {
     for (let i = 0; i < combinedAddresses.length; i++) {
         const entry = combinedAddresses[i];
 
-        // Skip the address if wallet is already true
-        if (entry.wallet) {
-            console.log(`Skipping address ${entry.address} as it is already marked with wallet: true.`);
+        // Skip the address if wallet is already true or if it has ignore: true
+        if (entry.wallet || entry.ignore) {
+            console.log(`Skipping address ${entry.address} as it is already marked with wallet: true or has ignore: true.`);
             continue;
         }
 

@@ -33,6 +33,9 @@ const readAddresses = () => {
     return addresses.map(item => item.address); // Return only the address values
 };
 
+// Flag to track if it's the first run
+let isFirstRun = true;
+
 // Function to fetch boosted tokens from the API
 const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
     const timestamp = new Date().toISOString();
@@ -88,7 +91,12 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                         const isSwappable = await checkTokenSwappable(tokenAddress);
 
                         if (isSwappable) {
-                            tokenDetails.push([tokenAddress, decimals]); // Store address and decimals
+                            // For the first run, append "ignore" note
+                            if (isFirstRun) {
+                                tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
+                            } else {
+                                tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for subsequent runs
+                            }
 
                             // Prepare detailed output content for the text file
                             outputContent += `==========================================================================================\n`;
@@ -135,6 +143,10 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                 fs.writeFileSync(outputFilePath, outputContent, 'utf8');
                 console.log(`Detailed output saved to ${outputFilePath}`);
             }
+
+            // Set the flag to false after the first run
+            isFirstRun = false;
+
         } else {
             console.log('No tokens data found in the response.');
         }

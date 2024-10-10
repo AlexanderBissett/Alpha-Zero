@@ -1,6 +1,6 @@
 import { Connection, PublicKey } from '@solana/web3.js';
 import { TOKEN_PROGRAM_ID, getMint } from '@solana/spl-token';
-import { tokenAddresses } from '../Scanner/scanlog/Current_list.mjs';  // Import token addresses from Scanner.js
+import { tokenAddresses } from '../Scanner/scanlog/Current_list.mjs';  // Import token addresses from Current_list.mjs
 import fs from 'fs';  // For writing to a file
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -33,11 +33,12 @@ async function isTokenFreezeable(mintAddress) {
 async function checkFreezeableTokens(tokenAddresses) {
     const nonFreezeableTokens = [];
 
-    for (const [mintAddress, decimals] of tokenAddresses) {
+    for (const token of tokenAddresses) {
+        const [mintAddress, decimals, ...rest] = token; // Destructure to get address, decimals, and any additional info
         const isFreezeable = await isTokenFreezeable(mintAddress);
 
         if (!isFreezeable) {
-            nonFreezeableTokens.push([mintAddress, decimals]);  // Keep the same structure
+            nonFreezeableTokens.push([mintAddress, decimals, ...rest]);  // Keep the same structure, including 'ignore' if present
         }
     }
 
