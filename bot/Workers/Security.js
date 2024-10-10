@@ -29,6 +29,9 @@ async function isTokenFreezeable(mintAddress) {
     }
 }
 
+// Function to create a delay
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 // Function to filter and output non-freezeable tokens
 async function checkFreezeableTokens(tokenAddresses) {
     const nonFreezeableTokens = [];
@@ -40,6 +43,9 @@ async function checkFreezeableTokens(tokenAddresses) {
         if (!isFreezeable) {
             nonFreezeableTokens.push([mintAddress, decimals, ...rest]);  // Keep the same structure, including 'ignore' if present
         }
+
+        // Delay after processing each token
+        await delay(2000); // Adjust the delay time (in milliseconds) as needed
     }
 
     // Ensure the file is created with an empty array if no non-freezeable tokens
