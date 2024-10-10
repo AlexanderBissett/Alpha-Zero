@@ -38,7 +38,12 @@ fs.readFile(configFilePath, 'utf8', (err, configData) => {
           const timeElapsed = currentTimestamp - addr.scannedAt;
           const olderThanTenMinutes = timeElapsed > (cleanerTimeMinutes * 60); // 10 minutes in seconds
 
-          // Keep addresses that do not meet the delete criteria
+          // Always keep addresses with ignore: true
+          if (addr.ignore) {
+            return true;
+          }
+
+          // Otherwise, keep addresses that do not meet the delete criteria
           return !((!addr.used && olderThanTenMinutes) || (addr.used && addr.balance === 0));
         });
 
