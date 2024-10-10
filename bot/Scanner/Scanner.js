@@ -17,13 +17,28 @@ if (!fs.existsSync(logFolder)) {
 }
 
 // Define minimum and maximum boost thresholds
-const MIN_BOOSTS = 150;  // Set your desired minimum boost threshold
-const MAX_BOOSTS = 300;  // Set your desired maximum boost threshold
+const MIN_BOOSTS = 500;  // Set your desired minimum boost threshold
+const MAX_BOOSTS = 5000;  // Set your desired maximum boost threshold
+
+// Utility function to read addresses from addresses.json
+const readAddresses = () => {
+    const addressesFilePath = path.join(__dirname, '..', 'Workers', 'addresses.json');
+    if (!fs.existsSync(addressesFilePath)) {
+        console.log('addresses.json not found. Proceeding with all tokens.');
+        return []; // Return an empty array if the file does not exist
+    }
+
+    const data = fs.readFileSync(addressesFilePath);
+    const addresses = JSON.parse(data);
+    return addresses.map(item => item.address); // Return only the address values
+};
 
 // Function to fetch boosted tokens from the API
-const fetchBoostedTokensSolanaRaydium = async () => {
+const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
     const timestamp = new Date().toISOString();
     console.log(`Starting fetchBoostedTokensSolanaRaydium at ${timestamp}`);
+
+    const existingAddresses = readAddresses(); // Load existing addresses from addresses.json
 
     try {
         const response = await fetch('https://api.dexscreener.com/token-boosts/top/v1', {
@@ -32,7 +47,15 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         });
 
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            // Log the error and retry if the number of attempts is less than or equal to 5
+            console.error(`Attempt ${attempt}: Network response was not ok. Status: ${response.status}`);
+            if (attempt < 5) {
+                const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
+                console.log(`Retrying in ${delay / 1000} seconds...`);
+                await sleep(delay); // Wait before retrying
+                return fetchBoostedTokensSolanaRaydium(attempt + 1); // Retry
+            }
+            throw new Error('Max retry attempts reached.'); // Throw error if max retries exceeded
         }
 
         const data = await response.json();
@@ -49,6 +72,13 @@ const fetchBoostedTokensSolanaRaydium = async () => {
                 // Filter Solana tokens with totalAmount within the specified range
                 if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) {
                     const tokenAddress = token.tokenAddress;
+
+                    // Check if the token address exists in existingAddresses
+                    if (existingAddresses.includes(tokenAddress)) {
+                        console.log(`Skipping token: ${tokenAddress} (already processed)`);
+                        continue; // Skip processing this token
+                    }
+
                     console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
 
                     const decimals = await getTokenDecimals(tokenAddress);  // Fetch token decimals sequentially
@@ -110,7 +140,10 @@ const fetchBoostedTokensSolanaRaydium = async () => {
         }
 
     } catch (error) {
-        console.error('Error fetching boosted tokens:', error);
+        console.error('Error fetching boosted tokens:', error.message);
+        if (error.response) {
+            console.error(`Error details: ${error.response.data}`);
+        }
     }
 };
 
@@ -128,7 +161,7 @@ const getTokenDecimals = async (tokenAddress) => {
             return mintInfo.decimals;
         } catch (error) {
             if (error.message.includes("429")) {
-                console.error(`Rate limit hit. Retrying after ${delay}ms...`);
+                console.error(`Rate limit hit for ${tokenAddress}. Retrying after ${delay}ms...`);
                 await sleep(delay);
                 delay *= 2; // Exponential backoff
                 retries--;
@@ -161,7 +194,7 @@ async function checkTokenSwappable(tokenAddress) {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+                    Authorization: "9e9ec49bdbb58b704e359a2158b151c6981a985f" // API key Codex
                 }
             }
         );
@@ -172,7 +205,7 @@ async function checkTokenSwappable(tokenAddress) {
         return exchanges.some(exchange => exchange.name.includes("Raydium"));
 
     } catch (error) {
-        console.error("Error checking token:", error);
+        console.error("Error checking token:", error.message);
         return false;
     }
 }
