@@ -33,7 +33,7 @@ async function getTokenPrice(tokenAddress) {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "9e9ec49bdbb58b704e359a2158b151c6981a985f" // API key Codex
+                    Authorization: `${config.API_KEY}` // Use CODEX key from Config.json
                 }
             }
         );
@@ -72,7 +72,7 @@ async function saveAddressesToFile(addresses) {
 // Function to process addresses and get token prices
 async function processAddresses() {
     try {
-        await loadConfig(); // Load the config to get the interval value
+        await loadConfig(); // Load the config to get the interval value and API key
 
         const addresses = await getAddressesFromFile();
         const currentTime = Math.floor(Date.now() / 1000); // Get current UNIX timestamp in seconds

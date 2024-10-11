@@ -16,9 +16,21 @@ if (!fs.existsSync(logFolder)) {
     fs.mkdirSync(logFolder, { recursive: true });
 }
 
-// Define minimum and maximum boost thresholds
-const MIN_BOOSTS = 500;  // Set your desired minimum boost threshold
-const MAX_BOOSTS = 5000;  // Set your desired maximum boost threshold
+// Load configuration from Config.json
+const configFilePath = path.join(__dirname, '..', 'Config.json');
+let config = {};
+if (fs.existsSync(configFilePath)) {
+    const configFile = fs.readFileSync(configFilePath, 'utf8');
+    config = JSON.parse(configFile);
+} else {
+    console.error('Config.json not found. Please make sure it exists.');
+    process.exit(1); // Exit if config file is not found
+}
+
+// Define minimum and maximum boost thresholds from Config.json
+const MIN_BOOSTS = config.MIN_BOOSTS || 500;  // Default to 500 if not found in config
+const MAX_BOOSTS = config.MAX_BOOSTS || 5000; // Default to 5000 if not found in config
+const API_KEY = config.API_KEY || ''; // Fetch API key from config, ensure it exists
 
 // Utility function to read addresses from addresses.json
 const readAddresses = () => {
@@ -206,7 +218,7 @@ async function checkTokenSwappable(tokenAddress) {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "9e9ec49bdbb58b704e359a2158b151c6981a985f" // API key Codex
+                    Authorization: `${API_KEY}`  // Use CODEX from config.json
                 }
             }
         );

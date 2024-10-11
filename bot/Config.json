@@ -3,6 +3,10 @@
     
     "cleanerTimeMinutes": 10,
     "reserveAmount": 0.04,
+
+    "MIN_BOOSTS": 500,
+    "MAX_BOOSTS": 5000,
+    "API_KEY": "9e9ec49bdbb58b704e359a2158b151c6981a985f",
     
     "positivePriceChangeThreshold": 15,
     "negativePriceChangeThreshold": 30,
