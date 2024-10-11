@@ -16,7 +16,7 @@ async function loadConfig() {
     }
 }
 
-// Fetch token price using the API instead of web scraping
+// Fetch token price using the API
 async function getTokenPrice(tokenAddress) {
     try {
         const response = await axios.post(
