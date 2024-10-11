@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch';
 import { fileURLToPath } from 'url';
-import axios from "axios"; // For checking swappability on Raydium
+import axios from "axios";
 import { Connection, PublicKey } from '@solana/web3.js';
 import { getMint } from '@solana/spl-token';
 
