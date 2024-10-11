@@ -9,7 +9,7 @@
     "API_KEY": "9e9ec49bdbb58b704e359a2158b151c6981a985f",
     
     "positivePriceChangeThreshold": 15,
-    "negativePriceChangeThreshold": 30,
+    "negativePriceChangeThreshold": 40,
     "priceUpdateIntervalSeconds": 20,
     
     "ageOfTradeMinutes": 30,
