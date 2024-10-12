@@ -21,7 +21,11 @@ const configFilePath = path.join(__dirname, '..', 'Config.json');
 let config = {};
 if (fs.existsSync(configFilePath)) {
     const configFile = fs.readFileSync(configFilePath, 'utf8');
-    config = JSON.parse(configFile);
+    try {
+        config = JSON.parse(configFile);
+    } catch (error) {
+        console.error('Error parsing Config.json:', error.message);
+    }
 } else {
     console.error('Config.json not found. Please make sure it exists.');
     process.exit(1); // Exit if config file is not found
@@ -40,9 +44,19 @@ const readAddresses = () => {
         return []; // Return an empty array if the file does not exist
     }
 
-    const data = fs.readFileSync(addressesFilePath);
-    const addresses = JSON.parse(data);
-    return addresses.map(item => item.address); // Return only the address values
+    try {
+        const data = fs.readFileSync(addressesFilePath, 'utf8');
+        if (data.trim()) {
+            const addresses = JSON.parse(data);
+            return addresses.map(item => item.address); // Return only the address values
+        } else {
+            console.log('addresses.json is empty. Proceeding with all tokens.');
+            return [];
+        }
+    } catch (error) {
+        console.error('Error reading or parsing addresses.json:', error.message);
+        return [];
+    }
 };
 
 // Flag to track if it's the first run
@@ -62,7 +76,6 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
         });
 
         if (!response.ok) {
-            // Log the error and retry if the number of attempts is less than or equal to 5
             console.error(`Attempt ${attempt}: Network response was not ok. Status: ${response.status}`);
             if (attempt < 5) {
                 const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
@@ -70,97 +83,104 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                 await sleep(delay); // Wait before retrying
                 return fetchBoostedTokensSolanaRaydium(attempt + 1); // Retry
             }
-            throw new Error('Max retry attempts reached.'); // Throw error if max retries exceeded
+            throw new Error('Max retry attempts reached.');
         }
 
-        const data = await response.json();
-        console.log(`Number of tokens returned by Dexscreener: ${data.length}`);
+        const data = await response.text(); // Get response as raw text
 
-        // Prepare an array to store token addresses and their decimals
-        const tokenDetails = [];
-        let outputContent = '';  // For detailed file logging
+        try {
+            const parsedData = JSON.parse(data); // Try to parse as JSON
+            console.log(`Number of tokens returned by Dexscreener: ${parsedData.length}`);
 
-        // Ensure the response has tokens data
-        if (data && data.length > 0) {
-            // Process each token sequentially, with a delay between each one
-            for (const token of data) {
-                // Filter Solana tokens with totalAmount within the specified range
-                if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) {
-                    const tokenAddress = token.tokenAddress;
+            // Prepare an array to store token addresses and their decimals
+            const tokenDetails = [];
+            let outputContent = '';  // For detailed file logging
 
-                    // Check if the token address exists in existingAddresses
-                    if (existingAddresses.includes(tokenAddress)) {
-                        console.log(`Skipping token: ${tokenAddress} (already processed)`);
-                        continue; // Skip processing this token
-                    }
+            // Ensure the response has tokens data
+            if (parsedData && parsedData.length > 0) {
+                // Process each token sequentially, with a delay between each one
+                for (const token of parsedData) {
+                    // Filter Solana tokens with totalAmount within the specified range
+                    if (token.chainId === 'solana' && token.totalAmount >= MIN_BOOSTS && token.totalAmount <= MAX_BOOSTS) {
+                        const tokenAddress = token.tokenAddress;
 
-                    console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
-
-                    const decimals = await getTokenDecimals(tokenAddress);  // Fetch token decimals sequentially
-
-                    if (decimals !== null) {
-                        // Check if the token can be swapped on Raydium
-                        const isSwappable = await checkTokenSwappable(tokenAddress);
-
-                        if (isSwappable) {
-                            // For the first run, append "ignore" note
-                            if (isFirstRun) {
-                                tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
-                            } else {
-                                tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for subsequent runs
-                            }
-
-                            // Prepare detailed output content for the text file
-                            outputContent += `==========================================================================================\n`;
-                            outputContent += `==========================================================================================\n`;
-                            outputContent += `URL: ${token.url}\n`;
-                            outputContent += `Chain ID: ${token.chainId}\n`;
-                            outputContent += `Token Address: ${token.tokenAddress}\n`;
-                            outputContent += `Total Amount: ${token.totalAmount}\n`;
-                            outputContent += `Amount: ${token.amount}\n`;
-                            outputContent += `Decimals: ${decimals}\n`;
-                            outputContent += '\n'; // Separator for readability
+                        // Check if the token address exists in existingAddresses
+                        if (existingAddresses.includes(tokenAddress)) {
+                            console.log(`Skipping token: ${tokenAddress} (already processed)`);
+                            continue; // Skip processing this token
                         }
+
+                        console.log(`Processing token: ${tokenAddress}, Boosts: ${token.totalAmount}`);
+
+                        const decimals = await getTokenDecimals(tokenAddress);  // Fetch token decimals sequentially
+
+                        if (decimals !== null) {
+                            // Check if the token can be swapped on Raydium
+                            const isSwappable = await checkTokenSwappable(tokenAddress);
+
+                            if (isSwappable) {
+                                // For the first run, append "ignore" note
+                                if (isFirstRun) {
+                                    tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
+                                } else {
+                                    tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for subsequent runs
+                                }
+
+                                // Prepare detailed output content for the text file
+                                outputContent += `==========================================================================================\n`;
+                                outputContent += `==========================================================================================\n`;
+                                outputContent += `URL: ${token.url}\n`;
+                                outputContent += `Chain ID: ${token.chainId}\n`;
+                                outputContent += `Token Address: ${token.tokenAddress}\n`;
+                                outputContent += `Total Amount: ${token.totalAmount}\n`;
+                                outputContent += `Amount: ${token.amount}\n`;
+                                outputContent += `Decimals: ${decimals}\n`;
+                                outputContent += '\n'; // Separator for readability
+                            }
+                        }
+
+                        // Introduce a delay between each token processing to prevent rate-limiting (429 errors)
+                        await sleep(5000); // Delay for 5 seconds before processing the next token
                     }
-
-                    // Introduce a delay between each token processing to prevent rate-limiting (429 errors)
-                    await sleep(5000); // Delay for 5 seconds before processing the next token
                 }
-            }
 
-            // Save output to Current_list.mjs
-            if (tokenDetails.length > 0) {
-                console.log('Swappable token details with decimals:', tokenDetails);
-                const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenDetails)};`;
-                const jsFilename = path.join(logFolder, 'Current_list.mjs');
-                fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
-                console.log(`Token addresses with decimals written to ${jsFilename}`);
+                // Save output to Current_list.mjs
+                if (tokenDetails.length > 0) {
+                    console.log('Swappable token details with decimals:', tokenDetails);
+                    const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenDetails)};`;
+                    const jsFilename = path.join(logFolder, 'Current_list.mjs');
+                    fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
+                    console.log(`Token addresses with decimals written to ${jsFilename}`);
+                } else {
+                    console.log('No swappable tokens found.');
+                }
+
+                // Generate a timestamp for the log file name
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+                const day = String(now.getDate()).padStart(2, '0');
+                const hours = String(now.getHours()).padStart(2, '0');
+                const minutes = String(now.getMinutes()).padStart(2, '0');
+                const seconds = String(now.getSeconds()).padStart(2, '0');
+                const timestampForFile = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
+
+                // Save detailed output to a text file with timestamp
+                if (outputContent) {
+                    const outputFilePath = path.join(logFolder, `TokenResults_${timestampForFile}.txt`);
+                    fs.writeFileSync(outputFilePath, outputContent, 'utf8');
+                    console.log(`Detailed output saved to ${outputFilePath}`);
+                }
+
+                // Set the flag to false after the first run
+                isFirstRun = false;
+
             } else {
-                console.log('No swappable tokens found.');
+                console.log('No tokens data found in the response.');
             }
 
-            // Generate a timestamp for the log file name
-            const now = new Date();
-            const year = now.getFullYear();
-            const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-            const day = String(now.getDate()).padStart(2, '0');
-            const hours = String(now.getHours()).padStart(2, '0');
-            const minutes = String(now.getMinutes()).padStart(2, '0');
-            const seconds = String(now.getSeconds()).padStart(2, '0');
-            const timestampForFile = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
-
-            // Save detailed output to a text file with timestamp
-            if (outputContent) {
-                const outputFilePath = path.join(logFolder, `TokenResults_${timestampForFile}.txt`);
-                fs.writeFileSync(outputFilePath, outputContent, 'utf8');
-                console.log(`Detailed output saved to ${outputFilePath}`);
-            }
-
-            // Set the flag to false after the first run
-            isFirstRun = false;
-
-        } else {
-            console.log('No tokens data found in the response.');
+        } catch (jsonError) {
+            console.error('Error parsing JSON response:', jsonError.message);
         }
 
     } catch (error) {
