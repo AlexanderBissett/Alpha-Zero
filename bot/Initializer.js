@@ -21,4 +21,4 @@ setTimeout(() => {
   runCommand(`node ${managerFilePath}`);
 }, 7500);
 
-//Alpha-Zero Technical High Liquidity Model 0.2.1 by 101 @ The Organitation
+//Alpha-Zero Technical High Liquidity Model 0.2.2 by 101 @ The Organitation
