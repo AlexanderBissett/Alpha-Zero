@@ -49,6 +49,7 @@ function fetchAndSaveTokenResults() {
         volume1: {gte: 100000}
         liquidity: {gte: 100000}
         priceUSD: {gte: 0.03}
+        low1: {gte: 0.3}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
