@@ -13,6 +13,13 @@ if (!fs.existsSync(logFolder)) {
   fs.mkdirSync(logFolder, { recursive: true });
 }
 
+// Path to the Config.json file (relative to the script)
+const configPath = path.join(__dirname, "..", "Config.json");
+
+// Load and parse the Config.json file to get the API key
+const config = JSON.parse(fs.readFileSync(configPath, "utf-8"));
+const apiKey = config.API_KEY;
+
 // Function to execute the API request and save the results
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
@@ -79,7 +86,7 @@ function fetchAndSaveTokenResults() {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: "f489353be7368dc360236c9e9555c629cabad054" // API key Codex
+          Authorization: apiKey // Using the API key from the config file
         }
       }
     )
