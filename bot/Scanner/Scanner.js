@@ -180,7 +180,11 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
             }
 
         } catch (jsonError) {
-            console.error('Error parsing JSON response:', jsonError.message);
+            if (jsonError.message.includes("Unexpected end of JSON input")) {
+                console.warn('Ignoring incomplete JSON response and continuing execution.');
+            } else {
+                console.error('Error parsing JSON response:', jsonError.message);
+            }
         }
 
     } catch (error) {
