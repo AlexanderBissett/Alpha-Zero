@@ -65,7 +65,8 @@ const executeScripts = async (logFilePath) => {
         path.join(__dirname, 'Data', 'Lead_Scientist.js'),
         path.join(__dirname, 'Workers', 'Accountant.js'),
         path.join(__dirname, 'Data', 'Scientist.js'),
-        path.join(__dirname, 'Traders', 'Seller.js')
+        path.join(__dirname, 'Traders', 'Seller.js'),
+        path.join(__dirname, 'Workers', 'Supervisor.js')
     ];
 
     for (const script of scripts) {
