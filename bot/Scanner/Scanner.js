@@ -266,5 +266,5 @@ const sleep = (ms) => {
 // Fetch boosted tokens once
 fetchBoostedTokensSolanaRaydium();
 
-// Set interval to fetch every 5 minutes (300000 ms)
-setInterval(fetchBoostedTokensSolanaRaydium, 300000);
+// Set interval to fetch every minute ( 60000 ms)
+setInterval(fetchBoostedTokensSolanaRaydium, 60000);
