@@ -25,7 +25,7 @@ function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
   let hours = 1;
-  let minutes = 5;
+  let minutes = 1;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -187,6 +187,6 @@ function fetchAndSaveTokenResults() {
     });
 }
 
-// Run the function immediately and then every 5 minutes
+// Run the function immediately and then every minute
 fetchAndSaveTokenResults();
-setInterval(fetchAndSaveTokenResults, 300000); // 300000 milliseconds = 5 minutes
+setInterval(fetchAndSaveTokenResults, 60000); // 60000 milliseconds = 1 minute
