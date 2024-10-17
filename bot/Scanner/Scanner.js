@@ -118,25 +118,25 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                             // Check if the token can be swapped on Raydium and meets price conditions
                             const isValidToken = await checkTokenSwappableAndPrice(tokenAddress);
 
-                            if (isValidToken) {
+                            if (isFirstRun) {
                                 // For the first run, append "ignore" note
-                                if (isFirstRun) {
-                                    tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
-                                } else {
-                                    tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for subsequent runs
-                                }
-
-                                // Prepare detailed output content for the text file
-                                outputContent += `==========================================================================================\n`;
-                                outputContent += `==========================================================================================\n`;
-                                outputContent += `URL: ${token.url}\n`;
-                                outputContent += `Chain ID: ${token.chainId}\n`;
-                                outputContent += `Token Address: ${token.tokenAddress}\n`;
-                                outputContent += `Total Amount: ${token.totalAmount}\n`;
-                                outputContent += `Amount: ${token.amount}\n`;
-                                outputContent += `Decimals: ${decimals}\n`;
-                                outputContent += '\n'; // Separator for readability
+                                tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
+                            } else if (isValidToken) {
+                                tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for valid tokens
+                            } else {
+                                tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for invalid tokens
                             }
+
+                            // Prepare detailed output content for the text file
+                            outputContent += `==========================================================================================\n`;
+                            outputContent += `==========================================================================================\n`;
+                            outputContent += `URL: ${token.url}\n`;
+                            outputContent += `Chain ID: ${token.chainId}\n`;
+                            outputContent += `Token Address: ${token.tokenAddress}\n`;
+                            outputContent += `Total Amount: ${token.totalAmount}\n`;
+                            outputContent += `Amount: ${token.amount}\n`;
+                            outputContent += `Decimals: ${decimals}\n`;
+                            outputContent += '\n'; // Separator for readability
                         }
 
                         // Introduce a delay between each token processing to prevent rate-limiting (429 errors)
@@ -146,13 +146,13 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
 
                 // Save output to Current_list.mjs
                 if (tokenDetails.length > 0) {
-                    console.log('Swappable token details with decimals:', tokenDetails);
+                    console.log('Token details with decimals:', tokenDetails);
                     const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenDetails)};`;
                     const jsFilename = path.join(logFolder, 'Current_list.mjs');
                     fs.writeFileSync(jsFilename, tokenAddressesContent, 'utf8');
-                    console.log(`Token addresses with decimals written to ${jsFilename}`);
+                    console.log(`Token addresses written to ${jsFilename}`);
                 } else {
-                    console.log('No swappable tokens found.');
+                    console.log('No valid tokens found.');
                 }
 
                 // Log the timestamp and save detailed output to a file
