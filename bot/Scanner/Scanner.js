@@ -127,7 +127,6 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                                 }
 
                                 // Prepare detailed output content for the text file
-                                // Prepare detailed output content for the text file
                                 outputContent += `==========================================================================================\n`;
                                 outputContent += `==========================================================================================\n`;
                                 outputContent += `URL: ${token.url}\n`;
@@ -171,7 +170,12 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
             }
 
         } catch (jsonError) {
-            console.error('Error parsing JSON response:', jsonError.message);
+            // Check if the error is related to incomplete JSON input
+            if (jsonError.message.includes("Unexpected end of JSON input")) {
+                console.warn('Ignoring incomplete JSON response and continuing execution.');
+            } else {
+                console.error('Error parsing JSON response:', jsonError.message);
+            }
         }
 
     } catch (error) {
