@@ -115,10 +115,10 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                         const decimals = await getTokenDecimals(tokenAddress);  // Fetch token decimals sequentially
 
                         if (decimals !== null) {
-                            // Check if the token can be swapped on Raydium
-                            const isSwappable = await checkTokenSwappable(tokenAddress);
+                            // Check if the token can be swapped on Raydium and meets price conditions
+                            const isValidToken = await checkTokenSwappableAndPrice(tokenAddress);
 
-                            if (isSwappable) {
+                            if (isValidToken) {
                                 // For the first run, append "ignore" note
                                 if (isFirstRun) {
                                     tokenDetails.push([tokenAddress, decimals, 'ignore']); // Add 'ignore' for first run
@@ -126,6 +126,7 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                                     tokenDetails.push([tokenAddress, decimals]); // Store address and decimals for subsequent runs
                                 }
 
+                                // Prepare detailed output content for the text file
                                 // Prepare detailed output content for the text file
                                 outputContent += `==========================================================================================\n`;
                                 outputContent += `==========================================================================================\n`;
@@ -155,86 +156,55 @@ const fetchBoostedTokensSolanaRaydium = async (attempt = 1) => {
                     console.log('No swappable tokens found.');
                 }
 
-                // Generate a timestamp for the log file name
+                // Log the timestamp and save detailed output to a file
                 const now = new Date();
-                const year = now.getFullYear();
-                const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-                const day = String(now.getDate()).padStart(2, '0');
-                const hours = String(now.getHours()).padStart(2, '0');
-                const minutes = String(now.getMinutes()).padStart(2, '0');
-                const seconds = String(now.getSeconds()).padStart(2, '0');
-                const timestampForFile = `${year}-${month}-${day}--${hours}-${minutes}-${seconds}`;
-
-                // Save detailed output to a text file with timestamp
+                const timestampForFile = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}--${String(now.getHours()).padStart(2, '0')}-${String(now.getMinutes()).padStart(2, '0')}-${String(now.getSeconds()).padStart(2, '0')}`;
                 if (outputContent) {
                     const outputFilePath = path.join(logFolder, `TokenResults_${timestampForFile}.txt`);
                     fs.writeFileSync(outputFilePath, outputContent, 'utf8');
                     console.log(`Detailed output saved to ${outputFilePath}`);
                 }
 
-                // Set the flag to false after the first run
-                isFirstRun = false;
-
+                isFirstRun = false; // After the first run
             } else {
                 console.log('No tokens data found in the response.');
             }
 
         } catch (jsonError) {
-            if (jsonError.message.includes("Unexpected end of JSON input")) {
-                console.warn('Ignoring incomplete JSON response and continuing execution.');
-            } else {
-                console.error('Error parsing JSON response:', jsonError.message);
-            }
+            console.error('Error parsing JSON response:', jsonError.message);
         }
 
     } catch (error) {
         console.error('Error fetching boosted tokens:', error.message);
-        if (error.response) {
-            console.error(`Error details: ${error.response.data}`);
-        }
     }
 };
 
-// Function to get token decimals with exponential backoff and sequential processing
-const getTokenDecimals = async (tokenAddress) => {
-    const connection = new Connection('https://api.mainnet-beta.solana.com');
-    const tokenPublicKey = new PublicKey(tokenAddress);
-    
-    let retries = 5; // Max number of retries
-    let delay = 2000; // Start with 2 second delay
-
-    while (retries > 0) {
-        try {
-            const mintInfo = await getMint(connection, tokenPublicKey);
-            return mintInfo.decimals;
-        } catch (error) {
-            if (error.message.includes("429")) {
-                console.error(`Rate limit hit for ${tokenAddress}. Retrying after ${delay}ms...`);
-                await sleep(delay);
-                delay *= 2; // Exponential backoff
-                retries--;
-            } else {
-                console.error(`Error fetching decimals for ${tokenAddress}:`, error.message);
-                return null;
-            }
-        }
-    }
-
-    return null; // Return null if retries are exhausted
-};
-
-// Function to check if a token can be swapped on Raydium
-async function checkTokenSwappable(tokenAddress) {
+// Function to check if a token is swappable on Raydium and meets price filtering condition
+async function checkTokenSwappableAndPrice(tokenAddress) {
     try {
         const response = await axios.post(
             "https://graph.defined.fi/graphql",
             {
-                // GraphQL query to check token
                 query: `{
-                    token(input: { address: "${tokenAddress}", networkId: 1399811149 }) {
-                        address
-                        exchanges {
-                            name
+                    filterTokens(
+                        filters: {
+                            exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+                            network: [1399811149]
+                        }
+                        tokens: "${tokenAddress}"
+                        limit: 100
+                    ) {
+                        results {
+                            priceUSD
+                            high12
+                            exchanges {
+                                name
+                            }
+                            token {
+                                address
+                                decimals
+                                networkId
+                            }
                         }
                     }
                 }`
@@ -242,26 +212,48 @@ async function checkTokenSwappable(tokenAddress) {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: `${API_KEY}`  // Use CODEX from config.json
+                    Authorization: `${API_KEY}`
                 }
             }
         );
 
-        const exchanges = response.data.data.token.exchanges;
+        const tokenData = response.data.data.filterTokens.results[0]; // Take the first result
+        const { priceUSD, high12, exchanges } = tokenData;
 
-        // Check if 'Raydium' is present in the exchanges array
-        return exchanges.some(exchange => exchange.name.includes("Raydium"));
+        console.log(`Token Address: ${tokenData.token.address}`);
+        console.log(`Price (USD): ${priceUSD}`);
+        console.log(`12h High: ${high12}`);
+
+        // Check if 'Raydium' is present in the exchanges array and price condition is met
+        const isSwappableOnRaydium = exchanges.some(exchange => exchange.name.includes("Raydium"));
+        const isValidPrice = priceUSD >= high12;
+
+        console.log(`Swappable on Raydium: ${isSwappableOnRaydium}`);
+        console.log(`Price is valid: ${isValidPrice}`);
+
+        return isSwappableOnRaydium && isValidPrice;
 
     } catch (error) {
-        console.error("Error checking token:", error.message);
+        console.error("Error checking token swap and price:", error.message);
         return false;
     }
 }
 
-// Utility function to sleep for a given number of milliseconds
-const sleep = (ms) => {
-    return new Promise(resolve => setTimeout(resolve, ms));
-};
+// Function to fetch token decimals from Solana blockchain
+async function getTokenDecimals(tokenAddress) {
+    try {
+        const connection = new Connection('https://api.mainnet-beta.solana.com', 'confirmed');
+        const mintPublicKey = new PublicKey(tokenAddress);
+        const mintInfo = await getMint(connection, mintPublicKey);
+        return mintInfo.decimals;
+    } catch (error) {
+        console.error(`Error fetching decimals for token ${tokenAddress}:`, error.message);
+        return null; // Return null in case of failure
+    }
+}
+
+// Helper function to introduce a delay (sleep)
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Fetch boosted tokens once
 fetchBoostedTokensSolanaRaydium().then(() => {
