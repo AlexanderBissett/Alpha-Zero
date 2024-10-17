@@ -6,7 +6,7 @@
 
     "MIN_BOOSTS": 500,
     "MAX_BOOSTS": 5000,
-    "API_KEY": "",
+    "API_KEY": "99c6fa6bcff190b1f521b91f64744ddf2cdf8bc6",
     
     "positivePriceChangeThreshold": 15,
     "negativePriceChangeThreshold": 40,
