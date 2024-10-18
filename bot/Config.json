@@ -4,7 +4,7 @@
     "cleanerTimeMinutes": 7,
     "reserveAmount": 0.04,
 
-    "API_KEY": "",
+    "API_KEY": "99c6fa6bcff190b1f521b91f64744ddf2cdf8bc6",
     
     "positivePriceChangeThreshold": 5,
     "negativePriceChangeThreshold": 20,
