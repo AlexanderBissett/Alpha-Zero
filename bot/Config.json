@@ -2,11 +2,11 @@
     "filePath": "./addresses.json",
     
     "cleanerTimeMinutes": 10,
-    "reserveAmount": 0.00,
+    "reserveAmount": 0.04,
 
     "MIN_BOOSTS": 500,
     "MAX_BOOSTS": 5000,
-    "API_KEY": "99c6fa6bcff190b1f521b91f64744ddf2cdf8bc6",
+    "API_KEY": "",
     
     "positivePriceChangeThreshold": 15,
     "negativePriceChangeThreshold": 40,
