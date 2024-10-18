@@ -12,6 +12,23 @@ const getOutputFilePath = () => {
     return path.resolve(__dirname, '../Scanner/scanlog/Secure_current_list.mjs');
 };
 
+// Function to load existing addresses from addresses.json and extract token names
+const loadExistingTokenNames = () => {
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const addressesFilePath = path.join(__dirname, 'addresses.json');
+
+    if (fs.existsSync(addressesFilePath)) {
+        const fileContent = fs.readFileSync(addressesFilePath, 'utf-8');
+        const existingAddresses = JSON.parse(fileContent);
+
+        // Extract and return the list of token names from addresses.json
+        return new Set(existingAddresses.map(entry => entry.name));
+    }
+
+    return new Set();  // Return an empty set if addresses.json does not exist
+};
+
 async function isTokenFreezeable(mintAddress) {
     const connection = new Connection('https://api.mainnet-beta.solana.com');
     const mintPublicKey = new PublicKey(mintAddress);
@@ -32,12 +49,20 @@ async function isTokenFreezeable(mintAddress) {
 // Function to filter and output non-freezeable tokens
 async function checkFreezeableTokens(tokenAddresses) {
     const nonFreezeableTokens = [];
+    const existingTokenNames = loadExistingTokenNames();  // Load existing token names from addresses.json
 
-    for (const [mintAddress, decimals] of tokenAddresses) {
+    // tokenAddresses now contains [address, decimals, name]
+    for (const [mintAddress, decimals, name] of tokenAddresses) {
+        // Skip if the token name already exists in addresses.json
+        if (existingTokenNames.has(name)) {
+            console.log(`Skipping token "${name}" as it already exists in addresses.json.`);
+            continue;
+        }
+
         const isFreezeable = await isTokenFreezeable(mintAddress);
 
         if (!isFreezeable) {
-            nonFreezeableTokens.push([mintAddress, decimals]);  // Keep the same structure
+            nonFreezeableTokens.push([mintAddress, decimals, name]);  // Keep the structure with name
         }
     }
 

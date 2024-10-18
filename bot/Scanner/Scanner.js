@@ -24,8 +24,8 @@ const apiKey = config.API_KEY;
 function fetchAndSaveTokenResults() {
   // Calculate the time you want to measure from in seconds
   let days = 1;
-  let hours = 1;
-  let minutes = 5;
+  let hours = 24;
+  let minutes = 60;
   let seconds = 60;
   let desired_time = days * hours * minutes * seconds;
 
@@ -35,7 +35,7 @@ function fetchAndSaveTokenResults() {
 
   // Define a hashmap (Map in JavaScript) to store the results
   const tokenResults = new Map();
-  const tokenAddresses = new Map(); // Changed to a Map to store decimals
+  const tokenAddresses = []; // Use an array to store [address, decimals, name]
 
   axios
     .post(
@@ -46,10 +46,10 @@ function fetchAndSaveTokenResults() {
   filterTokens(
     filters: {
         createdAt : { gte: ${time_filter} }
-        volume1: {gte: 100000}
-        liquidity: {gte: 100000}
-        priceUSD: {gte: 0.03}
-        low1: {gte: 0.3}
+        volume1: {gte: 1000}
+        liquidity: {gte: 1000}
+        priceUSD: {gte: 0.000000000000000003}
+        low1: {gte: 0.00000000000000000000003}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
@@ -117,7 +117,9 @@ function fetchAndSaveTokenResults() {
           symbol: token.token.symbol,
           networkId: token.token.networkId,
         });
-        tokenAddresses.set(token.token.address, token.token.decimals); // Collect token addresses with decimals
+
+        // Collect token addresses with decimals and name as a simple array
+        tokenAddresses.push([token.token.address, token.token.decimals, token.token.name]);
       });
 
       // Get the current date and time for the filename in the desired format
@@ -134,10 +136,10 @@ function fetchAndSaveTokenResults() {
       const txtFilename = path.join(logFolder, `${filenameBase}.txt`);
       const jsFilename = path.join(logFolder, `Current_list.mjs`);
 
-      // Write the token addresses to a JavaScript file with decimals
-      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(Array.from(tokenAddresses.entries()))};`;
+      // Write the token addresses, decimals, and names to a JavaScript file as a simple array
+      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
       fs.writeFileSync(jsFilename, tokenAddressesContent);
-      console.log(`Token addresses with decimals written to ${jsFilename}`);
+      console.log(`Token addresses, decimals, and names written to ${jsFilename}`);
 
       // Format the output for the text file
       let output = "Token Results:\n";
