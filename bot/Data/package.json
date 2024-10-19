@@ -1,8 +1,0 @@
-{
-  "name": "data",
-  "version": "1.0.0",
-  "main": "Lead_Scientist.js",
-  "dependencies": {
-    "axios": "^1.7.7"
-  }
-}

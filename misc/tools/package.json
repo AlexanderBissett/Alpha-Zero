@@ -1,7 +1,0 @@
-{
-    "type": "module",
-    "dependencies": {
-        "bs58": "^6.0.0",
-        "decimal.js": "^10.4.3"
-    }
-}
