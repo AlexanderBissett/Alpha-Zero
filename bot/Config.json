@@ -10,7 +10,7 @@
     
     "positivePriceChangeThreshold": 15,
     "negativePriceChangeThreshold": 40,
-    "priceUpdateIntervalSeconds": 20,
+    "priceUpdateIntervalSeconds": 30,
     
     "ageOfTradeMinutes": 30,
 
