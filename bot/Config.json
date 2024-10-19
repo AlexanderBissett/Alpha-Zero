@@ -4,15 +4,15 @@
     "cleanerTimeMinutes": 7,
     "reserveAmount": 0.04,
 
-    "API_KEY": "99c6fa6bcff190b1f521b91f64744ddf2cdf8bc6",
+    "API_KEY": "",
     
-    "positivePriceChangeThreshold": 5,
-    "negativePriceChangeThreshold": 20,
+    "positivePriceChangeThreshold": 20,
+    "negativePriceChangeThreshold": 40,
     "priceUpdateIntervalSeconds": 30,
     
-    "ageOfTradeMinutes": 12,
+    "ageOfTradeMinutes": 120,
 
     "amountType": "static", 
-    "staticAmount": 5000000, 
+    "staticAmount": 100000000, 
     "percentageToUse": 0.25    
 }

@@ -100,12 +100,11 @@ const main = async () => {
     const existingAddressesMap = new Map(existingAddresses.map(entry => [entry.address, entry]));
 
     // Add new token addresses to the map, setting "used" to false, "reversed" to false, "wallet" to false, and "scannedAt" to the current Unix timestamp if they don't already exist
-    tokenAddresses.forEach(([address, decimals, name]) => {
+    tokenAddresses.forEach(([address, decimals]) => {
         if (!existingAddressesMap.has(address)) {
             existingAddressesMap.set(address, { 
                 address: address, 
                 decimals: decimals, 
-                name: name,  // Include the token name
                 used: false, 
                 reversed: false, 
                 wallet: false, 

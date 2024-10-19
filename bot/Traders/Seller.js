@@ -77,7 +77,7 @@ const isEligibleAddress = (address) => {
 
 // Function to process an address (swap to SOL) and ensure all transactions are confirmed
 const processAddress = async (inputMint, decimals, balance) => {
-    const fixedWrapAmount = 0.005; // Fixed wrap amount in SOL
+    const fixedWrapAmount = 0.0005; // Fixed wrap amount in SOL
 
     console.log(`Processing address: ${inputMint}`);
     console.log(`Fixed wrap amount: ${fixedWrapAmount} SOL`);

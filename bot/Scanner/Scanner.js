@@ -35,7 +35,7 @@ function fetchAndSaveTokenResults() {
 
   // Define a hashmap (Map in JavaScript) to store the results
   const tokenResults = new Map();
-  const tokenAddresses = []; // Use an array to store [address, decimals, name]
+  const tokenAddresses = new Map(); // Changed to a Map to store decimals
 
   axios
     .post(
@@ -46,10 +46,9 @@ function fetchAndSaveTokenResults() {
   filterTokens(
     filters: {
         createdAt : { gte: ${time_filter} }
-        volume1: {gte: 100000}
-        liquidity: {gte: 100000}
+        volume1: {gt: 100000 }
+        liquidity: {gt: 100000}
         priceUSD: {gte: 0.03}
-        low1: {gte: 0.3}
         exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
         network: [1399811149]
     }
@@ -117,9 +116,7 @@ function fetchAndSaveTokenResults() {
           symbol: token.token.symbol,
           networkId: token.token.networkId,
         });
-
-        // Collect token addresses with decimals and name as a simple array
-        tokenAddresses.push([token.token.address, token.token.decimals, token.token.name]);
+        tokenAddresses.set(token.token.address, token.token.decimals); // Collect token addresses with decimals
       });
 
       // Get the current date and time for the filename in the desired format
@@ -136,10 +133,10 @@ function fetchAndSaveTokenResults() {
       const txtFilename = path.join(logFolder, `${filenameBase}.txt`);
       const jsFilename = path.join(logFolder, `Current_list.mjs`);
 
-      // Write the token addresses, decimals, and names to a JavaScript file as a simple array
-      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(tokenAddresses)};`;
+      // Write the token addresses to a JavaScript file with decimals
+      const tokenAddressesContent = `export const tokenAddresses = ${JSON.stringify(Array.from(tokenAddresses.entries()))};`;
       fs.writeFileSync(jsFilename, tokenAddressesContent);
-      console.log(`Token addresses, decimals, and names written to ${jsFilename}`);
+      console.log(`Token addresses with decimals written to ${jsFilename}`);
 
       // Format the output for the text file
       let output = "Token Results:\n";
