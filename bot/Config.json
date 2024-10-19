@@ -10,7 +10,7 @@
     "negativePriceChangeThreshold": 40,
     "priceUpdateIntervalSeconds": 30,
     
-    "ageOfTradeMinutes": 120,
+    "ageOfTradeMinutes": 150,
 
     "amountType": "static", 
     "staticAmount": 100000000, 
