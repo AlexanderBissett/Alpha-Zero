@@ -1,19 +1,24 @@
 // Import the Electron modules
 const { app, BrowserWindow } = require('electron');
+const path = require('path');
 
 function createWindow() {
-    // Create a new window with a background color of #212121
+    // Create a new window with a dark gray background
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 800,              // Default width before maximizing
+        height: 600,             // Default height before maximizing
         backgroundColor: '#212121',  // Set the background color to dark gray
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,          // Allow node integration
+            contextIsolation: false,        // Disable context isolation to allow inline scripts to run
         }
     });
 
-    // Load an empty page or keep it blank
-    win.loadURL('about:blank');  // This opens a blank window
+    // Maximize the window when it opens
+    win.maximize();
+
+    // Load the external HTML file
+    win.loadFile(path.join(__dirname, 'index.html'));
 }
 
 // Run the createWindow function when Electron has initialized
